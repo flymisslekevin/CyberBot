@@ -58,7 +58,3 @@ Project Folder Directory:
 │   ├── bin/                   
 │   ├── lib/                         # Installed packages
 │   └── pyvenv.cfg                 
-│
-├── 📋 requirements.txt              # Python dependencies
-├── 📖 README.md                     # Project documentation
-└── 🚫 .gitignore                    # Git ignore rules
