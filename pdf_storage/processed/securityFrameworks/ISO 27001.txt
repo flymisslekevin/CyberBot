@@ -1,0 +1,1311 @@
+ISO 27001:2022
+INFORMATION SECURITY IMPLEMENTATION GUIDE
+53,000
+100
+CERTIFICATES TRANSPARENT
+GLOBALLY
+> ISO 27001:2022
+IMPLEMENTATION GUIDE
+2 *UK and IISreOla 2n7d0 o0n1l:y2022 IMPLEMENTATION GUIDE
+Contents
+Introduction to the standard P04
+Benefits of implementation P05
+Key principles and terminology P06
+PDCA cycle P07
+Risk based thinking / audits P08
+Process based thinking / audit P09
+Annex SL P10
+SECTION 1: Scope P11
+SECTION 2: Normative references P12
+SECTION 3: Terms and definitions P13
+SECTION 4: Context of the organisation P14
+SECTION 5: Leadership P16
+SECTION 6: Planning P18
+SECTION 7: Support P22
+SECTION 8: Operation P24
+SECTION 9: Performance evaluation P26
+SECTION 10: Improvement P28
+Get the most from your management P30
+Next steps once implemented P31
+Information Security Management Training P32
+ISO 27001:2022 IMPLEMENTATION GUIDE 3
+INTRODUCTION
+TO THE STANDARD
+Most businesses hold or have access to valuable or sensitive information. Failure to provide
+appropriate protection to such information can have serious operational, financial and legal
+consequences. In some instances, these can lead to a total business failure.
+The challenge that most businesses struggle with is how to provide appropriate protection. In particular, how
+do they ensure that they have identified all the risks they are exposed to and how can they manage them in a
+way that is proportionate, sustainable and cost effective?
+ISO 27001 is the internationally-recognised standard for Information Security Management Systems (ISMS). It
+provides a robust framework to protect information that can be adapted to all types and sizes of organisation.
+Organisations that have significant exposure to information-security related risks are increasingly choosing to
+implement an ISMS that complies with ISO 27001.
+The 27000 Family
+Three of the standards are particularly helpful to
+The 27000 series of standards started life in 1995 as BS all types of organisations when implementing an
+7799 and was written by the UK’s Department of Trade and ISMS. These are:
+Industry (DTI). The standards correctly go by the title “ISO/
+IEC” because they are developed and maintained jointly by • ISO 27000 Information Technology – Overview
+two international standards bodies: ISO (the International and vocabulary
+Organisation for Standardisation) and the IEC (the International
+Electrotechnical Commission). However, for simplicity, in • ISO 27002 Information technology – Security
+everyday usage the “IEC” part is often dropped. techniques – Code of practice for information
+security controls. This is the most commonly
+referenced, relating to the design and
+There are currently 45 published standards in the ISO 27000
+implementation of the 93 controls specified in
+series. Of these, ISO 27001 is the only standard intended for
+Annex A of ISO 27001:2022.
+certification. The other standards all provide guidance on best
+practice implementation. Some provide guidance on how to
+• ISO 27005 Information Technology – Security
+develop ISMS for particular industries; others give guidance on
+techniques – Information security management.
+how to implement key information security risk management
+processes and controls.
+Regular reviews and updates
+ISO standards are subject to review every five years
+to assess whether an update is required.
+The most recent update to the ISO 27001 standard was in
+2022 and brought about significant restructure of Annex SL,
+as well as a number of new controls.
+44 IISSOO 2277000011::22002222 IIMMPPLLEEMMEENNTTAATTIIOONN GGUUIIDDEE
+BENEFITS OF
+IMPLEMENTATION
+Information security is now fundamentally important to organisations, and the adoption of
+ISO 27001 more common. It’s no longer a question of if they will be affected by a security
+breach, it’s a question of when, and how they will respond.
+Implementing an Information Security Management System (ISMS) and achieving certification to ISO 27001 is a significant
+undertaking. However, if done effectively, there are significant benefits for those organisations that need to protect
+valuable or sensitive information. These benefits typically fall into three areas:
+COMMERCIAL PEACE OF MIND
+Having independent third-party endorsement Many organisations have information that is
+of an ISMS can provide an organisation with a mission-critical to their operations, vital to
+competitive advantage against its competitors. sustaining their competitive advantage or an
+Customers exposed to significant information inherent part of their financial value.
+security risks are now making certification to
+ISO 27001 a requirement in tender submissions. Having a robust and effective ISMS enables
+business owners and managers to sleep easier
+Where the customer is also certified to at night, knowing that they are less exposed to a
+ISO 27001, they will only choose to work with risk of heavy fines, major business disruption or
+suppliers whose information security controls a significant hit to their reputation.
+match their own contractual requirements.
+ISO 27001 is an internationally recognised
+For organisations that want to work with this framework for a best practice ISMS and
+type of customer, having an ISO 27001 certified compliance where it can be independently
+ISMS is a key requirement for sustaining and verified to both boost an organisation’s image
+increasing their commercial revenues. and give confidence to its customers.
+OPERATIONAL
+Obtaining ISO 27001 supports an internal
+culture that is constantly aware of information
+security risks, and has a consistent approach
+to dealing with them. This leads to controls that
+are more robust in dealing with threats. The cost
+of implementing and maintaining them is also
+minimised, and in the event of these controls
+failing, the consequences will be reduced and
+more effectively mitigated.
+IISSOO 2277000011::22002222 IIMMPPLLEEMMEENNTTAATTIIOONN GGUUIIDDEE 55
+KEY PRINCIPLES
+AND TERMINOLOGY
+The core purpose of an ISMS is to provide protection for sensitive or valuable information.
+Sensitive information typically includes information about employees, customers and suppliers.
+Valuable information may include intellectual property, financial data, legal records, commercial
+data and operational data.
+THE TYPES
+OF RISK THAT
+TShEeN tSypITeIsV Eo f risks
+tAhNatD s eVnAsLiUtivAeB aLnEd
+valuable information
+INFORMATION
+are subject to
+ARE SUBJECT TO
+can generally be Confidentiality Integrity Availability
+gCrAouNp GedE NinEtoR AthLrLeYe
+cBaEte GgoRrOieUsP:ED where one or where the content of the where access to the
+more people gain information is changed information is lost or
+INTO THREE
+unauthorised access to so that it is no longer hampered.
+CATEGORIES:
+information. accurate or complete.
+These information security risk types form what is commonly Vulnerabilities such as open office windows, source code
+referred to as the CIA triad. misconfigurations, or the location of buildings next to rivers,
+increase the likelihood that the presence of a threat will result
+Risks in information security typically arise from the presence in an unwanted and costly incident.
+of threats and vulnerabilities to assets that process, store,
+hold, protect or control access to information that can lead to In information security, risk is managed through the design,
+incidents. implementation and maintenance of controls such as locked
+windows, software testing, correct configurations, software
+Assets in the context of ISO 27001 typically include patching or siting vulnerable equipment above ground level.
+information, people, equipment, systems or infrastructure.
+An ISMS that complies with ISO 27001 has an interrelated
+Information is the data set(s) that an organisation wants to set of best practice processes that support the design,
+protect such as employee records, customer records, financial implementation and maintenance of controls, specific to that
+records, design data, test data etc. business.
+Incidents are unwanted events that result in a loss of The processes that form part of an ISMS are usually a
+confidentiality (e.g. a data breach,) integrity (e.g. corruption combination of existing core business processes (e.g.
+of data,) or availability (e.g. system failure). recruitment, induction, training, purchasing, product design,
+equipment maintenance, service delivery,) and those specific
+Threats are what cause incidents to occur and may be
+to maintaining and improving information security (e.g. change
+malicious (e.g. a cyber-attack,) accidental (e.g. accidental
+management, configuration management, access control,
+sharing of information to the wrong party,) or a force majeure
+incident management, threat intelligence).
+(e.g. a flood).
+66 IISSOO 2277000011::22002222 IIMMPPLLEEMMEENNTTAATTIIOONN GGUUIIDDEE
+PDCA CYCLE
+ISO 27001 is based on the Plan-Do-Check-Act (PDCA) cycle, also known as the Deming
+wheel or Shewhart cycle. The PDCA cycle can be applied not only to the management
+system as a whole, but also to each individual element to provide an ongoing focus on
+continuous improvement.
+In brief:
+Plan: Do: Check: Act:
+Establish objectives, Implement what Monitor and measure Take action to improve
+resources required, was planned. processes to establish performance, as
+customer and performance against necessary.
+stakeholder policies, objectives,
+requirements, requirements and
+organisational policies planned activities and
+and identify risks and report the results.
+opportunities.
+PDCA model ISO 27001
+INFORMATION SECURITY MANAGEMENT SYSTEM (4)
+ESTABLISH
+INTERESTED ISMS INTERESTED
+PARTIES PARTIES
+Plan Do
+MAINTAIN
+IMPLEMENT
+AND IMPROVE
+AND OPERATE
+THE ISMS
+THE ISMS
+INFORMATION Act Check
+SECURITY MANAGED
+REQUIREMENTS INFORMATION
+AND SECURITY
+MONITOR
+EXPECTATIONS
+AND REVIEW
+THE ISMS
+Plan-Do-Check-Act is an example of a closed-loop system. This ensures the learning from the ‘do’ and ‘check’ stages are
+used to inform the ‘act’ and subsequent ‘plan’ stages. In theory this is cyclical, however it’s more of an upward spiral as the
+learning moves you on each time you go through the process.
+ISO 27001:2022 IMPLEMENTATION GUIDE 7
+RISK BASED
+THINKING/AUDITS
+Audits are a systematic, evidence-based, process approach to evaluation of your
+Information Security Management System. They are undertaken internally and externally
+to verify the effectiveness of the ISMS. Audits are a brilliant example of how risk-based
+thinking is adopted within Information Security Management.
+First Party Audits To treat the risk, organisations may select and implement
+applicable controls from Annex A, as well as implement any
+– Internal Audits
+other controls outside of this to manage their risks to an
+acceptable level. As a result, a Statement of Applicability must
+Internal audits are a great opportunity for learning within your be produced and each control from the Annex A must be
+organisation. They provide time to focus on a particular process justified whether implemented or not. Risk management is core
+or department to truly assess its performance. The purpose of to an ISMS and just as important after asset identification and
+an internal audit is to ensure adherence to policies, procedures valuation.
+and processes as determined by you, the organisation, and to
+confirm compliance with the requirements of ISO 27001. Second Party
+– External Audits
+Audit Planning
+Second party audits are usually carried out by customers or
+Devising an audit schedule can sound like a complicated
+by others on their behalf, or you may carry them out with your
+exercise. Depending on the scale and complexity of your
+external providers. Second party audits can also be carried
+operations, you may schedule internal audits anywhere from
+out by regulators or any other external party that has a formal
+every month to once a year. There’s more detail on this in
+interest in an organisation.
+Section 9 – Performance Evaluation.
+You may have little control over the timing and frequency of
+Risk-based Thinking
+these audits, however establishing your own ISMS will ensure
+you are well prepared when they do happen.
+The best way to consider frequency of audits is to look at the
+risks involved in the process or business that’s being audited. Third Party
+Any process that is high risk, either because it has a high
+potential to go wrong or because the consequences would be – Certification Audits
+severe if it did go wrong, should be audited more frequently
+than a low risk process. Third party audits are carried out by UKAS-accredited external
+certification bodies such as NQA.
+How you assess risk is entirely up to you. ISO 27001 doesn’t
+dictate any particular method of risk assessment or risk The certification body will assess conformance to the
+management. ISO 27001:2022 standard, where a representative visits
+the organisation and assesses the relevant system and its
+Organisations must implement a risk assessment methodology
+processes. Maintaining certification also involves periodic
+and treatment plan with appropriate risk acceptance criteria
+reassessments.
+and the criteria required to conduct a risk assessment in the
+first place. This process must be fully integrated into their Certification demonstrates to customers that you have a
+management system. Risks must be prioritised for treatment commitment to quality, safety and the increasing threats to
+and treated appropriately. businesses in this digital world.
+CERTIFICATION ASSURES:
+• Regular assessment to • Credibility that the system • Reduced risk and • Consistency in the
+continually monitor and can achieve its intended uncertainty and increase outputs designed to meet
+improve processes. outcomes. market opportunities. stakeholder expectations.
+8 ISO 27001:2022 IMPLEMENTATION GUIDE
+PROCESS BASED
+THINKING/AUDIT
+A process is the transformation of inputs to outputs, which takes place as a series of
+steps or activities which result in the planned objective(s). Often the output of one process
+becomes an input to another subsequent process. Very few processes operate in isolation
+from any other.
+ISO 27001:2022 Fundamentals
+“Process: set of interrelated or interacting
+activities that uses or transforms inputs to and Vocabulary
+deliver a result.”
+Understanding how processes interrelate and produce
+ISO 27001:2022 Fundamentals and Vocabulary
+results can help you to identify opportunities for improvement
+and optimise overall performance. This also applies where
+A process is the transformation of inputs to outputs, which
+processes, or parts of processes, are outsourced.
+takes place as a series of steps and result in the planned
+objective(s). Often the output of one process becomes an
+Understanding how this affects, or could affect the outcome,
+input to another subsequent process. Very few processes
+and communicating this clearly to the business providing the
+operate in isolation from any other.
+outsourced service, ensures clarity and accountability in the
+process.
+Even an audit has a process approach. It begins with
+identifying the scope and criteria, establishes a clear course
+The final process step is to review the outcome of the audit
+of action to achieve the outcome and has a defined output
+and ensure the information obtained is put to good use. A
+(the audit report). Using the process approach to auditing also
+formal management review is the opportunity to reflect on the
+ensures the correct time and skills are allocated to the audit.
+performance of the ISMS and to make decisions on how and
+This makes it an effective evaluation of the performance of the
+where to improve. The management review process is covered
+ISMS.
+in more depth in Section 9 – Performance Evaluation.
+“Consistent and predictable results are achieved more
+effectively and efficiently when activities are understood and
+managed as interrelated processes that function as a coherent
+system.”
+£
+£
+ISO 27001:2022 IMPLEMENTATION GUIDE 9
+ANNEX SL
+ISO 27001 has adopted Annex SL, and this structure is also used for ISO 14001
+(Environmental Management System Standard) and ISO 45001 (Health and Safety
+Management System Standard).
+Prior to the adoption of Annex SL there were many differences
+between the clause structures, requirements and terms and
+High Level Structure
+definitions used across the various management system
+standards. This made it difficult for organisations to integrate
+the implementation and management of multiple standards;
+Annex SL consists of 10 core clauses:
+Environment, Quality, Health and Safety and Information
+Security being among the most common.
+1. Scope
+2. Normative references
+3. Terms and definitions
+4. Context of the organisation
+5. Leadership
+6. Planning
+7. Support
+8. Operation
+9. Performance evaluation
+10. Improvement
+Of these clauses, the common terms and core
+definitions cannot be changed. Requirements may
+not be removed or altered, however discipline-specific
+requirements and recommendations may be added.
+All management systems require a consideration of
+the context of the organisation (more on this in section
+4); a set of objectives relevant to the discipline, in this
+case quality, and aligned with the strategic direction
+of the organisation; a documented policy to support
+the management system and its aims; internal audits
+and management review. Where multiple management
+systems are in place, many of these elements can be
+combined to address more than one standard.
+10 ISO 27001:2022 IMPLEMENTATION GUIDE
+THE 10 CLAUSES OF ISO 27001:2022
+ISO 27001 is made of up 10 sections known
+as Clauses.
+As with most other ISO management system INTERESTED PARTIES
+standards, the requirements of ISO 27001 that
+need to be satisfied are specified in Clauses
+4.0 – 10.0. Unlike most other ISO management
+system standards, an organisation must
+comply with all of the requirements in
+Clauses 4.0 – 10.0. They cannot declare one or
+more clauses as being not applicable to them.
+In ISO 27001, in addition to Clauses 4.0 - 10.0, THREATS
+there is a further set of requirements detailed in
+a section called Annex A, which is referenced
+in Clause 6.0.
+Annex A contains 93 information security
+CONTROL
+controls. Each of these 93 controls need to
+ACCESS
+be considered. To be compliant with ISO
+27001, the organisation must implement these
+ASSETS
+controls, or an acceptable justification must be
+CONTROLS
+given for not implementing a particular control.
+The following parts of this guide provide an
+overview of each clause, highlight the evidence
+an auditor would expect to see to confirm that
+CONTINUAL
+you comply, and give tips on effective ways to MONITOR
+IMPROVEMENT
+comply with the requirements.
+SECTION 1:
+SCOPE
+The Scope section of ISO 27001 sets out:
+• The purpose of the standard.
+• The types of organisations it is designed to apply to; and
+• The sections of the standard (called Clauses) that contain
+requirements that an organisation needs to comply with for
+the organisation to be certified as “conforming” to it (i.e.
+being compliant).
+ISO 27001 is designed to be applicable to any type of
+organisation. Regardless of size, complexity, industry sector,
+purpose or maturity, your organisation can implement and
+maintain an ISMS that complies with ISO 27001.
+IISSOO 2277000011::22002222 IIMMPPLLEEMMEENNTTAATTIIOONN GGUUIIDDEE 1111
+SEITILIBARENLUV
+USE VALUE
+REGULATE
+INFORMATION RISKS
+CONFIDENTIALITY
+INTEGRITY
+AVAILABILITY
+SECTION 2:
+NORMATIVE
+REFERENCES
+In ISO standards, the Normative References section lists any other standards that contain
+additional information that is relevant to determining whether an organisation complies with
+the standard in question. In ISO 27001, only one document is listed: ISO 27000 Information
+Technology - Overview and Vocabulary.
+Some of the terms and requirements detailed in ISO 27001 are
+explained further in ISO 27000. Reference to ISO 27000 is very
+useful in understanding a requirement better or identifying the
+best way to comply with it.
+TIP – External auditors will expect you to have taken the
+information contained in ISO 27000 into account in the
+development and implementation of your ISMS.
+12 ISO 27001:2022 IMPLEMENTATION GUIDE
+SECTION 3:
+TERMS AND
+DEFINITIONS
+There are no terms and definitions given in ISO 27001. Instead, reference is made to the
+most current version of ISO 27000 Information Security Management Systems – Overview
+and Vocabulary. The current version of this document contains 81 definitions of terms that
+are used in ISO 27001.
+In addition to the terms explained in the “Key
+Principles and Terminology” section above, the When you write your Information
+most important terms used in ISO 27001 are:
+Security Management System
+documentation, you don’t have to
+Access Controls
+use these exact terms. However, it
+To ensure that physical and logical access to assets is
+authorised and restricted based on business and information does help to clarify the meaning and
+security requirements. intention if you can define the terms
+you have used. Providing a glossary
+Information Asset
+within your system documentation may
+A body of information, defined and managed as a single unit,
+be useful.
+so it can be understood, shared, protected and exploited.
+Information assets should be identified and its value
+established by assigning its value to the organisation, based
+on the reputational and/or financial impacts it may cause if
+compromised. Alongside ‘Risk’ are two other fundamental
+components of ISO 27001, and these are:
+Risk
+Continual improvement (CI)
+A combination of the likelihood of an information security event
+occurring and the resulting consequences. The idea that small, ongoing and well-calculated changes
+can lead to major improvements over time. In ISO, CI refers to
+Risk Assessment the company’s effort to constantly improve its management
+system to meet ISO standard requirements.
+The process of identifying risks, analysing the level of risk
+posed by each risk and evaluating whether additional action is
+needed to reduce each risk to a more acceptable level.
+Risk Treatment
+Processes or actions that reduce identified risks to an
+acceptable level.
+Top Management
+The group of individuals who are the most senior decision
+makers in an organisation. They are likely to be accountable
+for setting its strategic direction, and for determining and
+achieving stakeholder objectives.
+ISO 27001:2022 IMPLEMENTATION GUIDE 13
+SECTION 4:
+CONTEXT OF THE
+ORGANISATIONS
+The purpose of your ISMS is to protect your organisation’s Information Assets, so the
+organisation can achieve its goals.
+• Consistency: Do you have uniform processes in place
+How you go about this and the specific areas of priority will across the organisation, or a multitude of different operating
+be driven by the context your organisation operates practices with little consistency?
+in, both: • Systems: Does your organisation have many legacy
+systems running on software versions that are no longer
+• Internally – the things that the organisation has some
+supported by the manufacturer, or do you maintain the most
+control.
+up-to-date and best available technology?
+• Externally – the things that the organisation has no
+• Where does your infrastructure reside? Are you operating in
+direct control.
+the cloud, or do you have your own infrastructure onsite?
+A careful analysis of the environment your organisation • System complexity: Do you operate one main system that
+operates in is fundamental to identifying the inherent does all the heavy lifting, or multiple departmental systems
+risks posed to the security of your Information Assets. with limited information transfer between them?
+The analysis is the foundation that will enable you to • Physical space: Do you have a dedicated secure office
+assess what processes you need to consider adding or facility, or do you operate in a space shared with other
+strengthening to build an effective ISMS. organisations, or are you a remote first/only organisation?
+Internal Context External Context
+The following are examples of the areas that can be The following are examples of the areas that can be
+considered when assessing the internal issues that may have a considered when assessing the external issues that may have
+bearing on the ISMS risks: a bearing on the ISMS risks:
+• Maturity: Are you an agile start-up with a blank canvas to • Competition: Do you operate in a rapidly changing and
+work on, or a 30+ year old institution with well-established innovative market, requiring many system upgrades to
+processes and security controls? stay competitive, or in a mature, stable market with little
+• Organisation culture: Is your organisation relaxed innovation year-to-year?
+about how, when and where people work, or extremely • Landlord: Do you need approval to upgrade physical
+regimented? Might the culture resist the implementation of security?
+Information Security controls? • Regulators/enforcement bodies: Is there a requirement in
+• Management: Are there clear communication channels your sector to make regular statutory changes, or is there
+and processes from the organisation’s key decision makers little oversight from regulators in your market sector?
+through to the rest of the organisation? • Economic/political: Do currency fluctuations impact your
+• Resource size: Are you working with an Information Security organisation? How do geopolitical situations impact your
+Team, or is one person doing it all? organisation?
+• Resource maturity: Are the available resources (employees/ • Environmental considerations: Is your site on a flood plain
+contractors) knowledgeable, fully trained, dependable and with the server(s) located in a basement? Are there factors
+consistent, or are personnel inexperienced and constantly making your site(s) a possible target for a break-in or a
+changing? terrorist attack (e.g. in a prominent city centre location or
+• Information asset formats: Are your information assets next to a possible target)?
+mainly stored in hard-copy (paper) format, or are they stored • Prevalence of information security attacks: Does your
+electronically on a server on-site, or in remote cloud-based organisation operate in a sector that regularly attracts
+systems? interest from hackers (criminals, hacktivists)?
+• Information asset sensitivity/value: Does your organisation • Shareholders: Are they very concerned about the
+have to manage highly valuable or particularly sensitive vulnerability of the organisation to data breaches? How
+information assets? concerned are they about the cost of the organisation’s
+efforts to improve its information security?
+14 ISO 27001:2022 IMPLEMENTATION GUIDE
+Interested Parties
+An interested party is anyone who is, can be, or perceives
+themselves to be affected by an action or omission of your
+organisation. Your interested parties will become clear through
+the process of carrying out a thorough analysis of internal and
+external issues.
+They will probably include shareholders, landlords, regulators,
+customers, employees and competitors. They may extend to
+the general public and the environment, depending on the
+nature of your business. You don’t have to try to understand or
+satisfy their every whim, but you do have to determine which of
+their needs and expectations are relevant to your ISMS.
+Scope of the
+Management System
+To comply with ISO 27001, you must document the scope of
+your ISMS. Documented scopes typically describe:
+• The boundaries of the physical site or sites included (or not
+included).
+• The boundaries of the physical and logical networks New consideration for
+included (or not included).
+• The internal and external employee groups included (or not climate change
+included).
+• The internal and external processes, activities or services ISO has made changes to ISO 27001 to emphasise the
+included (or not included). importance of addressing the effects of climate change
+• Key interfaces at the boundaries of the scope. within the framework of organisational management
+systems.
+If you want to prioritise resources by building an ISMS that
+doesn’t cover all of your organisation, selecting a scope that To enhance organisational awareness and response
+is limited to managing key stakeholder interests is a pragmatic to climate change, ISO has introduced two critical
+approach. This can be done by including only specific sites, changes within Clause 4:
+assets, processes and business units or departments. Some
+examples of scope statements:
+Original Clause 4.1:
+“Understanding the organisation and its context. The
+• “All operations carried out by the IT Department”.
+organisation shall determine external and internal
+• “Support and management of email”.
+issues that are relevant to its purpose and that affect
+• “All equipment, systems, data and infrastructure in the
+its ability to achieve the intended result(s) of its XXX
+organisation’s data centre based at the
+management system.”
+Basingstoke site”.
+TIP: Document or maintain a file of all of the information
+collated in your analysis of your organisation’s context and This clause now explicitly includes the
+interested parties such as: statement: “The organisation shall determine
+whether climate change is a relevant issue.”
+• Discussions with a senior representative of the organisation,
+e.g. an MD, CEO or CTO.
+• Minutes of meetings or business plans.
+• A specific document that identifies internal/external issues Original Clause 4.2:
+and interested parties and their needs and expectations e.g. “Understanding the needs and expectations of
+a SWOT analysis, PESTLE study, or high-level business risk interested parties. The organisation shall determine:
+assessment.
+• The interested parties that are relevant to the XXX
+management system.
+• The relevant requirements of these interested parties.
+• Which of these requirements will be addressed
+through the XXX management system.”
+The clause now also states: “Note: Relevant
+interested parties can have requirements
+related to climate change.”
+ISO 27001:2022 IMPLEMENTATION GUIDE 15
+SECTION 5:
+LEADERSHIP
+The Importance of Leadership
+Leadership in this context means active • Clarity on responsibilities and ISO 27001 places great importance
+involvement in setting the direction of accountabilities. on active engagement by Top
+the ISMS, promoting its implementation • Risk-based thinking is at the heart of Management in the ISMS, based on
+and ensuring appropriate resources are all decision making. the assumption that the engagement of
+made available. This includes: • Clear communication of this Top Management is crucial in ensuring
+information to all individuals within the effective implementation and
+• Ensuring that the ISMS objectives
+your ISMS scope. maintenance of an effective ISMS by
+are clear and aligned with overall
+the wider employee group.
+strategy.
+Information Security Policy Roles and Responsibilities
+A vital responsibility of the leadership is to establish and For Information Security activities to form part of the day-to-
+document an Information Security Policy (ISP) that is aligned day activities for most people within the organisation, the
+with the key aims of the organisation. At the top level, it must responsibilities and accountabilities must be defined and
+either include objectives or a framework for setting them. To clearly communicated.
+demonstrate that it’s aligned with your organisation’s context
+and the requirements of key stakeholders, it is recommended Although there is no requirement in the standard for a
+that it makes reference to, or contains a summary of, the nominated Information Security representative, it may be
+principal issues and requirements it is designed to manage. It helpful for some organisations to appoint one to lead an
+must also include a commitment to: information security team to coordinate training, monitoring
+controls and reporting on the performance of the ISMS
+• Satisfying applicable requirements relating to Information to the Top Management. This individual may already hold
+Security, such as legal requirements, customer expectations responsibility for data protection or IT services.
+and contractual commitments.
+• The continual improvement of your ISMS. However, to carry out their role effectively they will ideally be a
+member of the Top Management team and either have a strong
+The ISP may refer to, or include sub-policies that cover, the key technical knowledge of information security management or
+controls of the organisation’s ISMS. access to individuals who do.
+Examples include: the selection of suppliers critical to
+Evidencing Leadership to
+Information Security, the recruitment and training of
+employees, clear desk and clear screen, cryptographic an Auditor
+controls, access controls etc.
+The Top Management will be the individual or group of
+To demonstrate the importance of the ISP, it is advisable
+individuals who set the strategic direction and approve
+that it is authorised by the most senior member of your Top
+resource allocation for the organisation or business area
+Management or each member of the Top Management team.
+with your ISMS scope. Depending on how your organisation
+is structured, these individuals may be the day-to-day
+TIP: To ensure your ISP is well communicated and available to
+management team. An auditor will typically test leadership by
+interested parties, it is a good idea to:
+interview, and assess their level of involvement in the:
+• Include it in induction packs and presentations for new
+• Evaluation of risks and opportunities.
+employees and contractors.
+• Establishment and communication of policies.
+• Post the key statement on internal noticeboards, intranets
+• Setting and communication of objectives.
+and your organisation’s website.
+• Review and communication of system performance.
+• Make compliance with it and/or support for it a contractual
+• Allocation of appropriate resources, accountabilities and
+requirement for employees, contractors and information
+responsibilities.
+security-critical suppliers.
+TIP: Before your external audit, identify who from Top
+Management will meet the external auditor. Prepare them with
+a mock interview that includes questions you expect them to
+be asked.
+16 ISO 27001:2022 IMPLEMENTATION GUIDE
+IISSOO 2277000011::22002222 IIMMPPLLEEMMEENNTTAATTIIOONN GGUUIIDDEE 1177
+SECTION 6:
+PLAN
+ACT DO
+PLANNING
+CHECK
+ISO 27001 is fundamentally a risk management tool that steers an organisation to identify the drivers of its
+information security risks. As such, the purpose of an ISMS is to:
+• Identify the strategically important, blatantly obvious, and hidden but dangerous risks.
+• Ensure that an organisation’s day-to-day activities and operating processes are designed, directed
+and resourced to inherently manage those risks.
+• Automatically respond and adapt to changes to cope with new risks and continually reduce the
+organisation’s risk exposure.
+Having a detailed action plan that is aligned monitored and supported by regular reviews is crucial, and provides
+the best evidence to the auditor of clearly defined system planning.
+Risk Assessment
+ISO 27005 – Information security risk
+Risk assessment is at the core of any effective management offers guidance on developing
+ISMS. Even the most well-resourced organisation a risk assessment technique for your
+cannot eliminate the possibility of an information organisation. Whichever technique you
+security incident occurring. For all organisations, risk select or develop, it should include the
+assessment is essential to: following elements:
+• Increase the likelihood of identifying all potential risks
+1 Provide a prompt for systematic identification of
+through the involvement of key individuals using
+risks (e.g. reviewing assets, groups of assets,
+systematic assessment techniques.
+processes, types of information) one at a time,
+• Allocate resources to tackle the highest priority areas.
+checking each for the presence of common
+• Make strategic decisions on how to manage risks that
+threats and vulnerabilities, and recording the
+will more likely realise their objectives.
+controls you currently have in place to manage
+them.
+Most risk assessment frameworks consist of a
+table containing the results of elements 1-4 with a
+2 Provide a framework for assessing the likelihood
+supplementary table or matrix covering point 5.
+of each risk occurring on a consistent basis (e.g.
+An external auditor will expect to see a record of your risk once a month, once a year).
+assessment, an assigned owner for each risk identified
+and the criteria you have used. 3 Provide a framework for assessing the
+consequences of each risk occurring on a
+TIP: Annex A (5.9) contains a requirement to maintain consistent basis (e.g. £1,000 loss, £100,000
+a list of information assets, assets associated with loss).
+information (e.g. buildings, filing cabinets, laptops,
+licenses) and information processing facilities. If you 4 Provide a framework for scoring or categorising
+complete your risk assessment by systematically each risk identified on a consistent basis (e.g.
+assessing the risks posed to every item on this list, then 1-10, high/medium/low,) taking into account your
+you will have satisfied two requirements within the same assessment of the likelihood and consequences.
+exercise.
+5 Set out documented criteria that specifies for
+each risk score or category, what type of action
+needs to be taken and the level or priority
+assigned to it.
+18 ISO 27001:2022 IMPLEMENTATION GUIDE
+Risk Treatment
+Information Security
+For each risk identified in your risk assessment, you must apply
+Objectives and Planning to
+consistent criteria to determine whether you should:
+• Accept the risk, or Achieve Them
+• Treat the risk (called “Risk Treatment”).
+At relevant levels within your organisation, you need
+The Risk Treatment options available are normally one of the
+to have a documented set of information security-
+following:
+related objectives. These can be at a top level and
+• Avoidance – Stop undertaking the activity or processing the apply organisation-wide (e.g. “achieve ISO 27001
+information that is exposed to the risk. certification”) or departmental (e.g. “complete
+• Removal – Eliminate the source of the risk. Information Security Briefings for all new starters within
+• Change the likelihood – Implement a control that makes it less one week of their start date”).
+likely that an information security incident will occur.
+• Change the consequences – Implement a control that will lessen Each objective you set must be:
+the impact if an incident occurs.
+• Transfer the risk – Outsource the activity or process to a third • Measurable.
+party that has greater capability to manage the risk. •A ligned with your ISP.
+• Accept the risk – If there is no practical risk treatment available to •T ake account of the organisation’s information
+the organisation, or the cost of the risk treatment is judged to be security requirements.
+greater than the cost of the impact, you may make an informed •T ake account of the output from the risk assessment
+decision to accept the risk. This would need to be approved by and risk treatment process.
+Top Management.
+Typical objectives that are relevant to
+An external auditor will expect to see a Risk Treatment Plan (e.g.
+information security include:
+an action list) that details the risk treatment actions you have
+implemented or plan to implement. The plan must be sufficiently •R esponding, containing and eradicating the effects of
+detailed to enable the implementation status of each action to be information security incidents within a set amount of
+verified. There will also need to be evidence that this plan has been time, to reduce the impact and effects of the incident.
+approved by the assigned risk owners and Top Management. •A chieving a measurable level of compliance with
+information security controls.
+Annex A and the Statement of
+•P roviding a defined availability of information
+Applicability services.
+•N ot exceeding a measurable number of data errors.
+•M aking improvements to available resources through
+All Risk Treatment options (except for “acceptance”) involve the
+recruitment, training or acquisition.
+implementation of one or more controls. Annex A to ISO 27001
+•I mplementation of new controls.
+contains a list of 93 best practice information security controls. You
+•A chieving compliance with information security-
+will need to consider whether to implement each of these controls
+related standards.
+when formulating your Risk Treatment Plan.
+Each objective must be communicated to relevant
+The description of most of the 93 controls is fairly vague, so it is
+staff. The objectives must be updated when necessary
+strongly recommended that you review ISO 27002 which contains
+to keep them relevant and to assess performance
+more information on the best ways of implementing them.
+against them.
+As evidence of completing this assessment, an external auditor will
+expect you to produce a document called a Statement of Applicability For each of the objectives you need to
+(SoA). Within this, for each of the 93 controls you must record: plan how you are going to achieve them.
+• Whether it is applicable to your activities, processes and This includes determining:
+information security risks.
+• Whether you have implemented it or not. •W hat needs to be achieved.
+• Justifications for inclusion or exclusion of the control. •W hat resources are assigned.
+•W ho has ownership or primary responsibility for
+For most organisations, the majority of the 93 controls will be delivering against the objective.
+applicable, and they are likely to have already implemented a •W hether there is a target date for completion or just
+number of them to some degree. an ongoing requirement.
+•T he method of assessing performance against the
+TIP: Your Statement of Applicability (SoA) doesn’t need to be
+objective (i.e. what is your measure).
+a complex document. A simple table with the following column
+•R ecording the results.
+headings will suffice:
+• Control • Applicable? • Implemented? • Justification TIP: Effective ways to communicate information
+security objectives include covering them in induction
+It is also advisable to record some information on how the control
+training, setting them as employee objectives or
+has been applied (e.g. reference a procedure or policy,) to help you
+including them in employee appraisals, establishing
+more readily answer any questioning from your external auditor.
+them in SLAs with suppliers, or evaluating
+TIP: Whilst not mandated you may wish to include attributes within performance against them in supplier performance
+your risk assessment and or SoA. These may help you record and reviews.
+retrieve business information to drive risk-based decision making.
+ISO 27001:2022 IMPLEMENTATION GUIDE 19
+ISO 27001
+A Guide to Annex A
+ISO 27001:2022 is the international standard which outlines best practice for an Information Security
+Management System (ISMS). If you are familiar with our previous implementation guide, then you will
+have already examined the clauses contained in the standard. You would have also learned that this
+standard follows a risk-based approach when considering the information security of an organisation.
+This requires the identification of security risks and then the selection of appropriate controls to
+reduce, eliminate or manage those risks.
+The standard has the controls required to meet those risk requirements at Annex A. In total there are 93 controls
+sub-divided into four different control groups. When considering these controls, it is important to note that they
+are simply possibilities or options.
+When conducting the risk process, the risk identified should have appropriate controls that have been selected
+from the list in Annex A. Not every control can be implemented. For example, if your organisation does not
+have premises and operates remotely, using some controls from the physical security domain would not be
+appropriate.
+Similarly, the move to cloud-based solutions requires a fresh look at existing controls within the Operations and
+Communications Security domains.
+Categories of Controls
+ORGANISATIONAL PEOPLE PHYSICAL TECHNOLOGICAL
+CONTROLS CONTROLS CONTROLS CONTROLS
+20 ISO 27001:2022 IMPLEMENTATION GUIDE
+Further Considerations
+Before the certification audit, an organisation must and can be held as separate documentation.
+have produced a Statement of Applicability (SoA). The methodology will vary between different
+organisations, though demonstrating that the
+This requirement is outlined at Clause 6 of ISO controls within Annex A are implemented is a
+27001. The SoA must contain at least 93 entries consistent need.
+with each of the Categories and Controls listed.
+Once this is done, each control must be either The security provisions of the standard are not
+selected and justified or excluded with similar something that an organisation’s IT or Security
+justification. All SoA documents must be able to Team must adhere to alone. The standard requires
+demonstrate that consideration has been given to that all aspects of the organisation be considered
+each control. This means that an SoA must contain when examining the risks and treatment of risk.
+all entries outlined. Simply listing selected controls
+will not meet the requirement. The best-placed individuals to remedy and risk
+issues may not always be in the IT Department.
+The controls that are selected will form part of the The exact siting of risk treatment will vary from one
+risk treatment evidence and should be recorded. organisation to the other. Risk ownership is vital in
+Typically this will be held within a risk register ensuring the controls are subject to review.
+Finally
+Annex A controls are just some of the options available to an organisation. Additional security controls not
+specifically outlined in Annex A can be used to provide treatment to an identified risk. So long as the clauses
+and controls within the standard are addressed as appropriate, the ISMS will be functioning and provide good
+levels of information security.
+ISO 27001:2022 IMPLEMENTATION GUIDE 21
+SECTION 7:
+SUPPORT
+Clause 7 concerns itself with resources. This applies to people, infrastructure and
+environment as much as physical resources, materials, tools etc. There is also a renewed
+focus on knowledge as a significant resource within your organisation. When planning your
+quality objectives, a major consideration will be the current capacity and capability of your
+resources as well as those you may need to source from external suppliers/partners.
+Awareness
+To implement and maintain an
+In addition to ensuring specific competence of key personnel
+effective ISMS you need to have
+in relation to information security, the wider group of
+supporting resources in place. These employees, suppliers and contractors will need to be aware of
+the basic elements of your ISMS. This is central to establishing
+resources will need to be:
+a supportive culture within the organisation.
+• C apable – If they are equipment or
+All staff, suppliers and contractors should be aware of the
+infrastructure.
+following:
+• C ompetent – If they are people.
+• I ncluded in management review • That you have an ISMS and why you have one.
+• That you have an Information Security Policy and which
+meetings.
+particular elements of the policy are relevant to them.
+• How they can contribute to protecting valuable information
+and what they need to do to help the organisation achieve its
+objectives.
+Competence
+• Which policies, procedures and controls are relevant to them
+and what the consequences are of not complying with them.
+The implementation of effective information security controls
+relies heavily on the knowledge and skills of your employees, TIP: The communication of this information can normally be
+suppliers and contractors. To be certain of an appropriate done through existing processes and documents such as
+knowledge and skills base you need to: inductions, employment contracts, toolbox talks, supplier
+agreements, employee briefings or updates.
+• Define what knowledge and skills are required.
+• Determine who needs to have the knowledge and skills. Communication
+• Set out how you can assess or verify that the right people
+have the right knowledge and skills. To enable the processes in your ISMS to work effectively you
+will need to ensure you have communication activities that are
+Your auditor will expect you to have documents detailing
+well planned and managed. ISO 27001 details these concisely
+your knowledge and skills requirements. Where you believe
+by requiring you to determine:
+the requirements are satisfied, this will need to be supported
+with records such as training certificates, course attendance • What needs to be communicated.
+records or internal competency assessments. • When it needs to be communicated.
+• Who needs be included in communications.
+TIP: Most organisations that already use tools such as training/
+• What the processes is for communication.
+skills matrices, appraisals or supplier assessments can satisfy
+the requirement for competence records by expanding the TIP: If your communication requirements are well defined in
+areas covered to include information security. your processes, policies and procedures, then you do not
+need to do any more to satisfy this requirement. If they aren’t
+sufficient, then you should consider documenting your key
+communication activities in the form of a table or procedure
+that includes the headings detailed above.
+Remember, the content of these documents also needs to be
+communicated.
+22 ISO 27001:2022 IMPLEMENTATION GUIDE
+Documented Information
+To be of use, the documented information you use to The source of your documented information may be either
+implement and maintain your ISMS needs to be: internal or external, so your control processes need to manage
+documented information from both sources.
+• Accurate.
+• Understandable to the individuals who use it. TIP: Organisations that have good document control typically
+• Supportive to comply with legal requirements, manage have one or more of the following in place:
+information security risks and achieve your objectives.
+• A single person or small team responsible for ensuring
+So that your documented information always satisfies these that new/modified documents are reviewed before they are
+requirements you will need to have processes in place to issued, are stored in the right location, are withdrawn from
+ensure that: circulation when superseded and that a register of changes
+is maintained.
+• Documented information is reviewed where required by
+• An electronic document management system that contains
+appropriate individuals before it is released into general
+automatic workflows and controls.
+circulation.
+• Robust electronic data back-up and hard-copy file archiving/
+• Access to documented information is controlled so that
+storage processes.
+it cannot be changed accidentally, corrupted, deleted or
+• Strong employee awareness of document control, record
+accessed by individuals to whom it is not appropriate.
+keeping and information access/retention requirements.
+• Information is deleted securely or returned to its owner when
+there is a requirement to do this.
+• You can track changes to information to guarantee that the
+process is in control.
+ISO 27001:2022 IMPLEMENTATION GUIDE 23
+SECTION 8:
+PLAN
+ACT DO
+OPERATION
+CHECK
+So, after all the planning and risk assessment, we’re ready to move on to the “do” stage.
+Clause 8 is all about having appropriate control over the creation and delivery of your
+product or service.
+Managing your information security risks and achieving your Information Security Risk
+objectives requires the formalisation of your activities into a set
+Assessment
+of clear and coherent processes.
+Many of these processes are likely to exist already (e.g. The risk assessment methods and techniques described in
+induction and training,) and will simply need modifying to Clause 6 must be applied to all processes, assets, information
+include elements relevant to information security. Other and activities within the organisation’s ISMS scope.
+processes may happen in an ad-hoc fashion (e.g. supplier
+approvals,) while some may not currently exist at all (e.g. Since risks are not static, the results of these assessments
+internal audit). must be reviewed at appropriate frequencies. This is usually at
+least annually, or more frequently if the assessment identifies
+To implement effective processes the following the presence of one or more significant risks. Risks should also
+practices are crucial: be reviewed whenever:
+• Any Risk Treatment actions are completed (see below).
+1 Processes are created by adapting or formalising an • There are changes to the organisation’s assets, information
+organisation’s “business as usual” activities. or processes.
+• New risks are identified.
+• Experience or new information indicates that the likelihood
+2 Systematic identification of the information security risks
+and consequence of any identified risk has changed.
+relevant to each process.
+TIP: To ensure your risk assessment process covers the types
+3 Clear definition and communication of the set of activities of events that would require a review, you should also take
+required to manage the associated information security into consideration the Annex A controls for Threat Intelligence
+risks when an event occurs (e.g. a new employee joining (5.7), Management of Technical Vulnerabilities (8.8), Secure
+the company). Development lifecycle (8.25) and Monitoring, review and
+change of supplier services (5.22).
+4 Clear assignment of the responsibilities for carrying out Information Security Risk
+related activities.
+Treatment
+5 Adequate allocation of resources to ensure that related
+The risk treatment plan you develop cannot simply remain as a
+activities can take place as and when required.
+statement of intent - it must be implemented. Where changes
+are needed to take into account new information about risks
+6 Routine assessment of the consistency with which each and changes to your risk assessment criteria, the plan needs
+process is followed and its effectiveness in managing to be updated and re-authorised.
+relevant information security risks.
+The impact of the plan must also be assessed, and the results
+TIP: For each process, designate an individual to be of this assessment recorded. This may be done as part of your
+accountable for ensuring that steps 2-6 happen. This individual management review or internal audit processes, or by using
+is often referred to as the Process Owner. technical assessments such as network penetration tests,
+supplier audits or unannounced third party audits.
+24 ISO 27001:2022 IMPLEMENTATION GUIDE
+IISSOO 2277000011::22002222 IIMMPPLLEEMMEENNTTAATTIIOONN GGUUIIDDEE 2255
+SECTION 9:
+PLAN
+PERFORMANCE
+ACT DO
+CHECK
+EVALUATION
+Internal Audits
+There are three main ways in which the
+The purpose of internal audits is to test your ISMS processes
+performance of an ISMS is evaluated.
+for weaknesses and identify opportunities for improvement.
+These are:
+They are also an opportunity to provide a reality check to
+Top Management on how strongly the ISMS is performing.
+• M onitoring the effectiveness of the
+When done well, internal audits can ensure that there are no
+ISMS controls.
+surprises at your external audits.
+• T hrough internal audits.
+• M anagement Review meetings.
+The internal audits you perform should check:
+• How consistently processes, procedures and controls are
+followed and applied.
+Monitoring, Measurement, • How successful your processes, procedures and controls
+are at generating the intended results.
+Analysis and Evaluation
+• Whether your ISMS remains compliant with ISO 27001 and
+the requirements of interested parties.
+Your organisation will need to decide what needs to be
+monitored to be assured that your ISMS process and To ensure that audits are undertaken to a high standard
+information security controls are operating as intended. and in a way that is seen to add value, they need to be
+It is impractical for an organisation to manually monitor undertaken by individuals who are:
+everything all the time. If you attempt to do so, it is likely that
+• Respected.
+the volume of data would be so great that it would be virtually
+• Competent.
+impossible to use it effectively. Therefore, you will need to take
+• Familiar with the requirements of ISO 27001.
+an informed decision about what to monitor. The following
+• Able to interpret your documentation and are well-practiced
+considerations will be important:
+in sound auditing techniques and behaviours.
+• Which processes and activities are subject to the most
+Most importantly, they need to be allocated sufficient time
+frequent and significant threats?
+to complete the audit and be assured of cooperation from
+• Which processes and activities have the most significant,
+relevant employees. You must maintain a plan for carrying
+inherent vulnerabilities?
+out your internal audits. An external auditor will expect this
+• What is practical to monitor and generate meaningful and
+plan to ensure that all of your ISMS processes are audited
+timely information from?
+over a three-year cycle and have processes that:
+• Are you automating your monitoring?
+• With each monitoring process you put in place, for it to be
+• Show evidence of poor performance (i.e. through previous
+effective you must clearly define:
+audits, or monitoring results or information security
+- How the monitoring is undertaken (e.g. is this defined in a
+incidents).
+procedure).
+• Manage the most significant information security risks.
+- When it is undertaken.
+• Are audited at a higher frequency.
+- Who is responsible for undertaking it.
+- How are the results reported, when, to whom and what do The external auditor will also expect that any actions identified
+they do with them. from audits are recorded, reviewed by appropriate employees
+- If the monitoring results identify unacceptable and actions implemented in a timely manner to rectify any
+performance, what is the escalation process or procedure significant issues. They should make an allowance in the
+to deal with this situation. close-out time for any improvement opportunities identified
+that require significant investment in resources.
+To demonstrate to an auditor that you have appropriate
+monitoring processing in place, you will need to retain records
+of monitoring results, analysis, evaluation reviews and any
+escalation activities.
+26 ISO 27001:2022 IMPLEMENTATION GUIDE
+Management Review
+Management review is an essential element of an ISMS. It You will need to retain documented information on your
+is the formal point at which Top Management reviews the management reviews. These would normally be minutes
+effectiveness of the ISMS and ensures its alignment to the of meetings or perhaps call recordings if you carry out
+organisation’s strategic direction. Management reviews conference calls. These do not need to be extensive notes, but
+must take place at planned intervals and the overall review they must contain a record of any decisions made and actions
+programme (i.e. one meeting or several meetings) must at a agreed, ideally with responsibilities and timescales.
+minimum cover a list of core areas specified within clause 9.3
+TIP: If you decide to adapt your existing schedule of
+of the standard.
+management meetings and these meetings cover a number of
+It is not essential for one single management review meeting to areas, you may want to consider summarising the areas that
+take place covering the full agenda. these meetings cover in the form of a table or procedure so
+that it is clear to you and an auditor which meetings cover each
+If you currently hold a range of meetings that cover the inputs of the required review areas.
+between them, there is no specific need to duplicate them.
+ISO 27001:2022 IMPLEMENTATION GUIDE 27
+SECTION 10:
+PLAN
+ACT DO
+IMPROVEMENT
+CHECK
+The key aim of implementing an ISMS should be to reduce the likelihood of information
+security events occurring and their impact. No ISMS is likely to be perfect. However, a
+successful ISMS will improve over time and increase the organisation’s resilience to
+information security attacks.
+Nonconformity and
+Corrective Action Root cause analysis
+One of the main drivers of improvement is to learn from To identify effective corrective action, it is strongly
+security incidents, issues identified in audits, performance advisable to complete a root cause analysis of the
+issues identified from monitoring, complaints from interested issue that occurred. If you don’t get to the bottom of
+parties and ideas generated at management reviews. why or how it happened, then it is likely that whatever
+fix you implement will not be fully effective. A simple
+For each learning opportunity identified you must maintain a approach such as “Five Whys” is a good root cause
+record of: analysis tool: start with the issue, then ask “Why”
+enough times to reach the root cause. Usually five
+• What occurred.
+times of asking is enough, but for more complex
+• If the event had undesirable consequences, what action was
+problems you may need to dig deeper.
+taken to contain and mitigate those.
+• The root cause of the event (if determined). For example:
+• The action taken to eliminate the root cause (if needed).
+• An assessment of the effectiveness of any action taken. Problem statement:
+• A trend analysis of similar findings can help your business, The organisation was infected by the Wannacry
+but is not a requirement. virus.
+Why?
+Someone clicked on an email link, it downloaded
+the virus and infected their PC.
+Why?
+They had not received any training in clicking on
+links in emails that they are not expecting to receive.
+Why?
+The training manager is on maternity leave and the
+organisation has not implemented cover for them.
+Why?
+The maternity leave process is not covered in the
+Change Management Procedure and so a risk
+assessment was not completed to identify any
+information security risks.
+TIP: You may not have sufficient resources to
+undertake root cause analysis for every event. To
+prioritise your efforts, you should consider first
+completing a simple risk assessment of an event and
+then undertake root cause analysis only for those that
+are medium or high risk.
+28 ISO 27001:2022 IMPLEMENTATION GUIDE
+IISSOO 2277000011::22002222 IIMMPPLLEEMMEENNTTAATTIIOONN GGUUIIDDEE 2299
+GET THE MOST
+FROM YOUR
+MANAGEMENT
+SYSTEMS
+Top tips for the successful implementation of an ISMS
+1. Start with “Why?” Make sure the reasons 6. Keep your processes and supporting
+for implementing an ISMS are clear and documentation simple. It can develop
+aligned with your strategic direction, to become more extensive over time if
+otherwise you risk not getting the critical needed.
+buy-in from Top Management.
+7. Design and implement rules you
+2. Consider “What for?” Implementing and can follow in practice. Don’t make
+maintaining an ISMS requires significant the mistake of documenting an over-
+commitment, so make sure your scope elaborate rule that no-one can follow. It
+is broad enough to cover the critical is better to accept a risk and to continue
+information that needs protecting, but to look for ways to manage it.
+is not so broad that you do not have
+sufficient resources to implement and 8. Remember your suppliers. Some
+maintain it. suppliers will help you enhance your
+ISMS, some will increase your risk. You
+3. Get all your key stakeholders involved at need to ensure any high-risk suppliers
+the appropriate times. Top Management have controls in place that are at least
+for context, requirements, policy and as good as yours. If they don’t then look
+objectives setting; managers and for alternatives.
+employees with valuable knowledge for
+risk assessments, process design and 9. Train, train and train again. Information
+procedure writing. security is likely to be a new concept for
+most of your employees. People may
+4. Communicate extensively throughout need to change habits ingrained over
+the process to all your stakeholders. many years. A single awareness briefing
+Let them know what you are doing, is unlikely to be sufficient.
+why you’re doing it, how you plan to
+do it and what their involvement will be. 10. Remember to allocate sufficient
+Provide regular progress updates. resources to routinely test your controls.
+The threats your organisation faces will
+5. Get external help. Do not fail for constantly change and you need to
+lack of in-house technical skills or test whether you are able to respond to
+knowledge. Management of information those threats.
+security risks often requires specialist
+knowledge. However, be sure to check
+the credentials of a third party before
+engaging them.
+3300 IISSOO 2277000011::22002222 IIMMPPLLEEMMEENNTTAATTIIOONN GGUUIIDDEE
+NEXT STEPS ONCE
+IMPLEMENTED
+AWARENESS TRAINING INTERNAL AUDIT
+• Your organisation should raise awareness about • A robust internal audit system for the organisation is
+various standards covered under IMS. essential. Internal Auditor Training is recommended
+and NQA can provide Internal Auditor Training for the
+1 • You should hold separate training meetings for top 6 standard(s) that you are implementing.
+management, middle management and junior level
+management, which will help to create a motivating • It is important to implement corrective actions for
+environment, ready for implementation. improvements, in each of the audited documents, in
+order to bridge gaps and ensure effectiveness of IMS.
+POLICY AND OBJECTIVES ORGANISE A MANAGEMENT ‘SYSTEM’
+REVIEW MEETING
+• Your organisation should develop an Integrated
+Quality Policy/Environment Policy/Health & Safety • Top level management must review various official
+Policy/Information Security Policy and relevant business aspects of the organisation, which are
+2 objectives to help meet the requirements. 7 relevant to the standards being implemented.
+• By working with top level management your company • Review the policy, objectives, results of internal
+should hold workshops with all levels of management audit, results of process performance, results of
+staff to outline the integrated objectives. complaints/feedback/legal compliance, results of risk
+assessment/incidents and develop an action plan
+following the meeting - which must be minuted.
+INTERNAL GAP ANALYSIS THOROUGH GAP ANALYSIS OF
+IMPLEMENTED SYSTEMS
+• Your organisation should identify and compare the
+level of compliance of existing systems against • A formal pre-certification gap analysis should be
+requirements of the standards under your new IMS. conducted to assess effectiveness and compliance of
+3 8
+system implementation in the organisation.
+• Relevant staff should all understand the operations of
+the organisation and develop a process map for the • This final gap analysis will prepare your organisation
+activities within the business. for the final certification audit.
+DOCUMENTATION / PROCESS DESIGN CORRECTIVE ACTIONS
+• The organisation should create documentation • The organisation should be ready for final
+of the processes as per requirements of relevant certification audit, providing that the gap analysis
+standard(s). audit conducted in the last step and all the non-
+4 9 conformities (NC) have been assigned corrective
+• You should write and implement a manual, functional actions.
+procedures booklet, work instructions, system
+procedures and provide associated terms. • Check that all the significant NCs are closed and the
+organisation is ready for the final certification audit.
+DOCUMENTATION / PROCESS FINAL CERTIFICATION AUDIT
+IMPLEMENTATION
+• Once completed, your organisation is hopefully
+• Processes / Documents developed in step 4, should recommended for registration to the required
+be implemented across the organisation covering all standard.
+5 10
+the departments and activities.
+• CONGRATULATIONS!
+• The organisation should hold a workshop on
+the implementation as per applicable for the ISO
+standard requirements.
+ISO 27001:2022 IMPLEMENTATION GUIDE 31
+INFORMATION
+SECURITY
+MANAGEMENT
+TRAINING
+Develop your skills to implement and audit your information security management system to
+minimise your organisation’s risk.
+COURSE DETAILS LVL. DURATION
+NQA ISO 27001 ISMS (Information Security) E-Learning Introduction Training 1 0.5 Days
+FREE TO NQA CLIENTS
+NQA ISO 27001 ISMS (Information Security) 1 2 Days
+Introduction and Implementation Training
+NQA ISO 27701 ISMS (Information Security) 1 2 Days
+Introduction and Implementation Training
+CQI and IRCA ISO 27001 ISMS (Information Security) 2 2 Days
+Internal Auditor Training (A2089)
+CQI and IRCA ISO 27001 ISMS (Information Security) 3 3 Days
+Lead Auditor Conversion Training (A2127)
+CQI and IRCA ISO 27001 ISMS (Information Security) 2+3 5 Days
+Lead Auditor Training (A2246)
+32 ISO 27001:2022 IMPLEMENTATION GUIDE
+NQA ASSOCIATE
+PARTNER PROGRAMME
+If you are looking for a
+consultant to assist you
+with a new or existing
+management system,
+NQA can help!
+Our APP has consultants from all over
+the country enlisted on it. The register is
+designed to help you find experienced
+consultants who can help.
+y
+To
+o u
+fi
+r
+n
+c
+d
+e
+a
+rt i
+c
+fi
+o
+c
+n
+a
+s
+ti
+u
+o
+l
+n
+ta
+j
+n
+o
+t
+u
+t
+r
+o
+n e
+s
+y
+u p
+c
+p
+o
+o
+n
+r
+ta
+t
+c
+y
+t
+o
+u
+u
+s
+t h
+o
+r
+n
+o
+:
+ugh
+T R
+USTED GLOBALLY
+0800 052 2424 (option 2) or email sales@nqa.com •
+S
+Y
+IN
+E
+C
+A
+E
+R
+19
+S
+88
+•
+0015
+ISO 27001:2022 IMPLEMENTATION GUIDE 33
+www.nqa.com

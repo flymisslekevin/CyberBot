@@ -1,0 +1,1215 @@
+The Total Economic Impact™
+Of Exabeam Fusion SIEM
+Cost Savings And Business Benefits
+Enabled By Exabeam Fusion
+APRIL 2022
+A FORRESTER TOTAL ECONOMIC IMPACT™ STUDY COMMISSIONED BY EXABEAM
+Table Of Contents
+Consulting Team: Amy Harrison
+Executive Summary ................................................. 1
+The Exabeam Fusion SIEM Customer Journey .... 6
+Key Challenges ...................................................... 6
+Solution Requirements/Investment Objectives ...... 7
+Composite Organization ......................................... 8
+Analysis Of Benefits ................................................ 9
+Security Team Efficiency Gains ............................. 9
+Decreased Financial Exposure Due To
+Reduced Dwell Time ............................................ 12
+Savings On Third-Party Incident Response
+Services ................................................................ 14
+Cost Savings From Transition To The Cloud ....... 15
+Unquantified Benefits ........................................... 17
+Flexibility ............................................................... 18
+Analysis Of Costs .................................................. 20
+Annual Fees Paid To Exabeam ........................... 20
+Implementation And Training ............................... 21
+Financial Summary ................................................ 23
+Appendix A: Total Economic Impact ................... 24
+Appendix B: Endnotes .......................................... 25
+ABOUT FORRESTER CONSULTING
+Forrester Consulting provides independent and objective research-based consulting to help leaders succeed in their
+organizations. For more information, visit forrester.com/consulting.
+© Forrester Research, Inc. All rights reserved. Unauthorized reproduction is strictly prohibited. Information is based on
+the best available resources. Opinions reflect judgment at the time and are subject to change. Forrester®, Technographics®,
+Forrester Wave, RoleView, TechRadar, and Total Economic Impact are trademarks of Forrester Research, Inc. All other
+trademarks are the property of their respective companies.
+THE TOTAL ECONOMIC IMPACT™ OF EXABEAM FUSION SIEM
+Executive Summary
+Security teams used to have defined borders to protect, with limited user numbers and
+well-known threats like malware and lost or stolen laptops. As businesses evolve to
+embrace hybrid work policies or new technologies, the potential attack surface
+dramatically expands. Security professionals must defend their firm from the ever-
+changing attack surface with the movement of employees, customers, partners, and
+suppliers.1
+With the average security operations center (SOC)
+today managing nearly 20 security point products, KEY STATISTICS
+analyst execution and team effectiveness has
+dropped off.2 Despite using industry-leading tools and
+having complex security controls in place,
+organizations continue to be breached predominantly
+due to an inability to detect when attacks come from
+inside the organization or an attacker masquerades Return on investment (ROI) Net present value (NPV)
+as a trusted insider. Exabeam delivers next- 245% $2.65M
+generation security incident and event management
+(SIEM) and extended detection and response (XDR)
+that enables organizations to modernize their SOC
+inconsistent with either no previous SIEM or a legacy
+and eliminate their blind spots with state-of-the-art
+provider that was not meeting the needs of their firm.
+user and entity behavior analysis (UEBA)-driven
+Their legacy solutions lacked integrated workflow or
+threat detection, investigation, and response.
+workforce management functionality, causing
+Exabeam commissioned Forrester Consulting to interviewees to work inefficiently without centralized
+conduct a Total Economic Impact™ (TEI) study and visibility. In addition, interviewees reported that
+examine the potential return on investment (ROI) security audits surfaced that these legacy SIEMs
+enterprises may realize by deploying Fusion SIEM.3 were not providing adequate visibility and detection,
+The purpose of this study is to provide readers with a which drove their executives to fund additional
+framework to evaluate the potential financial impact security infrastructure.
+of Fusion SIEM on their organizations.
+Interviewees were experienced in managing storage,
+To better understand the benefits, costs, and risks network, and related technology infrastructure and
+associated with this investment, Forrester interviewed were familiar with the challenges of assembling and
+six decision-makers with experience using Fusion maintaining an on-premises SIEM.
+SIEM. For the purposes of this study, Forrester
+Whether interviewees were replacing an existing
+aggregated the interviewees’ experiences and
+SIEM or deploying one for the first time, they were
+combined the results into a single composite
+looking for time-to-value. The regional CISO for a
+organization.
+holding company explained, “When you don’t have
+Prior to using Fusion SIEM, these interviewees noted developers to work with, you need a simple way to
+how the security maturity of their organizations was bring in the data feeds. Exabeam has their Cloud
+THE TOTAL ECONOMIC IMPACT™ OF EXABEAM FUSION SIEM 1
+EXECUTIVE SUMMARY
+Connector, and by giving it the right credentials, it will • Cost savings from transition to the cloud.
+make the API calls and pull the information for you, Interviewees’ on-premises solutions suffered
+and then you’re off to the races. The time-to-value is from storage capacity and compute limitations,
+really affected by how fast you integrate those logs which are minimized in the cloud. Interviewees
+versus spending three months trying to write 12 selected a SaaS provider because they wanted
+different API calls so you can get everything going.” to follow their organizations’ cloud-first
+philosophies. For others, it was about the
+KEY FINDINGS
+reduced cost of system management and
+Quantified benefits. Risk-adjusted present value
+reduced downtime.
+(PV) quantified benefits include:
+Unquantified benefits. Benefits that are not
+• Security team efficiency gains. After deploying
+quantified for this study include:
+Exabeam, SOC teams gained a centralized view
+of their ecosystem that allowed them to quickly • Reduced service-level agreement (SLA) to the
+review and investigate security logs, alerts, and business. Leveraging Exabeam gave the IT
+incidents. This reduced false positives and security chief at a retail and manufacturing firm
+shortened mean time-to-respond and -resolve. the confidence to guarantee shorter response
+The CISO of the mining firm reported seeing a times, allowing him to cut his SLA to the business
+more than 70% drop in the number of incidents in half.
+their team needed to investigate, allowing them
+• Improved infrastructure team operations. The
+more time for threat hunting. Additionally, the
+CISO of the chemicals firm discussed how the
+CISO of the chemicals firm discussed how they
+infrastructure team uses Exabeam to provide
+could provide more security coverage with less-
+value to their department. They used it daily to
+experienced staff.
+understand what might block traffic to their
+• Decreased financial exposure due to reduced network applications.
+dwell time. Interviewees’ firms previously
+• Increased management-level visibility. The
+experienced financial losses due to internal and
+CISO of the chemicals firm uses the metrics
+external attacks. By deploying Exabeam, they
+captured in Exabeam to stay ahead of significant
+were able to recognize and respond to threats in
+changes he sees in his company’s ecosystem.
+a matter of minutes, where previously it could
+For example, the team tracks the number of
+have taken hours — if they were able to detect
+vulnerabilities per site to understand their current
+the threat at all.
+security posture.
+• Savings on third-party incident response • Eased staffing challenges. The interviewees
+services. The electronics firm CISO had used
+unanimously reported that they could operate
+cybersecurity incident response services (CIRS)
+more effectively with less-skilled employees.
+providers for digital forensics expertise when
+They worried less about employee churn and
+previously hit by a cybersecurity attack. Exabeam
+more about recruiting people with the right
+helped them avoid spending money with these
+aptitude for the job. As a result, they could fill
+firms by allowing them to easily pull records to
+positions faster, with a shorter ramp time.
+help in their legal defense preparation. The CISO
+Costs. Risk-adjusted PV costs include:
+reported saving more than $100,000 for just the
+investigation component for one event.
+THE TOTAL ECONOMIC IMPACT™ OF EXABEAM FUSION SIEM 2
+EXECUTIVE SUMMARY
+• The composite organization paid a total of
+$250,000 in annual fees to Exabeam. An
+additional 15% of total net costs are paid to
+Exabeam to cover the Premier Success Plan.
+• The composite paid $75,000 in initial
+implementation fees. The interviewed decision-
+makers told Forrester that implementation costs
+were both internal and external in nature, with
+fees paid to Exabeam and a few weeks of
+internal effort contributing to overall costs. Over
+the course of the investment, additional internal
+effort for training and ongoing platform
+maintenance cost just under $147,000.
+The interviews and financial analysis found that a
+composite organization experiences benefits of
+$3.73M million over three years versus costs of
+$1.08M million, adding up to a net present value
+(NPV) of $2.65M million and an ROI of 245%.
+THE TOTAL ECONOMIC IMPACT™ OF EXABEAM FUSION SIEM 3
+EXECUTIVE SUMMARY
+ROI BENEFITS PV NPV PAYBACK
+245% $3.73M $2.65M <6 months
+Benefits (Three-Year)
+Security team efficiency gains $572.5K
+Decreased financial exposure due
+$2.5M
+to reduced dwell time
+Savings on third -party incident
+response services $378.0K
+Cost savings from transition to the $326.3K
+cloud
+“When evaluating tools, my first two
+questions are, ‘Does your tool align to the
+N IST [National Institute of Standards and
+Technology] framework? Does it integrate
+Cost savings from transition to the
+with Ecloudxabeam$3?26.3’K Exabeam became the
+Cost savings from transition to the
+$326.3K
+cloud
+foundation of our entire security
+p rogram.”
+—THE T OTCAL EICSONOOMIC, IM PmACTi™n OFi nEXAgBE AM FUSION SIEM 4
+EXECUTIVE SUMMARY
+TEI FRAMEWORK AND METHODOLOGY
+DUE DILIGENCE
+From the information provided in the interviews,
+Interviewed Exabeam stakeholders and
+Forrester constructed a Total Economic Impact™
+Forrester analysts to gather data relative to the
+framework for those organizations considering an
+Fusion SIEM.
+investment in Exabeam Fusion SIEM.
+The objective of the framework is to identify the cost,
+DECISION-MAKER INTERVIEWS
+benefit, flexibility, and risk factors that affect the
+Interviewed six decision-makers at organizations
+investment decision. Forrester took a multistep
+using Exabeam Fusion SIEM to obtain data with
+approach to evaluate the impact that Fusion SIEM
+respect to costs, benefits, and risks.
+can have on an organization.
+COMPOSITE ORGANIZATION
+Designed a composite organization based on
+characteristics of the interviewees’
+organizations.
+FINANCIAL MODEL FRAMEWORK
+Constructed a financial model representative of
+the interviews using the TEI methodology and
+risk-adjusted the financial model based on
+DISCLOSURES
+issues and concerns of the decision-makers.
+Readers should be aware of the following:
+This study is commissioned by Exabeam and delivered
+by Forrester Consulting. It is not meant to be used as a CASE STUDY
+competitive analysis. Employed four fundamental elements of TEI in
+Forrester makes no assumptions as to the potential ROI modeling the investment impact: benefits, costs,
+that other organizations will receive. Forrester strongly flexibility, and risks. Given the increasing
+advises that readers use their own estimates within the
+sophistication of ROI analyses related to IT
+framework provided in the study to determine the
+appropriateness of an investment in Exabeam Fusion investments, Forrester’s TEI methodology
+SIEM.
+provides a complete picture of the total
+Exabeam reviewed and provided feedback to Forrester, economic impact of purchase decisions. Please
+but Forrester maintains editorial control over the study
+see Appendix A for additional information on the
+and its findings and does not accept changes to the study
+that contradict Forrester’s findings or obscure the TEI methodology.
+meaning of the study.
+Exabeam provided the customer names for the interviews
+but did not participate in the interviews.
+THE TOTAL ECONOMIC IMPACT™ OF EXABEAM FUSION SIEM 5
+The Exabeam Fusion SIEM Customer Journey
+Drivers leading to the Fusion SIEM investment
+Interviewed Decision-Makers
+Interviewee Industry Region Total Employees
+Chief information security officer Mining Global 4,900
+Chief information security officer Chemicals Global 14,000
+IT security chief Retail and manufacturing Global 230,000
+Regional chief information security officer Holding company Global 40,000
+Chief information security officer Electronics Global 6,500
+Head of global operations Financial services Global 40,000
+distributed via email caused duplication of work
+KEY CHALLENGES
+because analysts had no way of tracking who
+Forrester interviewed six representatives from
+responded to each alert. They explained: “Our
+organizations with experience using Exabeam Fusion
+previous solution just sent lots of alerts and
+SIEM. The interviewees described varying states of
+emails. I had no visibility into my team’s
+security maturity ranging from manual processing of
+processing of these events. An email alert came
+logs with no SIEM to more mature companies that
+in, and sometimes two or three agents were all
+had a legacy SIEM or leveraged managed security
+working the same one. With COVID and people
+service providers.
+being remote, there was less in-office
+The regional CISO for a holding company said that collaboration. We were operating in an ineffective
+until he deployed Exabeam, “security” meant mainly state, and I needed to fix that right away.”
+stopping website fraud or theft. He elaborated: “We
+• Security was expanding beyond the
+wanted proper security in the corporate IT space.
+perimeter. The regional CISO for a holding
+Security involved loading a bunch of software, then
+company described how on-premises security
+set it and forget it. That was security. We were not
+evolved into global security. The CISO noted,
+looking for internal threats or any lateral movement.”
+“Early security efforts were based on protecting
+Other interviewees previously deployed a SIEM, but it the ‘perimeter’ with firewalls, but there weren’t
+was not meeting the needs of their organizations. devices or controls responsible for guarding the
+The interviewees noted how their organizations network across all business units.” They realized
+struggled with common challenges, including: the need for more coverage and deployed
+intrusion detection systems (IDS) and intrusion
+• Legacy solutions lacked integrated workflow
+prevention systems (IPS). Their legacy solution
+or workforce management functionality.
+didn’t provide enough protection. The IT security
+Interviewees struggled without centralized
+chief continued: “We conducted two external
+visibility into their ecosystems. The CISO at the
+audits: one cybersecurity maturity audit and one
+electronics firm described how security alerts
+THE TOTAL ECONOMIC IMPACT™ OF EXABEAM FUSION SIEM 6
+THE EXABEAM FUSION SIEM CUSTOMER JOURNEY
+that was more of a compromise assessment. We easy. From a Fusion perspective, it was so much
+were lacking a lot of visibility and detection shorter than a traditional infrastructure build.”
+capabilities, which substantiated what I had been
+• Integrate security data into a single pane of
+telling the business about our exposure.”
+glass. The CISO of the chemicals company
+sought to increase and centralize security
+monitoring without increasing staffing. They
+“The majority of our log collection explained: “We’re looking at everything on one
+alerting was primarily around screen rather than having to pull up your firewall
+compliance and audit. It was not logs and your endpoint logs from different
+systems with different views. It’s hard to do, and
+about security. To be perfectly
+Exabeam Fusion can do that. The other benefit
+honest, we came from a very
+was reduced staff requirements because we now
+immature position where anything
+have centralized logging, a single pane of glass
+could’ve happened.”
+for monitoring, and the alerting is very good.”
+Head of global operations, financial
+services
+“Many companies have
+significant security deficiencies,
+and it’s overwhelming to face
+Building an on-premises SIEM was a long,
+them. You must get good control
+expensive process. Several interviewees had
+extensive experience managing storage, network, of your infrastructure to get
+and related technology infrastructure and were control of your security. This
+intimately familiar with the challenges of assembling allows you to work in parallel by
+and maintaining it. Those who attempted to build an
+getting up and running do some
+in-house SIEM experienced challenges like an
+basics with the stuff you have
+inability to scale.
+without having to fix your entire
+SOLUTION REQUIREMENTS/INVESTMENT
+data storage infrastructure.”
+OBJECTIVES
+Head of global operations, financial
+The interviewees’ organizations searched for a
+solution that could: service
+• Deliver best-in-class security logging with
+ease and speed. The head of global operations
+at the financial services firm was looking for a • Provide anomalous detection of user
+solution that would help them quickly meet behavior. The CISO of the electronics firm said:
+regulatory requirements: “I didn’t have to rely on “We ended up choosing Exabeam primarily for
+a third-party vendor that was managing my the UEBA capability. We were really looking to
+servers, network rules, or storage. We signed the operate more efficiently and do more with less
+contracts, I installed some site collectors, and in resources, and we felt that Exabeam was going
+a couple of days, we had logs. I mean, it was that to give us the best coverage of behavior-based
+analysis.” The CISO of the chemicals company
+THE TOTAL ECONOMIC IMPACT™ OF EXABEAM FUSION SIEM 7
+THE EXABEAM FUSION SIEM CUSTOMER JOURNEY
+concurred: “It’s not just logging. It’s behaviors Deployment characteristics. The composite
+and what people do. Are people logging in from organization has a centralized security operations
+different places where they shouldn’t be logging center and monitors all corporate technology across
+in from — another country for instance.” all endpoints. The company outsources their level 1
+SOC operations and employs eight security team
+members. There is one VP, two senior-level analysts,
+four junior-level analysts, and one intern. The
+“One thing that helped composite uses SaaS-based providers for its
+demonstrate value was the business applications but does maintain some on-
+SolarWinds breach. We had to premises infrastructure. The firm chooses to deploy
+Exabeam in the cloud to quickly integrate its log
+handle it as though we were
+sources without having to completely upgrade its
+compromised and dig through
+data infrastructure. Finally, decision-makers at the
+logs, look for indicators of
+composite organization choose Exabeam to maintain
+compromise, and then
+compliance with industry regulations.
+document all that. At that time,
+our data retention was short.
+The board decided to invest to
+Key assumptions
+increase our log retention. That
+• $10B+ in revenue
+was a key event that really
+• Multiple global
+shaped the industry.”
+locations
+CISO, electronics
+• Financial services
+• 20,000 employees
+• 8 security team
+COMPOSITE ORGANIZATION members
+Based on the six interviews, Forrester constructed a • Uses mostly cloud-
+TEI framework, a composite company, and an ROI based business apps
+analysis that illustrates the areas financially affected.
+• Manages an on-
+The composite organization is representative of the
+premises data center
+six decision-makers that Forrester interviewed and is
+used to present the aggregate financial analysis in
+the next section. The composite organization has the
+following characteristics:
+Description of composite. The multibillion-dollar
+financial services firm provides investment services
+to clients across the globe. The composite
+organization has a strong brand, global operations,
+and more than 20,000 employees who live and work
+remotely.
+THE TOTAL ECONOMIC IMPACT™ OF EXABEAM FUSION SIEM 8
+Analysis Of Benefits
+Quantified benefit data as applied to the composite
+Total Benefits
+Ref. Benefit Year 1 Year 2 Year 3 Total Present Value
+Atr Security team efficiency gains $230,230 $230,230 $230,230 $690,690 $572,548
+Decreased financial exposure
+Btr $988,000 $988,000 $988,000 $2,964,000 $2,457,010
+due to reduced dwell time
+Savings on third-party incident
+Ctr $152,000 $152,000 $152,000 $456,000 $378,002
+response services
+Cost savings from transition to
+Dtr $131,220 $131,220 $131,220 $393,660 $326,325
+the cloud
+Total benefits (risk-adjusted) $1,501,450 $1,501,450 $1,501,450 $4,504,350 $3,733,885
+SLA from when we saw a critical alert until we
+SECURITY TEAM EFFICIENCY GAINS
+confirmed an incident or discarded it as a false
+Evidence and data. After deploying Exabeam, the
+positive. We reduced time spent analyzing by
+SOC could review and investigate security logs,
+hand, no more going individually to the different
+alerts, and incidents through a centralized single
+consoles for the network, web servers, and
+view. Not only does this reduce false positives but it
+antivirus, for example. Because of our use of
+also speeds mean time-to-respond and -resolve.
+Exabeam, we felt comfortable reducing our SLA
+The CISO at the electronics firm had to take from 90 to 45 minutes.”
+calculated risks before deploying Exabeam. They
+explained: “I had a philosophy that we should ingest Second, the IT security chief discussed the role
+the complete universe [of data sources]. But just one process automation played in developing greater
+of my SOC agents was getting about a thousand efficiency: “I’m a big believer in the MITRE
+incidents a day. There was no way we could process ATT&CK framework, and I asked my team to
+to that level. We had to unenroll services and focus map everything to it.4 We developed scripts to
+on just what we felt was truly critical for us to be able input information from Exabeam. We built
+to listen to and respond to.” Because of the heatmaps and created a specific detection and
+efficiencies Exabeam provides, the interviewees were coverage on four different use cases, alerts, and
+able to improve their coverage by ingesting additional threats. We used all the models Exabeam
+data sources and increase the number of incidents includes and asked them to map back to the
+they were able to investigate. ATT&CK framework for each technique. In the
+end, we took that information and created
+Interviewees provided excellent examples of how
+automatic scripts, which helped with threat
+their teams became more effective:
+hunting.”
+• The IT security chief at the retail and
+• The CISO of the mining firm said: “The analytic
+manufacturing firm described two ways his team
+engine takes log sources and correlates them
+could increase their mean time to detect. First, he
+together, assigns risk points for users and assets,
+said: “We work under SLAs. We had a 90-minute
+THE TOTAL ECONOMIC IMPACT™ OF EXABEAM FUSION SIEM 9
+ANALYSIS OF BENEFITS
+and we investigate when they hit a score of over was being able to do those views in Exabeam to
+90 points. After investigating those incidents, we monitor and alert the right people.”
+can do threat hunting inside the tool. We used to
+• The CISO of the mining firm said: “When we do
+see up to 100 incidents a day, but the longer we
+need to investigate something, Exabeam
+use Exabeam, we’ve seen dramatic drops of
+eliminates hours of scouring through logs down
+about 70% to 75%. I would attribute nearly all of
+to just a few minutes. If I see something that
+that decrease in the number of incidents to the
+looks like a lateral movement, I hit the timeline in
+fact that we have Exabeam running in our
+Exabeam and pull up log entries directly out of
+environment.”
+the Exabeam tool instead of writing correlation
+rules on a traditional SIEM or manually hunting
+through logs on your own. It’s saved us hours
+“We’re a global company. Even and hours and is one of the reasons we can get
+though we don’t have a huge away with only two security people in our
+number of employees, the company.”
+disparity of our networks is what • The IT security chief of the retail and
+makes our situation unique. We’ve manufacturing firm discussed how Exabeam
+noticed as we implemented our increased their time-to-value by including the
+core library of correlation rules: “If I had to do that
+risk and vulnerability strategy,
+manually, I would have to ask each security
+addressing the things the risk
+control vendor for their catalog for each of the
+analysis tool was calling out, our
+events they log. I would need to map the
+risk scores have gone down
+technique for each one of the controls; then, I
+dramatically in just a few months. would have to do the correlation myself.
+Along with that comes a decrease Exabeam already included the correlation rules in
+in the number of incidents that their latest modules. It would have been a
+considerable feat for us to do that automation
+we’re dealing with daily. There is a
+without the correlation that Exabeam included.”
+direct correlation there.”
+Modeling and assumptions. Based on customer
+CISO, mining
+interviews, Forrester estimates the following for the
+composite organization:
+• Before Exabeam Fusion SIEM, 2,600 security
+• The CISO of the chemicals firm discussed how incidents needed manual investigation and
+centralized monitoring allowed him to reduce the resolution.
+number of staff they needed: “There’s reduced
+• Due to a lack of resources, the composite
+staff requirements because of centralized
+organization only had resources to investigate
+monitoring, and the alerting is excellent. I can do
+25% of the 2,600 incidents before deploying
+what I do with a couple of people, and once you
+Exabeam.
+get somebody up to speed, it’s easy to train them
+to run the reports. I have an analyst who was an • Before Fusion SIEM, it took 360 minutes to
+intern, and one of the first things we put him on investigate an incident.
+THE TOTAL ECONOMIC IMPACT™ OF EXABEAM FUSION SIEM 10
+ANALYSIS OF BENEFITS
+• After deploying Fusion SIEM, it took 5 minutes to Results. To account for these risks, Forrester
+investigate an incident. adjusted this benefit downward by 20%, yielding a
+three-year, risk-adjusted total PV (discounted at 10%)
+• It took a total of 234,000 minutes each year to
+of $573,000.
+investigate and resolve all incidents, before
+Exabeam.
+• After deploying Exabeam, the composite was
+“The value that Exabeam
+able to investigate 75% of the 2,600 incidents.
+brought was better initial triage
+• After deploying Exabeam, it only took 9,750 of those events that allowed us
+minutes to investigate 75% of the 2,600
+to ignore less. I think I would say
+incidents.
+at least 50%, probably more. The
+• Based on an annual savings of 3,738 hours, the goal was to catch what was truly
+security team was able to save nearly $288,000.
+important. We now filter out
+Risks. Organizations may realize results that differ more of the low-level noise more
+from those presented in the financial model due to: effectively to identify the critical-
+level risks that need to be
+• The size and average salary of the SOC team.
+investigated.”
+• The number of incidents that the organization is
+handling. CISO, electronics
+• The average time SOC analysts spend on false
+positives and advanced investigations.
+THE TOTAL ECONOMIC IMPACT™ OF EXABEAM FUSION SIEM 11
+ANALYSIS OF BENEFITS
+Security Team Efficiency Gains
+Ref. Metric Source Year 1 Year 2 Year 3
+Annual number of security incidents that
+A1 Interview 2,600 2,600 2,600
+need manual investigation and resolution
+Percent of incidents that were investigated
+A2 Interviews 25% 25% 25%
+before Exabeam
+Actual time to investigate and resolve an
+A3 Interviews 360 360 360
+incidence before Exabeam(minutes)
+Actual time to investigate and resolve an
+A4 Interviews 5 5 5
+incidence after Exabeam (minutes)
+Time (minutes) needed to investigate and
+A5 Interviews 234,000 234,000 234,000
+resolve incidences, before Exabeam
+Percent of incidents that were actually
+A6 Interviews 75% 75% 75%
+investigated after Exabeam
+Time needed (in minutes) to investigate
+A7 Interviews 9,750 9,750 9,750
+and resolve incidences after Exabeam
+A8 Annual time savings (hours) A5-A7/60 3,738 3,738 3,738
+Security analyst hourly compensation, fully
+A9 TEI standard $77 $77 $77
+burdened
+At Security team efficiency gains A8*A9 $287,788 $287,788 $287,788
+Risk adjustment ↓20%
+Security team efficiency gains (risk-
+Atr $230,230 $230,230 $230,230
+adjusted)
+Three-year total: $690,690 Three-year present value: $572,548
+DECREASED FINANCIAL EXPOSURE DUE TO lacked the security infrastructure resources to
+REDUCED DWELL TIME recognize these threats before real value was stolen
+Evidence and data. Data theft requires access to the from their organizations. Two interviewees described
+data. That access is either obtained by external scenarios where millions of dollars of intellectual
+actors who, using compromised credentials, property theft occurred. The CISO of the mining firm
+masquerade as insiders, or granted to an insider as said: “We had an insider threat breach a couple of
+part of their job. Insiders can be any employee, years ago where intellectual property data was stolen
+contractor, partner, or vendor who has access to your by a citizen of another country. No GDPR data was
+firm’s data and systems. Today, most security teams compromised, but intellectual property was. The cost
+focus their security controls on external threats and to us could have been in the millions.”
+fail to treat the insider threat as a major threat vector.
+The CISO of the mining firm continued: “Prior to
+Understanding user behavior is key for finding
+[deploying Exabeam], you might identify that
+malicious insiders and compromised accounts.
+something doesn’t look quite right. You would go to
+Damage from threats comes in several forms: fraud,
+firewall and active directory logs as well as other
+intellectual property theft, sabotage and destruction,
+systems, combing through those for that person’s
+snooping, leaking, and doxing.5
+name. You’re probably already four or five hours in,
+Interviewees were well aware of the risks that these without even starting any of the correlation work yet.
+internal and external threats cause; however, many Exabeam does that all for you with a few clicks get to
+THE TOTAL ECONOMIC IMPACT™ OF EXABEAM FUSION SIEM 12
+ANALYSIS OF BENEFITS
+entire timeline of everything they’ve done throughout can see that the system is an executive, and it’s an
+that day just simply coming from the log files. It admin logging in. Admins have superior privileges,
+literally takes five [or] six hours’ worth of work down but it could look like a hacker that’s broken into the
+to a few minutes.” He went on to describe that he system and accessing an executive system. Because
+could quickly further his investigation, which allowed we can see those details, it helps you identify and fix
+him to contact the person to ask relevant questions: problems quicker.”
+“You start seeing those correlations and making
+The IT security chief at the retail and manufacturing
+those decisions in a rather rapid manner. You’ve
+firm experienced a scenario where there were attacks
+already seen all of that from the matter of just clicking
+against financial transactions. Prior to deploying
+on a popped-up alert inside of the tool that otherwise
+Exabeam, they didn’t have visibility into these
+transactions. This incident drove the need to expand
+their monitoring of user behavior to cover more
+“You can start asking relevant critical infrastructure. They said: “With Exabeam, I
+questions, calling a person to can do behavior. I can do some things that are very
+inquire why you saw them log in advanced compared to doing just static rules on a
+SIEM.”
+from Delhi, India, and then five
+minutes from Australia.” We all The IT security chief described how Exabeam
+know the answer to that is no. impacted their dwell time: “The last incident we
+handled, Exabeam and our other tools helped us cut
+That’s where you start seeing
+our dwell time. We went from days to minutes. In just
+correlations and making decisions
+minutes, we detected him but watched each of his
+in a rapid manner. You see that
+actions for 10 more minutes to confirm before kicking
+from just clicking on a popped-up
+him out of the server. Previously, it took us up to 48
+alert inside of the tool that hours being inside the server before we noticed
+otherwise would have taken you something was happening because he had to try to
+five, six, seven, maybe even days’ do something outside of the server or move laterally
+or do something else in the kill chain. Now, we
+of time to figure out.”
+detected him as soon as he touched the server
+CISO, mining because we had good visibility in all those critical
+servers. Exabeam gives us that quick alert and quick
+possibility to do the incident response with the
+incident response module [and] to use the SOAR to
+would have taken you five, six, seven, maybe even
+do orchestration and automation on some of the
+eight [hours], maybe even days’ worth to figure out.”
+things we’re seeing.”
+The CISO of the chemicals company described their
+Modeling and assumptions. Based on customer
+risk-based approach to investigations: “You always
+interviews, Forrester estimates the following for the
+want to see all the movement in your security system.
+composite organization:
+You want to know when admins are logging into
+executive PCs. We track high-risk systems and have • Based on the losses described in the interviews,
+specific alerts set to track executives, because many the composite organization experienced losses of
+times they’re targeted. Most systems can see that $2 million each year.
+somebody logging into a system, but in Exabeam, we
+THE TOTAL ECONOMIC IMPACT™ OF EXABEAM FUSION SIEM 13
+ANALYSIS OF BENEFITS
+• “Forrester Consulting Cost Of A Cybersecurity • The financial impact of each breach.
+Breach Survey, Q4 2020” revealed that 65% of
+• The ability of the security team to react to
+companies with between 20,000 and 50,000
+Exabeam’s alerts.
+employees experienced a breach every year.
+Results. To account for these risks, Forrester
+• Interviewees were able to reduce their dwell time
+adjusted this benefit downward by 20%, yielding a
+by 95% — from months to minutes.
+three-year, risk-adjusted total PV of $2.5 million.
+Risks. Risks that may impact financial exposure due
+to reduced dwell time include:
+• The number of breaches the organization
+experiences each year.
+Decreased Financial Exposure Due To Reduced Dwell Time
+Ref. Metric Source Year 1 Year 2 Year 3
+B1 Cost of Stolen IP Interview $2,000,000 $2,000,000 $2,000,000
+Forrester custom
+B2 Probability of an incident occurring 65% 65% 65%
+research
+Decrease in vulnerability window from
+B3 interview 95% 95% 95%
+using Exabeam
+Decreased financial exposure due to
+Bt B1*B2*B3 $1,235,000 $1,235,000 $1,235,000
+reduced dwell time
+Risk adjustment ↓20%
+Decreased financial exposure due to
+Btr $988,000 $988,000 $988,000
+reduced dwell time (risk-adjusted)
+Three-year total: $2,964,000 Three-year present value: $2,457,010
+SAVINGS ON THIRD-PARTY INCIDENT The electronics firm CISO explained: “We had been
+RESPONSE SERVICES down the path of forensics and evidence collection
+Evidence and data. Cybersecurity incident response and made a specific decision to contract with a
+service providers offer critical support during certified third-party to perform those collections for
+cybersecurity breaches. They provide incident us. The main reason that we wanted to do that was
+response and digital forensics expertise on demand we didn’t have any certified forensic experts on our
+to support customers hit by cybersecurity attacks team. If they were deposed, they are in a weaker
+such as data breaches, malware outbreaks, and position that wouldn’t be helpful to our case, so we
+ransomware infections that disrupt operations.6 outsource completely. Now, to collect defense data,
+we pull from Exabeam as one of the sources or
+The CISO at an electronics firm described how
+collection points. It costs hundreds of thousands of
+Exabeam not only helped them save money
+dollars to hire a third party, depending on the size of
+previously spent with cybersecurity incident response
+the collection and the amount of time. There was one
+services providers but also helped them feel
+event that was over $100,000 in just the investigation
+confident in their legal defense preparation.
+component, not even other legal aspects.”
+THE TOTAL ECONOMIC IMPACT™ OF EXABEAM FUSION SIEM 14
+ANALYSIS OF BENEFITS
+Modeling and assumptions. Based on customer • The number of security incidents that require
+interviews, Forrester estimates that the composite forensic investigation.
+organization spends $200,000 on a yearly basis with
+• The size of the firm previously hired and the
+cybersecurity incident response services providers.
+scope of services they were contracted to
+Using Exabeam, the composite was able to reduce
+perform.
+their spend with third party providers by 95%.
+Results. To account for these risks, Forrester
+Risks. The savings on third-party services will vary
+adjusted this benefit downward by 20%, yielding a
+with:
+three-year, risk-adjusted total PV of $378,002.
+Savings On Third-Party Incident Response Services
+Ref. Metric Source Year 1 Year 2 Year 3
+Dollars previously spent on forensic
+C1 Composite $200,000 $200,000 $200,000
+collection
+Decrease in vulnerability window from
+C2 interview 95% 95% 95%
+using Exabeam (From months to minutes)
+Savings on third-party incident response
+Ct C1*C2 $190,000 $190,000 $190,000
+services
+Risk adjustment ↓20%
+Savings on third-party incident response
+Ctr $152,000 $152,000 $152,000
+services (risk-adjusted)
+Three-year total: $456,000 Three-year present value: $378,002
+COST SAVINGS FROM TRANSITION TO THE “The biggest thing I saw with on-
+CLOUD
+prem SIEMs is capacity
+Evidence and data. Legacy on-premises solutions
+management. To run a query
+suffered from storage capacity and compute
+against three years’ worth of
+limitations that are minimized in the cloud. Cloud-
+logs bogs down the system.
+hosted solutions are easier to manage and maintain
+When you get multiple queries
+than on-premises hardware or software, helping with
+scalability and offloading maintenance to the that are running against these
+provider.7 Interviewees had different reasons for infrastructure components,
+selecting a cloud-based provider. Still, all resulted in you’re hamstrung by their
+value for their companies.
+capabilities. Exabeam does a
+• For the CISO at the retail and manufacturing firm, better job of scaling that
+it was less about storage and more about the performance.”
+network. They explained: “In general, my
+Head of global operations, financial
+philosophy is cloud-first. If I were considering
+building an on-premises SIEM, I’m not sure it services
+would be on-premises. It would probably be in [a
+THE TOTAL ECONOMIC IMPACT™ OF EXABEAM FUSION SIEM 15
+ANALYSIS OF BENEFITS
+cloud services provider] because traditional data Results. To account for these risks, Forrester
+centers are dying.” adjusted this benefit downward by 10%, yielding a
+three-year, risk-adjusted total PV of $326,000.
+• For the CISO at the chemicals firm, the
+advantage for moving their SIEM to the cloud
+was about the reduced cost of system
+management. He explained: “The cost savings
+“Software as a service has taken
+were that we didn’t have to handle our
+over the industry for the last 10
+equipment; we didn’t have to patch the
+years. Why not security?
+equipment. We didn’t have to upgrade it and
+Especially considering the
+maintain it, which took a fourth of a person, so
+that’s a big cost saving.” In addition, he also economies of scale you get with
+described benefits from reduced downtime: “In data linking. Regulators require
+the past, we’d be down for a couple of days us to carry significant log data
+sometimes, and while the entire system wouldn’t
+for three years. To do that,
+be down, we might lose some functionality built
+you’ve got to buy servers,
+into the system. Now, because of redundancy
+expand storage, and then
+built into the cloud, it’s been three and a half
+maintain it all. I have the
+years we are hardly down. Cloud is the way to
+go.” alternative of giving this data to
+Exabeam to manage. I
+Modeling and assumptions. Based on customer
+understand the pitfalls of large
+interviews, Forrester estimates the following for the
+composite organization: data storage that goes away
+when you put that burden on
+• The organization shuts down its four on-premises
+Exabeam to manage it. The
+servers in the first year it implements Exabeam
+Fusion SIEM. caveat is they have to be good at
+it!”
+• The organization reassigns one IT FTE from
+server/network-related infrastructure Head of global operations, financial
+management to value-add projects.
+services
+Risks. Cost savings from the transition to the cloud
+may vary depending on the following:
+• The cost of the hardware previously used for the
+former on-premises security system(s).
+• The costs of software, maintenance, and
+facilities.
+• IT or security staff dedicated to security-related
+infrastructure management.
+THE TOTAL ECONOMIC IMPACT™ OF EXABEAM FUSION SIEM 16
+ANALYSIS OF BENEFITS
+Cost Savings From Transition To The Cloud
+Ref. Metric Source Year 1 Year 2 Year 3
+Servers avoided due to moving to the
+D1 Interviews 4 4 4
+cloud
+D2 Server cost Industry average $5,000 $5,000 $5,000
+D3 Network cost per server Industry average $750 $750 $750
+Server/network hardware
+D4 Industry average $4,500 $4,500 $4,500
+maintenance
+D5 Software costs Industry average $2,500 $2,500 $2,500
+D6 Server software maintenance Industry average $1,500 $1,500 $1,500
+Server/network power, cooling, and
+D7 Industry average $7,200 $7,200 $7,200
+facilities
+D8 Infrastructure costs saved D1*(D2+D3+D4+D5+D6+D7) $85,800 $85,800 $85,800
+Number of IT FTEs managing the
+D9 Interviews 1 1 1
+infrastructure for on-premises solution
+Percent of IT FTE's time dedicated to
+D10 Assumption 50% 50% 50%
+server/network management
+D11 IT FTE fully burdened annual salary TEI standard $120,000 $120,000 $120,000
+Subtotal: reduction in server/network
+D12 D9*D10*D11 $60,000 $60,000 $60,000
+admin costs
+Cost savings from transition to the
+Dt D8+D12 $145,800 $145,800 $145,800
+cloud
+Risk adjustment ↓10%
+Cost savings from transition to the
+Dtr $131,220 $131,220 $131,220
+cloud (risk-adjusted)
+Three-year total: $393,660 Three-year present value: $326,325
+UNQUANTIFIED BENEFITS There are a lot of companies out there that have
+Additional benefits that customers experienced but significant security deficiencies, and it looks
+were not able to quantify include: extremely overwhelming to face them. You have
+to get a good control of your infrastructure for you
+• Reduced SLA to the business. Leveraging
+to get control of your security. It gives us
+Exabeam gave the IT security chief at the retail
+significant flexibility where we don’t have to rely
+and manufacturing firm the confidence to
+on any outside teams.”
+guarantee shorter response times to business
+partners. They said: “The investigation time to • Infrastructure team benefits. The CISO of the
+confirm an alert was greatly reduced. I was able chemicals firm discussed how the infrastructure
+to decrease my SLA from 90 to 45 minutes.” team uses Exabeam. “If someone is having
+trouble connecting, IT needs to see certain logs
+• Faster time-to-value. The regional CISO at a
+across networking devices or firewalls to
+holding company noted: “It allows time-to-market.
+understand why traffic is blocked. We have an
+THE TOTAL ECONOMIC IMPACT™ OF EXABEAM FUSION SIEM 17
+ANALYSIS OF BENEFITS
+implementation of SaaS applications. If described how he would offer opportunities to
+somebody can’t get into those applications, we employees from IT, for example, who had the
+log those. They use it every day. They use it as characteristics required to be a solid security
+much as we do. It’s good information for performer: “I hired someone who had been in IT
+everybody.” for a long time and wanted to try something else.
+He had never done cybersecurity in his life, [but
+he] did things to help enable it, such as
+documenting better cybersecurity practices. We
+“Exabeam’s UEBA stack — and
+ramped that person up in three months, and his
+I’ve talked to all the product
+manager said, ‘He is the fastest ramp-up and the
+developers [at Exabeam] — is
+best hire I’ve ever had. A lot of that is the
+the best in the business. What person’s will, but it’s also having the right tools.
+they do for behavior analytics is It’s not just Exabeam, to be fair, but Exabeam is
+fantastic.” a great part of it.’”
+FLEXIBILITY
+CISO, retail and manufacturing
+The value of flexibility is unique to each customer.
+There are multiple scenarios in which a customer
+might implement Fusion SIEM and later realize
+• Management-level visibility. The CISO of the additional uses and business opportunities, including:
+chemicals firm uses the metrics captured in
+• Expanded visibility into integrated security
+Exabeam to stay ahead of important changes
+tools. The head of global operations at the
+they’re seeing in their ecosystem. The said: “As
+financial services firm said: “We just purchased a
+the CISO, I can see changes that are important
+threat intelligence platform that we’ve integrated
+to me. For example, I see that the number of
+in Exabeam. We’re starting to focus on the threat
+vulnerabilities has gone up in one location. It
+intel journey and the indicators of compromise
+gives me the ability to say, ‘What’s going on at
+(IOCs). The fact that Exabeam integrates with
+that location? We need to get out there and
+several threat intelligence products is super
+check things out,’ or ‘Are they missing patches?’ I
+important. I’m a firm believer in TIPs [threat
+don’t know if I can’t quantify that in terms of time
+intelligence platforms]. We use [another] threat
+and money, but it gives me and executive
+intelligence platform, and then I pull in the feeds
+management a view into our important metrics. I
+where I feel we need to get feeds from. I think
+don’t know that I can put a dollar value on it, but
+that’s a very reliable methodology for managing
+it’s definitely saving us money.”
+threats.”
+• Eased staffing challenges. The CISO of the
+• Improved tracking of metrics. Prior to
+electronics firm said, “We were able to operate
+Exabeam, all the interviewees struggled to
+effectively with the less-skilled resource.” The
+answer questions specifically related to metrics
+regional CISO of the holding company concurred:
+such as mean time-to-detect or mean time-to-
+“I am not afraid of a tier 1 person leaving the
+repair. One electronics industry CISO revealed
+company because the tools do the job for them
+how they will leverage Exabeam now to track
+and the ramp-up time for them to become
+these valuable metrics: “Because of the volume
+effective on the team is very fast. I don’t worry
+of incidents coming in, the team could only keep
+about a revolving door at the tier 1 level.” He
+THE TOTAL ECONOMIC IMPACT™ OF EXABEAM FUSION SIEM 18
+ANALYSIS OF BENEFITS
+up with processing them based on their
+significance to the business. That is something
+that we aspire to do here. We haven’t done that “Prior to having this tool and
+yet primarily because we didn’t have the tools to others, I wouldn’t even know
+do it. Security is one of those things that people where to start for IOCs. You get
+will share a little bit but never the whole picture.”
+so wrapped up in trying to
+Flexibility would also be quantified when evaluated as figure out where it came from,
+part of a specific project (described in more detail in but you’re not even thinking
+Appendix A).
+about tearing that piece of
+network apart and finding out
+what the indicators are
+compromised for and then
+threat-hunting the rest of your
+organization for those. If you
+don’t have a tool in place to do
+that, you might as well just not
+even try.”
+CISO, mining
+THE TOTAL ECONOMIC IMPACT™ OF EXABEAM FUSION SIEM 19
+Analysis Of Costs
+Quantified cost data as applied to the composite
+Total Costs
+Ref. Cost Initial Year 1 Year 2 Year 3 Total Present Value
+Annual fees paid to
+Etr $0 $345,000 $345,000 $345,000 $1,035,000 $857,964
+Exabeam
+Implementation and
+Ftr $98,640 $81,816 $32,256 $32,256 $244,968 $223,910
+training
+Total costs (risk-
+$98,640 $426,816 $377,256 $377,256 $1,279,968 $1,081,874
+adjusted)
+• Number of gigabytes ingested per day.
+ANNUAL FEES PAID TO EXABEAM
+Evidence and data. The interviewees’ organizations • Whether or not organizations opt for the cloud
+paid annual fees for the use of Exabeam Fusion archive add-on for Fusion SIEM.
+SIEM as well as an additional fee to use Exabeam’s
+• The number of seats covered for the Exabeam
+Premier Success Plan technical support.
+Fusion Enterprise edition Incident Responder
+Modeling and assumptions. For the composite add-on.
+organization, Forrester assumes:
+• Whether or not organizations opt for the
+• The composite organization pays a total of Exabeam Premier Success Plan.
+$250,000 in annual fees to Exabeam.
+Results. To account for these risks, Forrester
+• An additional 15% of total net fees is paid to adjusted this cost upward by 20%, yielding a three-
+Exabeam to cover the Premier Success Plan. year, risk-adjusted total PV (discounted at 10%) of
+$857,964.
+Risks. Costs may vary among organizations
+according to the following factors:
+Annual Fees Paid To Exabeam
+Ref. Metric Source Initial Year 1 Year 2 Year 3
+E1 Fees paid to Exabeam Composite $250,000 $250,000 $250,000
+E2 Premier Success Plan fees 15%*E1 $37,500 $37,500 $37,500
+Et Annual fees paid to Exabeam E1+E2 $0 $287,500 $287,500 $287,500
+Risk adjustment ↑20%
+Annual fees paid to Exabeam (risk-
+Etr $0 $345,000 $345,000 $345,000
+adjusted)
+Three-year total: $1,035,000 Three-year present value: $857,964
+THE TOTAL ECONOMIC IMPACT™ OF EXABEAM FUSION SIEM 20
+ANALYSIS OF COSTS
+IMPLEMENTATION AND TRAINING • Number and type of employees needed for
+Evidence and data. The interviewed decision- implementation.
+makers told Forrester that implementation costs were
+• Number and type of employees needed for
+both internal and external in nature, with fees paid to
+training.
+Exabeam and a few weeks of internal effort both
+contributing to overall costs. • Number and type of employees needed for
+ongoing maintenance.
+• The interviewees also told Forrester that they
+paid Exabeam an initial training fee. • Total amount of time to implement Exabeam and
+train employees.
+• Additional internal effort was required over the
+Results. To account for these risks, Forrester
+investment for both training and ongoing
+adjusted this cost upward by 20%, yielding a three-
+maintenance of the platform.
+year, risk-adjusted total PV of $233,910.
+“Exabeam does a very good job
+of holding your hand during
+implementation. They’re with
+you every step of the way.”
+CISO, mining
+Modeling and assumptions. For the composite
+organization, Forrester assumes:
+• An initial fee of $75,000 paid to Exabeam for
+implementation.
+• An additional fee of $24,500 paid to Exabeam for
+training in the first year of the investment.
+• Two analysts working at half-time for three weeks
+are required for implementation.
+• Eight security analyst team members undergo
+five days of training in Year 1, decreasing to one
+analyst in Years 2 and 3.
+• One analyst spends 20% of their time on
+maintenance.
+Risks. Costs may vary among organizations
+according to the following factors:
+• Size and type of fees paid to Exabeam.
+THE TOTAL ECONOMIC IMPACT™ OF EXABEAM FUSION SIEM 21
+ANALYSIS OF COSTS
+Implementation And Training
+Ref. Metric Source Initial Year 1 Year 2 Year 3
+Implementation fees paid to
+F1 Exabeam $75,000
+Exabeam
+Time spent on implementation
+F2 Composite 120
+(hours)
+F3 Analysts needed for implementation Composite 2
+Average analyst fully burdened
+F4 TEI standard $60 $60 $60 $60
+hourly salary
+Analyst time needed for
+F5 Composite 50%
+implementation
+F6 Subtotal: implementation costs F1+(F2*F3*F4*F5) $82,200
+F7 Fees paid to Exabeam for training Exabeam $24,500
+F8 Security analysts Composite 8 1 1
+F9 Security analyst training time (hours) Composite 40 40 40
+F10 Subtotal: training cost F8*F9*F4 $19,200 $2,400 $2,400
+Analysts needed for ongoing
+F11 Interviews 1 1 1
+maintenance
+Percentage of analyst’s time for
+F12 Interviews 20% 20% 20%
+ongoing maintenance
+F13 Subtotal: ongoing maintenance cost (F4*2040)*F11*F12 $24,480 $24,480 $24,480
+Ft Implementation and training F6+F10+F13 $82,200 $68,180 $26,880 $26,880
+Risk adjustment ↑20%
+Implementation and training (risk-
+Ftr $98,640 $81,816 $32,256 $32,256
+adjusted)
+Three-year total: $244,968 Three-year present value: $223,910
+THE TOTAL ECONOMIC IMPACT™ OF EXABEAM FUSION SIEM 22
+Financial Summary
+CONSOLIDATED THREE-YEAR RISK-ADJUSTED METRICS
+Cash Flow Chart (Risk-Adjusted)
+The financial results calculated in the
+Total costs Total benefits Cumulative net benefits
+Benefits and Costs sections can be
+used to determine the ROI, NPV, and
+hs $3.5 M payback period for the composite
+sw
+ao organization’s investment. Forrester
+Clf
+$3.0 M assumes a yearly discount rate of 10%
+for this analysis.
+$2.5 M
+$2.0 M
+$1.5 M
+These risk-adjusted ROI,
+NPV, and payback period
+$1.0 M
+values are determined by
+applying risk-adjustment
+$0.5 M factors to the unadjusted
+results in each Benefit and
+Cost section.
+-$0.5 M
+-$1.0 M
+Initial Year 1 Year 2 Year 3
+Cash Flow Analysis (Risk-Adjusted Estimates)
+Present
+Initial Year 1 Year 2 Year 3 Total
+Value
+Total costs ($98,640) ($426,816) ($377,256) ($377,256) ($1,279,968) ($1,081,874)
+Total benefits $0 $1,501,450 $1,501,450 $1,501,450 $4,504,350 $3,733,885
+Net benefits ($98,640) $1,074,634 $1,124,194 $1,124,194 $3,224,382 $2,652,011
+ROI 245%
+Payback period
+<6
+(months)
+THE TOTAL ECONOMIC IMPACT™ OF EXABEAM FUSION SIEM 23
+Appendix A: Total Economic
+Impact
+PRESENT VALUE (PV)
+Total Economic Impact is a methodology developed
+by Forrester Research that enhances a company’s
+The present or current value of
+technology decision-making processes and assists
+(discounted) cost and benefit estimates
+vendors in communicating the value proposition of
+given at an interest rate (the discount
+their products and services to clients. The TEI
+rate). The PV of costs and benefits feed
+methodology helps companies demonstrate, justify,
+into the total NPV of cash flows.
+and realize the tangible value of IT initiatives to both
+senior management and other key business
+stakeholders. NET PRESENT VALUE (NPV)
+TOTAL ECONOMIC IMPACT APPROACH The present or current value of
+Benefits represent the value delivered to the (discounted) future net cash flows given
+business by the product. The TEI methodology an interest rate (the discount rate). A
+places equal weight on the measure of benefits and positive project NPV normally indicates
+the measure of costs, allowing for a full examination that the investment should be made,
+of the effect of the technology on the entire unless other projects have higher NPVs.
+organization.
+Costs consider all expenses necessary to deliver the
+RETURN ON INVESTMENT (ROI)
+proposed value, or benefits, of the product. The cost
+category within TEI captures incremental costs over A project’s expected return in
+the existing environment for ongoing costs percentage terms. ROI is calculated by
+associated with the solution. dividing net benefits (benefits less costs)
+by costs.
+Flexibility represents the strategic value that can be
+obtained for some future additional investment
+building on top of the initial investment already made. DISCOUNT RATE
+Having the ability to capture that benefit has a PV
+The interest rate used in cash flow
+that can be estimated.
+analysis to take into account the
+Risks measure the uncertainty of benefit and cost
+time value of money. Organizations
+estimates given: 1) the likelihood that estimates will
+typically use discount rates between
+meet original projections and 2) the likelihood that
+8% and 16%.
+estimates will be tracked over time. TEI risk factors
+are based on “triangular distribution.
+PAYBACK PERIOD
+The initial investment column contains costs incurred at “time
+The breakeven point for an investment.
+0” or at the beginning of Year 1 that are not discounted. All
+This is the point in time at which net
+other cash flows are discounted using the discount rate at the
+end of the year. PV calculations are calculated for each total benefits (benefits minus costs) equal
+cost and benefit estimate. NPV calculations in the summary initial investment or cost.
+tables are the sum of the initial investment and the
+discounted cash flows in each year. Sums and present value
+calculations of the Total Benefits, Total Costs, and Cash Flow
+tables may not exactly add up, as some rounding may occur.
+THE TOTAL ECONOMIC IMPACT™ OF EXABEAM FUSION SIEM 24
+Appendix B: Endnotes
+1 Source: “Defend Your Digital Business From Advanced Cyberattacks Using Forrester’s Zero Trust Model,”
+Forrester Research, Inc., June 25, 2021.
+2 Source: Charlie Osborne, “The more cybersecurity tools an enterprise deploys, the less effective their defense is,”
+ZDnet, June 30, 2020 (https://www.zdnet.com/article/the-more-cybersecurity-tools-an-enterprise-deploys-the-less-
+effective-their-defense-is/).
+3 Total Economic Impact is a methodology developed by Forrester Research that enhances a company’s
+technology decision-making processes and assists vendors in communicating the value proposition of their
+products and services to clients. The TEI methodology helps companies demonstrate, justify, and realize the
+tangible value of IT initiatives to both senior management and other key business stakeholders.
+4 MITRE ATT&CK is a globally accessible knowledge base of adversary tactics and techniques based on real-world
+observations. The ATT&CK knowledge base is used as a foundation for the development of specific threat models
+and methodologies in the private sector, in government, and in the cybersecurity product and service community.
+Source: The MITRE Corporation (https://attack.mitre.org/).
+5 Source: “Best Practices: Mitigating Insider Threat,” Forrester Research, Inc., March 18, 2021.
+6 Source: “Now Tech: Cybersecurity Incident Response Services, Q4 2021,” Forrester Research, Inc., December 2,
+2021.
+7 Source: “Adapt Or Die: XDR Is On A Collision Course With SIEM And SOAR,” Forrester Research, Inc., April 28,
+2021.
+THE TOTAL ECONOMIC IMPACT™ OF EXABEAM FUSION 25
+THE TOTAL ECONOMIC IMPACT™ OF EXABEAM FUSION 26

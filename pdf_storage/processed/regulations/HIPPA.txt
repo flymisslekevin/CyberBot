@@ -1,0 +1,545 @@
+HIPAA
+Security
+SERIES
+1
+Security 101 for Covered Entities
+Security
+Topics
+What is the Security Series?
+1.
+The security series of papers will provide guidance from the Centers for
+Security 101 for Medicare & Medicaid Services (CMS) on the rule titled “Security Standards for
+Covered Entities the Protection of Electronic Protected Health Information”, found at 45 CFR
+Part 160 and Part 164, Subparts A and C. This
+2. rule, commonly known as the Security Rule, Compliance Deadlines
+was adopted to implement provisions of the
+Security Standards
+Health Insurance Portability and No later than April 20, 2005
+-Administrative
+Safeguards Accountability Act of 1996 (HIPAA). The for all covered entities
+except small health plans
+series will contain seven papers, each focused
+3. which have until no later
+on a specific topic related to the Security Rule.
+than April 20, 2006.
+Security Standards The papers, which cover the topics listed to
+-Physical the left, are designed to give HIPAA covered entities insight into the Security
+Safeguards
+Rule, and assistance with implementation of the security standards. While there
+is no one approach that will guarantee successful implementation of all the
+4.
+security standards, this series aims to explain specific requirements, the thought
+Security Standards
+process behind those requirements, and possible ways to address the provisions.
+-Technical
+Safeguards
+This first paper in the series provides an overview of the Security Rule and its
+intersection with the HIPAA Privacy Rule, the provisions of which are at 45
+5. CFR Part 160 and Part 164, Subparts A and E.
+Security Standards
+-Organizational, Administrative Simplification
+Policies &
+Congress passed the Administrative Simplification provisions of HIPAA,
+Procedures, and
+Documentation among other things, to protect the privacy and security of certain health
+Requirements information, and promote efficiency in the health care industry through the use
+of standardized electronic transactions.
+6.
+Basics of Risk The health care industry is working
+Analysis & Risk to meet these challenging goals Security Regulation
+Management
+through successful implementation
+The final Security Rule can be
+of the Administrative
+7. viewed and downloaded from the
+Simplification provisions of
+Implementation for CMS Website at:
+HIPAA. The Department of
+the Small Provider http://www.cms.hhs.gov/SecurityStan
+Health and Human Services (HHS) dard/ under the “Regulation” page.
+has published rules implementing a
+number of provisions, including:
+Volume 2 /Paper 1 1 11/2004:rev. 3/2007
+1
+Security 101 for Covered Entities
+(cid:1)
+Privacy Rule – The deadline for compliance with privacy
+HIPAA requirements that govern the use and disclosure of protected health
+Administrative information (PHI) was April 14, 2003, except for small health plans
+Simplification which had an April 14, 2004 deadline. (Protected health information,
+or “PHI”, is defined at 45 CFR § 160.103, which can be found on the
+(cid:2) Privacy OCR website at http://hhs.gov/ocr/hipaa.)
+(cid:2) Electronic (cid:1)
+Electronic Transactions and Code Sets Rule – All covered entities
+Transactions and
+should have been in compliance with the electronic transactions and
+Code Sets *
+code sets standard formats as of October 16, 2003.
+(cid:2) National Identifiers
+(cid:1)
+National identifier requirements for employers, providers, and
+(cid:2) Security health plans - The Employer Identification Number (EIN), issued by
+the Internal Revenue Service (IRS), was selected as the identifier for
+*NOTE: The original
+employers. Covered entities must use this identifier effective July 30,
+deadline for compliance
+2004 (except for small health plans, which have until August 1, 2005).
+with the transactions and
+The National Provider Identifier (NPI) was adopted as the standard
+code sets standards was
+October 16, 2002 for all unique health identifier for health care providers. The Final Rule
+covered entities except becomes effective May 23, 2005. Providers may apply for NPIs on or
+small health plans, which
+after that date.The NPI compliance date for all covered entities,
+had until October 16, 2003
+except small health plans, is May 23, 2007; the compliance date for
+to comply.
+small health plans is May 23, 2008. The health plan identifier rule is
+The Administrative expected in the coming years.
+Simplification Compliance
+Act provided a one-year
+(cid:1)
+Security Rule - All covered entities must be in compliance with the
+extension to covered
+entities that were not small Security Rule no later than April 20, 2005, except small health plans
+health plans, if they timely which must comply no later than April 20, 2006. The provisions of the
+submitted compliance Security Rule apply to electronic protected health information (EPHI).
+plans to HHS.
+Who must comply?
+All HIPAA covered entities must comply with the Security Rule. In general,
+NOTE: The definition of the standards, requirements, and implementation specifications of HIPAA
+covered entities provided apply to the following covered entities:
+here summarizes the
+actual definitions found in
+(cid:1)
+the regulations. For the Covered Health Care Providers - Any provider of medical or other
+definitions of the three health care services or supplies who transmits any health information
+types of covered entities, in electronic form in connection with a transaction for which HHS has
+see 45 C.F.R. § 160.103
+adopted a standard.
+which can be found at:
+www.hhs.gov/ocr/hipaa (cid:1) Health Plans - Any individual or group plan that provides or pays the
+cost of health care (e.g., a health insurance issuer and the Medicare
+and Medicaid programs).
+Volume 2 /Paper 1 2 11/2004:rev. 3/2007
+1
+Security 101 for Covered Entities
+HIPAA SECURITY (cid:1) Health Care Clearinghouses - Apublic or private entity that
+STANDARDS processes another entity’s health care transactions from a
+standard format to a non-standard format, or vice-versa.
+Security Standards:
+General Rules
+(cid:1)
+Medicare Prescription Drug Card Sponsors –A
+ADMINISTRATIVE
+SAFEGUARDS nongovernmental entity that offers an endorsed discount drug
+- Security Management program under the Medicare Modernization Act. This fourth
+Process
+category of “covered entity” will remain in effect until the drug
+- Assigned Security
+Responsibility card program ends in 2006.
+- Workforce Security
+- Information Access
+For more information on who is a covered entity under HIPAA, visit the Office
+Management
+- Security Awareness for Civil Rights (OCR) website at www.hhs.gov/ocr/hipaa or the CMS website
+and Training at www.cms.hhs.govunder “Regulations and Guidance”. An online tool to
+- Security Incident
+determine whether an organization is a covered entity is available on the CMS
+Procedures
+- Contingency Plan website, along with a number of frequently asked questions (FAQs).
+- Evaluation
+HIPAA SECURITY
+- Business Associate
+Contracts and Other Why Security?
+Arrangements Confidentiality -
+Prior to HIPAA, no generally accepted set of
+EPHI is accessible only by
+PHYSICAL security standards or general requirements for
+SAFEGUARDS authorized people and
+protecting health information existed in the
+- Facility Access processes
+Controls health care industry. At the same time, new
+- Workstation Use technologies were evolving, and the health
+Integrity -
+- Workstation Security
+care industry began to move away from paper
+- Device and Media EPHI is not altered or
+Controls processes and rely more heavily on the use of destroyed in an
+computers to pay claims, answer eligibility unauthorized manner
+TECHNICAL
+SAFEGUARDS questions, provide health information and
+Availability -
+- Access Control conduct a host of other administrative and
+EPHI can be accessed as
+- Audit Controls
+clinically based functions. For example, in
+- Integrity needed by an authorized
+- Person or Entity order to provide more efficient access to person
+Authentication critical health information, covered entities
+- Transmission Security
+are using web-based applications and other “portals” that give physicians,
+ORGANIZATIONAL nurses, medical staff as well as administrative employees more access to
+REQUIREMENTS
+electronic health information. Providers are also using clinical applications
+- Business Associate
+such as computerized physician order entry (CPOE) systems, electronic health
+Contracts & Other
+Arrangements records (EHR), and radiology, pharmacy,
+- Requirements for and laboratory systems. Health plans are NOTE: Security is not a
+Group Health Plans
+providing access to claims and care one-time project, but rather
+POLICIES & management, as well as member self- an on-going, dynamic
+PROCEDURES & process that will create new
+service applications. While this means that
+DOCUMENTATION
+challenges as covered
+REQUIREMENTS the medical workforce can be more mobile
+entities’ organizations and
+and efficient (i.e., physicians can check
+technologies change.
+patient records and test results from
+Volume 2 /Paper 1 3 11/2004:rev. 3/2007
+1
+Security 101 for Covered Entities
+wherever they are), the rise in the adoption rate of these technologies creates an increase in potential
+security risks.
+As the country moves towards its goal of a National Health Information Infrastructure (NHII), and greater
+use of electronic health records, protecting the confidentiality, integrity, and availability of EPHI becomes
+even more critical. The security standards in HIPAA were developed for two primary purposes. First, and
+foremost, the implementation of appropriate security safeguards protects certain electronic health care
+information that may be at risk. Second, protecting an individual’s health information, while permitting
+the appropriate access and use of that information, ultimately promotes the use of electronic health
+information in the industry – an important goal of HIPAA.
+The Privacy Rule and Security Rule Compared
+The Privacy Rule sets the standards for, among other things, who may
+have access to PHI, while the Security Rule sets the standards for ensuring
+that only those who should have access to EPHI will actually have access. NOTE: The Security
+With the passing of both the privacy and the electronic transactions and Rule applies only to
+code set standards compliance deadlines, many covered entities are EPHI, while the
+focusing on the security requirements. In developing the Security Rule, Privacy Rule applies
+HHS chose to closely reflect the requirements of the final Privacy Rule. to PHI which may be
+The Privacy Rule requires covered entities to have in place appropriate in electronic, oral, and
+paper form.
+administrative, physical, and technical safeguards and to implement those
+safeguards reasonably. As a result, covered entities that have implemented
+the Privacy Rule requirements in their organizations may find that they
+have already taken some of the measures necessary to comply with the Security Rule. The primary
+distinctions between the two rules follow:
+(cid:1)
+Electronic vs. oral and paper: It is important to note that the Privacy Rule applies to all
+forms of patients’ protected health information, whether electronic, written, or oral. In
+contrast, the Security Rule covers only protected health information that is in electronic
+form. This includes EPHI that is created, received, maintained or transmitted. For example,
+EPHI may be transmitted over the Internet, stored on a computer, a CD, a disk, magnetic
+tape, or other related means. The Security Rule does not cover PHI that is transmitted or
+stored on paper or provided orally.
+(cid:1)
+“Safeguard” requirement in Privacy Rule: The Privacy Rule contains provisions at 45
+CFR § 164.530(c) that currently require covered
+entities to adopt certain safeguards for PHI. While NOTE: OCR within HHS
+compliance with the Security Rule is not required oversees and enforces the
+until 2005 for most entities (2006 for small health Privacy Rule, while CMS
+oversees and enforces all other
+plans), the actions covered entities took to
+Administrative Simplification
+implement the Privacy Rule may already address
+requirements, including the
+some Security requirements. Specifically, 45
+Security Rule.
+CFR § 164.530 (c) of the Privacy Rule states:
+Volume 2 /Paper 1 4 11/2004:rev. 3/2007
+1
+Security 101 for Covered Entities
+(c)(1) Standard: safeguards. A covered entity must have in place appropriate
+administrative, technical, and physical safeguards to protect the privacy of
+protected health information.
+(2) Implementation specification: safeguards.
+(i) A covered entity must reasonably safeguard protected health
+information from any intentional or unintentional use or disclosure that is
+in violation of the standards, implementation specifications or other
+requirements of this subpart.
+(ii) A covered entity must reasonably safeguard protected health
+information to limit incidental uses or disclosures made pursuant to an
+otherwise permitted or required use or disclosure.
+(cid:1)
+The Security Rule provides for far more comprehensive security requirements than 45
+CFR § 164.530 (c) of the Privacy Rule and includes a level of detail not provided in that
+section. As covered entities begin security compliance planning initiatives, they should
+consider conducting an assessment of the initiatives implemented for privacy compliance.
+NOTE: State laws that are contrary to the Privacy Rule
+and Security Rule are preempted by the Federal
+requirements, unless a specific exception applies. For
+more information, see 45 C.F.R. Part 160, Subpart B.
+Implementation Specifications
+An “implementation specification” is an additional detailed instruction for implementing a particular
+standard. Each set of safeguards is comprised of a number of standards, which, in turn, are generally
+comprised of a number of implementation specifications that are either required or addressable. If an
+implementation specification is required, the covered entity must implement policies and/or procedures
+that meet what the implementation specification requires. If an implementation specification is
+addressable, then the covered entity must assess whether it is a reasonable and appropriate safeguard in
+the entity’s environment. This involves analyzing the specification in
+reference to the likelihood of protecting the entity’s EPHI from NOTE:
+reasonably anticipated threats and hazards. If the covered entity Implementation specifications
+chooses not to implement an addressable specification based on its in the Security Rule are either
+“Required” or “Addressable”.
+assessment, it must document the reason and, if reasonable and
+See 45 C.F.R. § 164.306(d).
+appropriate, implement an equivalent alternative measure. See
+C.F.R. § 164.306(d)(ii)(B)(2) for more information.
+For each of the addressable implementation specifications, a covered entity must do one of the following:
+Volume 2 /Paper 1 5 11/2004:rev. 3/2007
+1
+Security 101 for Covered Entities
+NOTE: Addressable
+(cid:1)
+Implement the specification if reasonable and does not mean optional.
+appropriate; or
+(cid:1)
+If implementing the specification is not reasonable and appropriate –
+(cid:127) Document the rationale supporting the decision and
+(cid:127) Implement an equivalent measure that is reasonable and appropriate
+and that would accomplish the same purpose or
+(cid:127) Not implement the addressable implementation specification or an
+equivalent alternative measure, if the standard could still be met and
+implementing the specification or an alternative would not be
+reasonable or appropriate.
+If a given addressable implementation specification is determined to be reasonable and appropriate, the
+covered entity must consider options for implementing it. The decision regarding which security measures
+to implement to address the standards and implementation specifications will depend on a variety of
+factors, including:
+(cid:1)
+The entity's risk analysis – What current circumstances leave the entity open
+to unauthorized access and disclosure of EPHI?
+(cid:1)
+The entity’s security analysis - What
+NOTE: For more
+security measures are already in place or
+information about Risk
+could reasonably be put into place?
+Analysis, see paper 6 in
+this series, “Basics of Risk
+(cid:1)
+The entity’s financial analysis - How Analysis and Risk
+much will implementation cost? Management.”
+Overview of the Process
+The table of required and addressable implementation specifications included in this paper outlines the
+standards and implementation specifications in the Security Rule. In order to comply with the Security
+Rule, all covered entities should use the same basic approach. The process should, at a minimum, require
+covered entities to:
+(cid:1)
+Assess current security, risks, and gaps.
+(cid:1)
+Develop an implementation plan.
+Volume 2 /Paper 1 6 11/2004:rev. 3/2007
+1
+Security 101 for Covered Entities
+(cid:127) Read the Security Rule. Acovered entity should review all the
+standards and implementation specifications. The matrix at the end of
+the Security Rule is an excellent resource when developing an
+implementation plan, and is included at the end of this paper.
+(cid:127) Review the addressable implementation specifications. For each
+addressable implementation specification, a covered entity must
+determine if the implementation specification is reasonable and
+appropriate in its environment. A covered entity needs to consider a
+number of factors in making the decisions for each addressable
+implementation specification.
+(cid:127) Determine security measures. Acovered entity may use any security
+measures that allow it to reasonably and appropriately implement the
+standards and implementation specifications. (See 45 CFR §
+164.306(b), Flexibility of approach)
+(cid:1)
+Implement solutions. Acovered entity must implement security measures
+and solutions that are reasonable and appropriate for the organization.
+(cid:1)
+Document decisions. Acovered entity must document its analysis, decisions
+and the rationale for its decisions.
+NOTE: The Security
+(cid:1) Rule requires that a
+Reassess periodically. Acovered entity must
+covered entity document
+periodically review and update its security measures
+the rationale for many of
+and documentation in response to environmental
+its security decisions.
+and operational changes that affect security of its
+EPHI.
+From 45 CFR § 164.306(b):
+Flexible and scalable standards
+Factors that must be
+The security requirements were designed to be technology considered -
+neutral and scalable from the very largest of health plans to the
+very smallest of provider practices. Covered entities will find (cid:2) The size, complexity and
+that compliance with the Security Rule will require an capabilities of the covered
+evaluation of what security measures are currently in place, an entity.
+(cid:2) The covered entity’s technical
+accurate and thorough risk analysis, and a series of documented
+infrastructure, hardware, and
+solutions derived from a number of complex factors unique to
+software security capabilities.
+each organization.
+(cid:2) The costs of security measures.
+(cid:2) The probability and criticality of
+HHS recognizes that each covered entity is unique and varies
+potential risks to EPHI.
+in size and resources, and that there is no totally secure system.
+Volume 2 /Paper 1 7 11/2004:rev. 3/2007
+1
+Security 101 for Covered Entities
+Therefore, the security standards were designed to provide guidelines to all types of covered entities,
+while affording them flexibility regarding how to implement the standards. Covered entities may use
+appropriate security measures that enable them to reasonably implement a standard. In deciding which
+security measures to use, a covered entity should take into account its size, capabilities, the costs of the
+specific security measures and the operational impact.
+For example, covered entities will be expected to balance the risks of inappropriate use or disclosure of
+EPHI against the impact of various protective measures. This means that smaller and less sophisticated
+practices may not be able to implement security in the same manner and at the same cost as large,
+complex entities. However, cost alone is not an acceptable reason to not implement a procedure or
+measure.
+NOTE: The security
+Technology Neutral Standards
+standards do not dictate
+Over the last few years, the emergence of new technologies has driven or specify the use of
+specific technologies.
+many health care initiatives. With technology improvements and rapid
+growth in the health care industry, the need for flexible, technology-
+neutral standards is critical to successful implementation. When the final Security Rule was published, the
+security standards were designed to be “technology neutral” to accommodate changes. The rule does not
+prescribe the use of specific technologies, so that the health care community will not be bound by specific
+systems and/or software that may become obsolete. HHS also recognizes that the security needs of
+covered entities can vary significantly. This flexibility within the rule enables each entity to choose
+technologies to best meet its specific needs and comply with the standards.
+Security Standards
+The security standards are divided into the categories of administrative, physical, and technical
+safeguards. Regulatory definitions of the safeguards can be found in the Security Rule at 45 CFR §
+164.304.
+(cid:1)
+Administrative safeguards: In general, these are the administrative functions
+that should be implemented to meet the security standards. These include
+assignment or delegation of security responsibility to an individual and security
+training requirements. (For more information, see 45 CFR § 164.308 and paper
+2ofthis series titled “Security Standards – Administrative Safeguards”.)
+(cid:1)
+Physical safeguards: In general, these are the mechanisms required to protect
+electronic systems, equipment and the data they hold, from threats,
+environmental hazards and unauthorized intrusion. They include restricting
+access to EPHI and retaining off site computer backups. (For more
+information, see 45 CFR § 164.310 and paper 3 “Security Standards – Physical
+Safeguards”.)
+(cid:1)
+Technical safeguards: In general, these are primarily the automated processes
+used to protect data and control access to data. They include using
+Volume 2 /Paper 1 8 11/2004:rev. 3/2007
+1
+Security 101 for Covered Entities
+authentication controls to verify that the person signing onto a computer is
+authorized to access that EPHI, or encrypting and decrypting data as it is being
+stored and/or transmitted. (For more information, see 45 CFR § 164.312 and
+paper 4 “Security Standards – Technical Safeguards”.)
+Acomplete list of the administrative, physical, and technical safeguards and their required and
+addressable implementation specifications is included at the end of this paper. In addition to the
+safeguards, the Security Rule also contains several standards and implementation specifications that
+address organizational requirements, as well as policies and procedures and documentation requirements.
+(See 45 CFR § 164.314 and § 164.316 of the Security Rule.)
+Resources
+The remaining papers in this series will address specific topics related to the Security Rule. Covered
+entities should periodically check the CMS website at www.cms.hhs.gov under “Regulations and
+Guidance” for additional information and resources as they work through the security implementation
+process. There are many other sources of information available on the Internet. Covered entities may also
+want to check with other local and national professional health care organizations, such as national
+provider and health plan associations.
+Need more information?
+Visit the CMS website often at: www.cms.hhs.govunder “Regulations and Guidance” for the
+latest security papers, checklists, and announcements of upcoming events.
+Visit the Office for Civil Rights website, http://www.hhs.gov/ocr/hipaa,for the latest
+guidance, FAQs, white papers and other information on the Privacy Rule.
+Volume 2 /Paper 1 9 11/2004:rev. 3/2007
+1
+Security 101 for Covered Entities
+Security Standards Matrix
+(Appendix A of the Security Rule)
+ADMINISTRATIVE SAFEGUARDS
+Implementation Specifications
+Standards Sections
+(R)= Required, (A)=Addressable
+Security 164.308(a)(1) Risk Analysis (R)
+Management Risk Management (R)
+Process
+Sanction Policy (R)
+Information System (R)
+Activity Review
+Assigned 164.308(a)(2) (R)
+Security
+Responsibility
+Workforce 164.308(a)(3) Authorization and/or (A)
+Security Supervision
+Workforce Clearance (A)
+Procedure
+Termination Procedures (A)
+Information 164.308(a)(4) Isolating Health Care (R)
+Access Clearinghouse Functions
+Management Access Authorization (A)
+Access Establishment and (A)
+Modification
+Security 164.308(a)(5) Security Reminders (A)
+Awareness Protection from Malicious (A)
+and Training Software
+Log-in Monitoring (A)
+Password Management (A)
+Security 164.308(a)(6) Response and Reporting (R)
+Incident
+Procedures
+Contingency 164.308(a)(7) Data Backup Plan (R)
+Plan Disaster Recovery Plan (R)
+Emergency Mode (R)
+Operation Plan
+Testing and Revision (A)
+Procedures
+Applications and Data (A)
+Criticality Analysis
+Evaluation 164.308(a)(8) (R)
+Business 164.308(b)(1) Written Contract or Other (R)
+Associate Arrangement
+Contracts and
+Other
+Arrangements
+Volume 2 /Paper 1 10 11/2004:rev. 3/2007
+1
+Security 101 for Covered Entities
+PHYSICAL SAFEGUARDS
+Standards Sections Implementation Specifications
+(R)= Required, (A)=Addressable
+Facility 164.310(a)(1) Contingency (A)
+Access Operations
+Controls Facility Security Plan (A)
+Access Control and (A)
+Validation Procedures
+Maintenance Records (A)
+Workstation 164.310(b) (R)
+Use
+Workstation 164.310(c) (R)
+Security
+Device and 164.310(d)(1) Disposal (R)
+Media Media Re-use (R)
+Controls Accountability (A)
+Data Backup and (A)
+Storage
+TECHNICAL SAFEGUARDS
+Standards Sections Implementation Specifications
+(R)= Required, (A)=Addressable
+Access 164.312(a)(1) Unique User (R)
+Control Identification
+Emergency Access (R)
+Procedure
+Automatic Logoff (A)
+Encryption and (A)
+Decryption
+Audit Controls 164.312(b) (R)
+Integrity 164.312(c)(1) Mechanism to Authenticate Electronic
+Protected Health Information (A)
+Person or 164.312(d) (R)
+Entity
+Authentication
+Transmission 164.312(e)(1) Integrity Controls (A)
+Security Encryption (A)
+Volume 2 /Paper 1 11 11/2004:rev. 3/2007

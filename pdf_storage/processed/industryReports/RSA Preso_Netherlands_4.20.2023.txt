@@ -1,0 +1,340 @@
+State of the State in
+Cybersecurity VC
+April 2023
+Ernie Bio
+Managing Director, Forgepoint Capital
+Ernie Bio
+Managing Director, Forgepoint Capital
+Professional Background Forgepoint Investments
+23 years of professional experience across the military, U.S. government, and Joined Forgepoint Capital in 2018
+the private sector
+ Forgepoint Lead
+ U.S. Air Force, Fighter Pilot, Combat Veteran, Commander
+ 2018: Bishop Fox, Series A (observer)
+ U.S. Cyber Command, Director Reporting to 4-star Admiral
+ 2019: Now Secure, Series B (observer)
+ Defense Innovation Unit, Chief Operating Officer
+ 2019: Strata Identity, Seed
+ Tech Startup, Operations & Finance Director
+ 2020: Huntress, Series A (director, deal lead)
+ Deloitte Consulting, Strategy and Operation Consultant
+ 2021: 1Kosmos, Series A (observer)
+ 2022: KSOC, SAFE (observer)
+Educational Background
+ Forgepoint Syndicate
+ Loyola University, BA  2021: Interos, Convertible Note
+ NYU Stern School of Business, MBA  2022: Instabug, Series B
+Confidential and Proprietary 2
+Building an Early-Stage Venture Capital Investment Institutional Platform
+2015 2 $1B+
+Founded Funds AUM
+46 25 12
+Investments Team Size Investors
+80+
+35 $5-50M
+Advisory
+Active Investment per
+Council
+Investments Company
+35
+Cybersecurity & Infrastructure Software
+Series A/B and Select Growth (First Institutional Investor)
+Confidential and Proprietary 3
+Trends Driving Demand for Cybersecurity
+The digital world has become more difficult to defend …
+Digital
+Transformation
+Volume &
+Regulatory Sophistication of
+Compliance Attacks
+Perfect
+Storm
+Critical
+Infrastructure Hybrid Work
+Protection
+Talent Shortage
+.
+Confidential and Proprietary 4
+Growing Market with Expanded Investment Opportunity
+Forgepoint is Well-positioned to Invest in Cybersecurity-Adjacent Sectors
+Privacy
+AI Software
+$20B
+$36B
+Payments
+Blockchain
+& Fraud
+$40B
+$126B
+Cybersecurity
+Cloud
+Management DevOps
+$44B $17B
+Cyber Insurance
+$20B
+Source(s): Forrester; Gartner; Markets and Markets;ResearchandMarkets.com; Statista
+Confidential and Proprietary 5
+2022 Retrospective
+2022 Financing & M&A
+Identity led the charge for financing and M&A in 2022
+Financing Activity by Sector
+3.5
+$3.1
+$3.0
+3
+2.5
+$2.1
+2
+Financings $1.6 $1.5 $1.5 $1.5
+1.5
+$0.9
+1 $0.8
+$0.7
+0.5
+0
+IAM Risk & SecOps / IR / Appsec Data Sec Blockchain Network & MSSP Web Sec Messaging
+Compliance TI Infra. Sec Sec
+M&A Activity by Sector
+14
+$12.4
+12
+10
+$8.8
+$8.2
+8
+$6.8
+M&A $6.2
+6 $5.5
+4
+2 $1.3
+$0.5 $0.5 $0.4
+. 0
+IAM Appsec Network & SecOps / IR / Data Sec Risk & MSSP Mobile Sec DRM Consulting
+Confidential and Proprietary 7
+Infra. Sec TI Compliance
+Select Minority Transactions (2022)
+There were >1,000 transactions
+PitchBook, 451 Research
+Confidential and Proprietary 8
+Select M&A Transactions (2022)
+Several take privates as well as Google’s acquisition of Mandiant
+PitchBook, 451 Research
+Confidential and Proprietary 9
+$100M+ Capital Raises
+49 companies raised ≥$100M in 2022 totaling $11.1B
+90
+There are ~60 venture-backed unicorns and
+~30 PE-backed >$1B  what happens to them?
+There has been 33 security IPOs in last 10
+years; 21 currently
+Piper Sandler, Momentum
+Confidential and Proprietary 10
+Deals by Stage
+Late stage deal count and capital raised dropped-off -18.5% and -52.3% in 2022, respectively
+# of Deals by Stage Capital Raised by Stage ($B)
+600 21.7% 25 -52.3%
+$22.3
+516
+Only increase
+500
+20
+425
+400 -18.5%
+15
+302
+300
+-17.4% 247 $10.6
+10
+200 178 -30.2%
+147 43.9% -9.4% -7.4%
+116
+81 5 $3.7 $3.4
+100 $2.8 $2.5
+$1.5
+$1.0
+0 0
+Early Stage Series A Series B Series C+ Early Stage Series A Series B Series C+
+2021 2022 2021 2022
+(median deal size) Early Series A Series B Series C+
+2021 $1.9 $10.4 $26.8 $45.6
+2022 $2.3 $13.9 $36.0 $25.0
+Pitchbook, Momentum Cyber, various
+Deal size went up in 2022 except for late stage
+Confidential and Proprietary 11
+Funding
+Peaked in 2021; Q12023 off to a slow start
+35 1200
+$30.4
+30 1037
+1000
+1048
+25
+800
+Q1 2022 vs. Q1 2023
+726 725
+706
+20 $18.5
+600
+15
+$8.1
+$12.4
+400
+$9.7
+10
+$8.2
+~6.5% of all
+193 200 $2.9 venture in Q1
+5
+$2.9
+0 0
+2018 2019 2020 2021 2022 Q12023 Q12022 Q12023
+$ #
+.
+Momentum Cyber
+Confidential and Proprietary 12
+2023 and Beyond
+Q1 2023 Highlights
+JANUARY FEBRUARY MARCH
+ Highlights:  Highlights:  Highlights:
+– Magnet Forensics m&a by Thoma – Sumo Logic m&a by Fransisco – 39 total deals at ~$900M invested
+Partners
+– SecZetta m&a by Sailpoint – 16 Seed
+– Wiz’s $300M Series D
+– Large debts rounds by Saviyant – 10 Early stage
+and Netskope – Deepwatch $180M growth round
+– 13 Growth stage
+– SandboxAQ $500 growth round
+ 16 m&a transactions announced 
+33% YoY decrease  16 m&a transactions announced 
+ 42 financing transactions  61% 51% YoY decrease
+YoY decrease  47 financing transactions  53% YoY
+decrease
+Confidential and Proprietary 14
+Investing Trends
+What I’m hearing and seeing
+ Seed – a lot of activity; seeing VCs come down market due to lack of later stage deals; SAFEs to bridge
+ Early Stage (A & B) valuations down; last round re-opened (flat) or bridge
+ Growth  slow, lots of diligence, valuations a proxy of public market multiples
+ Flat and Down Rounds
+– Effects on founders: dilution
+– Effects on investors: potential cram downs due to pay to play provisions (preferred to common)
+– Debt will be harder to get and more expensive
+Confidential and Proprietary 15
+2022 vs. 2023 Cyber Startup Growth Rates
+Data for companies between 30-200 FTE
+2022 2023
+ ~24% of all companies 2x’d headcount YoY  ~32% of all companies declining in headcount YoY
+ Only ~12% declined in headcount YoY Vs.  ~66% have remained +/- 25% FTE band, suggesting they’ve had
+hiring freezes in place
+ ~1% have 2x’d headcount
+LinkedIn, Pitchbook
+Confidential and Proprietary 16
+Increasing Levels of Security & Cloud Security Spend
+These are conservative projections – the true TAM is probably much larger …
+Cybersecurity Market Size
+$368
+$billions $322
+$283
+$250
+$222
+$197
+$183
+$164
+CAGR: 12.3%
+2019 2020 2021 2022 2023E 2024E 2025E 2026E
+Cloud Security Market Size
+$6,688
+$5,276
+$millions
+$4,323
+CAGR: 81.8%
+$185 $304 $439 $595
+.Gartner, Statista
+2017 2018 2019 2020 2021 2022 2023E Confidential and Proprietary 17
+Global Cyber Market Potential
+New McKinsey survey reveals ~$1.5 – 2.0 trillion market opportunity; penetration into most segments is small
+McKinsey & Company Report, 2023
+Confidential and Proprietary 18
+Cloud Software Spending Priorities
+Cybersecurity is top 3 …
+Cybersecurity is not 100% recession proof – different product categories and/or company sizes have proven more
+resilient than others. Ex., IAM and EDR
+Battery Q12023 Cloud Spending Survey
+Confidential and Proprietary 19
+Valuations – Public Market
+EV / Revenue (NTM) - high growth cohort vs. broader cybersecurity
+Top 5 Security Stocks
+(by EV / CY 23E Rev multiple)
+As of 14 April 2023
+Cloudflare – 16.4x
+o
+CrowdStrike – 10.4x
+o
+Fortinet – 9.8x
+o
+Palo Alto – 9.4x
+o
+Zscaler – 8.4x
+o
+!!!
+Multiples have contracted >40%; startup entry valuations normalizing
+BOA; market data as of 4/6/2023
+Confidential and Proprietary 20
+Software Multiples by Sector
+FWD Revenue Multiples
+BoA
+Confidential and Proprietary 21
+M&A Deal Sizes
+Based on ~800 control transactions since 2017
+M&A Transaction Prices
+0.5
+46%
+0.45
+0.4
+0.35
+0.3
+0.25
+19% Have increased slightly vs. pre-2017
+0.2
+0.15 13% 13%
+9%
+0.1
+0.05
+0
+<$100M $100 - 300M $300 - 500M $500 - 1B $1B+
+%
+Note
+• 5% of 533 Strategic acquirers paid >$500M
+• 14% of 262 Sponsors paid >$500M
+65% of cyber companies exit <$300M. Price of entry determines the multiple at exit
+…
+451 Research, Pitchbook
+Confidential and Proprietary 22
+2023 Predictions
+My thoughts …
+ Rebound in M&A Activity in 2H  AI and Cyber will Collide
+– Strategics & Sponsors looking for innovation and/or consolidation – Thanks, OpenAI ; SecOps will benefit first – ex., MSFT Security Copilot
+– Cyber talent gap will only close w/ AI / automation
+ Sustained Growth is the Expectation
+– Investors focused on growth as a function of burn and even flirting w/ +EBITDA  Cloud Security Spend
+– Currently 1-2% of public cloud spend on security; this percentage will inch up
+ Prevalence of Flat & Down Rounds will Increase
+another ~1%
+– Many companies have failed to grow into their previous valuations
+ Shift from Protect to Detect & Respond
+ Regulatory Ecosystem Accelerates
+– Shift in mentality to one of operational resiliency – they’re already in …
+– Data privacy, protection and localization regulations happening at the country
+and state (U.S.) levels  Product Led Growth (PLG) Will become more Prevalent
+– Software security liability could shift (U.S. Cyber Strategy Pillar III) – Companies will experiment with their GTM to demonstrate faster time to value
+to both security practitioners and devs
+– AI regulation heating up – not to mention call for pauses on large-scale AI
+ More Extortion, Less Ransom; BEC Increases
+– Ransomware-as-a-Service has lowered barriers to entry
+.
+Confidential and Proprietary 23
+ChatGPT’s Take on Cyber Trends
+Regenerated Output
+Original Output
+Confidential and Proprietary 24
+Thank You!

@@ -1,0 +1,673 @@
+The State of
+Ransomware 2023
+Findings from an independent, vendor-agnostic survey
+of 3,000 leaders responsible for IT/cybersecurity across
+14 countries, conducted in January-March 2023.
+A Sophos Whitepaper. May 2023
+The State of Ransomware 2023
+Introduction
+Sophos’ annual study of the real-world ransomware experiences of IT/cybersecurity
+leaders makes clear the realities facing organizations in 2023. It reveals the most 3,000
+common root causes of attacks and shines new light on how experiences with
+respondents
+ransomware differ based on organization revenue. The report also reveals the
+business and operational impact of paying the ransom to recover data rather than
+using backups. 14
+countries
+About the Survey
+Sophos commissioned an independent, vendor-agnostic survey of 3,000 IT/ 100-5,000
+cybersecurity leaders in organizations with between 100 and 5,000 employees
+employee organizations
+across 14 countries in the Americas, EMEA, and Asia Pacific. The survey was
+conducted between January and March 2023, and respondents were asked to
+Jan-Mar 2023
+respond based on their experiences over the previous year.
+research conducted
+Within the education sector, respondents were split into lower education (catering
+to students up to 18 years) and higher education (for students over 18 years).
+<$10M - $5B+
+annual revenue
+A Sophos Whitepaper. May 2023
+The State of Ransomware 2023
+Contents
+Introduction. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
+Rate of Ransomware Attacks . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4
+Root Causes of Ransomware Attacks . . . . . . . . . . . . . . . . . . . . . . . . . 6
+Rate of Data Encryption. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8
+Data Theft. . . . . . . . . . . . . . . . . .. . . . . . . . . . . . . . . . . . . . . . . . . 9
+Data Recovery . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 9
+The Impact of Cyber Insurance on Data Recovery . . . . . . . . . . . . . . . . 11
+Ransom Payments . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 12
+Recovery Costs . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 14
+Recovery Cost by Revenue . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 15
+Business Impact . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 16
+Loss of Business/Revenue by Industry . . . . . . . . . . . . . . . . . . . . . . . 17
+Recovery Time. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 18
+Conclusion . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 19
+Additional Charts . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 20
+Research Methodology . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 26
+A Sophos Whitepaper. May 2023
+The State of Ransomware 2023
+Rate of Ransomware Attacks Attacks by Industry
+The research revealed that the rate of ransomware attacks has remained The education sector was the most likely to have experienced a ransomware attack
+level, with 66% of respondents reporting that their organization was hit by in the last year with 80% (lower education) and 79% (higher education) reporting
+ransomware in the previous year, the same as in our 2022 survey. With being hit. Education traditionally struggles with lower levels of resourcing and
+adversaries now able to consistently execute attacks at scale, ransomware is technology than many other industries, and the data shows that adversaries are
+arguably the biggest cyber risk facing organizations today. exploiting these weaknesses.
+Cyber criminals have been developing and refining the ransomware-as-a- IT, technology, and telecoms reported the lowest level of attack (50%), indicating a
+service model for several years. This operating model lowers the barrier to entry higher level of cyber readiness and cyber defenses.
+for would-be ransomware actors while also increasing attack sophistication
+For further details, see Rate of Ransomware Attacks by Industry on page 21.
+by enabling adversaries to specialize in different stages of an attack. For more
+information on ransomware-as-a-service, read the Sophos 2023 Threat Report.
+66% hit by ransomware
+2020 2021 2022 2023
+Singapore highest rate of attack (country)
+51% 37% 66% 66%
+UK lowest level of attack (country)
+In the last year, has your organization been hit by ransomware?
+Yes. n=3000 (2023), 5,600 (2022), 5,400 (2021), 5,000 (2020) Education highest level of attack (industry)
+Attacks by Country
+IT, Technology, and Telecoms lowest level of attack
+(industry)
+While the overall reported ransomware rate remains flat compared to 2022, the
+survey revealed variations at a country level. Singapore reported the highest
+rate of ransomware attacks in this year’s study, with 84% of organizations being
+hit in the previous year. Conversely, the UK reported the lowest rate of attack
+(44%).
+Austria reported the biggest drop in rate of attack, down from 84% of
+organizations hit to 50%. South Africa had the biggest increase in attack rate,
+with 78% of organizations hit in our 2023 survey compared to 51% in 2022.
+For further details, see Rate of Ransomware Attacks by Country: 2022 vs 2023
+on page 20.
+A Sophos Whitepaper. May 2023
+The State of Ransomware 2023
+Attacks by Organization Size: Employees vs. Revenue Percentage of Organizations Hit by Ransomware by Revenue
+The research revealed a clear correlation between annual revenue and
+propensity to experience a ransomware attack, with the percentage of
+organizations hit by ransomware increasing progressively with revenue. 56%
+72%
+of organizations with revenue of $10-$50 million experienced a ransomware
+69%
+attack in the last year, rising to 72% of those with revenue of $5 billion plus. 67% 67%
+63%
+Conversely, there was little clear relationship between experiencing
+58%
+56%
+ransomware and the number of employees in an organization. Outside the
+1,001-3,000 employee segment, the rate of ransomware attack was very
+consistent:
+Ì 100-250 employees 62%
+Ì 251-500 employees 62%
+Ì 501-1,000 employees 62%
+Ì 1,001 – 3,000 employees 73%
+Ì 3,001 – 5,000 employees 63%
+The data makes clear that in the context of organization size, annual revenue is
+a much greater indicator of likelihood of experiencing an attack than number of
+employees.
+Less than $10 - $50 $50 - $250 $250 - $500 $1 billion $5 billion
+$10 million million $500 million to $5 billion plus
+million (n=241) (n=674) million to $1 billion (n=447) (n=469)
+(n=106) (n=430) (n=633)
+In the last year, has your organization been hit by ransomware? Yes. Base numbers in chart
+A Sophos Whitepaper. May 2023
+The State of Ransomware 2023
+Root Causes of Ransomware Attacks Root Causes by Industry
+Survey respondents reported that an exploited vulnerability was the most The media, leisure, and entertainment sector reported the highest percentage
+common root cause of ransomware attacks (36%), followed by compromised of attacks where the root cause was an exploited vulnerability (55%), indicating
+credentials (29%). These findings align almost exactly with Sophos’ latest widespread security gaps in this area. Central and federal government had the
+retrospective analysis of 152 attacks that our Incident Response and Managed highest percentage of attacks that started with compromised credentials (41%).
+Detection and Response (MDR) teams were brought in to remediate, where 37% This may be due to a higher rate of credential theft in this sector, a lower ability to
+started with an exploited vulnerability and 30% with compromised credentials. prevent exploitation of stolen credentials, or a combination of the two.
+Emails were the root cause of 30% (with rounding) of attacks: 18% started with a IT, technology, and telecoms reported the lowest rates for both exploited
+malicious email and 13% with phishing. 3% began with a brute force attack and vulnerabilities (22%) and compromised credentials (22%), which likely reflects
+just 1% with a download. strong levels of cyber defenses in this sector. However, it did report the highest
+rates of email-based attacks, with over half (51%) starting in users’ inboxes.
+36% 29% 18% For further details see Root Causes of Attacks by Industry on page 22.
+Exploited Compromised
+Malicious Email
+Vulnerability Credentials
+13% 3% 1%
+Brute Force
+Phishing Download
+Attack
+Do you know the root cause of the ransomware attack your organization experienced in the last year? If you were hit
+more than once, think about the most significant attack. (n=1,974 organizations hit by ransomware in the last year)
+A Sophos Whitepaper. May 2023
+The State of Ransomware 2023
+Root Causes by Revenue
+Analyzing the root causes by annual revenue reveals that exploited vulnerabilities cohorts, dipping down to 30% in the middle cohort ($250 - $500 million).
+and compromised credentials follow opposing propensity curves. The highest Conversely, the use of compromised credentials peaks in the middle revenue
+percentages of attacks that started with an exploited vulnerability were reported by cohort (33%), while the lowest usage was reported in the lowest (23%) and
+the lowest (less than $10 million: 50%) and highest ($5 billion plus: 45%) revenue highest (26%) revenue cohorts.
+50%
+45%
+36% 36% 36%
+32% 33%
+32%
+31% 30%
+29%
+26%
+24%
+23%
+21% 20%
+19% 19%
+16% 16%
+15% 15%
+13% 13% 14%
+11% 12%
+8%
+4% 4%
+3% 3%
+2% 2%
+Less than $10 - $50 $50 - $250 $250 - $500 $500 million $1 billion $5 billion
+$10 million million million million to $1 billion to $5 billion plus
+(n=62) (n=135) (n=426) (n=286) (n=422) (n=307) (n=336)
+Annual Revenue
+Exploited vulnerability Compromised credentials Malicious email Phishing Brute force attack
+Do you know the root cause of the ransomware attack your organization experienced in the last year? Selection of answer options. Base numbers in chart
+A Sophos Whitepaper. May 2023
+The State of Ransomware 2023
+Rate of Data Encryption Data Encryption by Industry
+Data encryption has continued to rise, with adversaries succeeding in encrypting Almost all sectors struggle to stop attacks before data can be encrypted: with
+data in over three quarters (76%) of ransomware attacks. In fact, encryption just one exception, in every sector, over two thirds of attacks resulted in data
+levels are now at their highest point in the last four years. This likely reflects the encryption. The highest frequency of data encryption (92%) was reported by
+ever-increasing skill level of adversaries who continue to innovate and refine their business and professional services.
+approaches.
+IT, technology, and telecoms is the sector that bucks the trend, with adversaries
+succeeding in encrypting data in fewer than half (47%) of attacks. This is another
+Did the cybercriminals succeed in encrypting your organization’s
+indicator of the high level of cyber defenses and response preparation by this
+data in the ransomware attack?
+sector.
+76% For further details see Data Encryption by Industry on page 23.
+73%
+65%
+54%
+39%
+31%
+24%
+21%
+7%
+3% 4% 3%
+2020 2021 2022 2023
+(n=2,538) (n=2,006) (n=3,702) (n=1,974)
+No – Data was not encrypted but we were still held to ransom (extortion)
+No – The attack was stopped before data was encrypted
+Yes – Data was encrypted
+A Sophos Whitepaper. May 2023
+The State of Ransomware 2023
+Data Theft Data Recovery
+In 30% of attacks where data was encrypted, data was also stolen. This “double 97% of organizations that had data encrypted got data back. Backups were the most
+dip” approach by adversaries is becoming increasingly commonplace as they common approach, used in 70% of incidents. 46% paid the ransom and got data
+look to increase their ability to monetize attacks. The threat of making stolen back, while 2% used other means. Overall, one in five (21%) used multiple methods to
+data public can be used to extort payments and the data can also be sold. The restore their data. 1% of organizations that had data encrypted paid the ransom but
+high frequency of data theft increases the importance of stopping attacks as didn’t get data back.
+early as possible before information can be exfiltrated.
+Use backups to Paid the ransom Use other means
+restore data and got data back to get data back
+30%
+Of ransomware attacks where data was encrypted 70% 46% 2%
+reported that data was also stolen
+Concerningly, use of backups to recover data has dropped in the last year when it was
+Did the cybercriminals succeed in encrypting your organization’s data in the ransomware attack?
+Yes; Yes, and the data was also stolen. n=1,497 used to recover data in 73% of cases. Ransom payment rate has remained level from
+last year.
+73%
+70%
+56% 57%
+46% 46%
+32%
+26%
+2020 2021 2022 2023
+(n=1,849) (n=1,086) (n=2,398) (n=1,497)
+Paid the ransom and got data back Used backups to restore the data
+Did your organization get any data back? Yes, we paid the ransom and got data back; Yes, we used backups to restore the data.
+Base numbers in chart
+A Sophos Whitepaper. May 2023
+The State of Ransomware 2023
+Data Recovery by Country Ransom Payment and Backup Use by Revenue
+Overall, respondents in EMEA reported higher aggregate levels of backup use (75%) Generally speaking, as annual revenue increases, so does the propensity of an
+and lower aggregate levels of ransom payments (40%) than those in the Americas organization to recover data by paying the ransom. At the same time, frequency of
+(65%/55%) and Asia Pacific (67%/49%). At a country level, France has the highest backup use drops.
+level of backup use (87%), closely followed by Switzerland (84%).
+Of the organizations with revenue of over $5 billion, 55% got data back by paying
+The importance of backups is demonstrated when we see that the two countries the ransom and 63% used backups. At the same time, 36% of organizations with
+least able to use backups to restore data, Italy (55%) and Singapore (57%), are also revenue of less than $10 million recovered data by paying the ransom, while 80%
+the two countries that reported the lowest overall data recovery rates (93% and 90%, used backups – the highest rate of backup use of all revenue cohorts.
+respectively). Italy also reported the highest propensity to pay the ransom (56%),
+Organizations with lower annual revenue have less money to fund ransom
+closely followed by the U.S. and Brazil (both 55%).
+payments, forcing them to focus on backups for data recovery. At the same time,
+In most cases, organizations that paid the ransom were able to recover data. larger revenue organizations typically have complex IT infrastructures which may
+However, in France and the UK, around one in ten organizations that paid the make it harder for them to use backups to recover data in a timely fashion. They are
+ransom did not get any data back. also the businesses most able to buy their way out of such situations.
+For further details see Data recovery by Country on page 24.
+Ransom Payment and Backup Use by Revenue
+80%
+77% 75%
+72%
+68%
+66%
+63%
+55%
+51% 52%
+41% 42%
+36%
+33%
+< $10 million $10 - $50 million $50 - $250 million $250 - $500 million $500 million to $1 $1 billion to $5 $5 billion plus
+(n=45) (n=96) (n=324) (n=212) billion (n=333) billion (n=216) (n=271)
+Paid the ransom and got data back Used backups to restore the data
+Did your organization get any data back? Yes, we paid the ransom and got data back; Yes, we used backups to restore the data. Base numbers in chart
+A Sophos Whitepaper. May 2023
+The State of Ransomware 2023
+The Impact of Cyber Insurance on Data
+Recovery
+Organizations with cyber insurance were considerably more likely to recover
+encrypted data than those without such policies. However, the type of cyber coverage
+made very little difference: 98% of those with a standalone policy and 97% of those
+with a wider insurance policy that covers cyber got data back. In comparison, 84% of
+those without a policy were able to get encrypted data back.
+Percentage of ransomware victims that recovered encrypted data
+98% 97% 84%
+With a standalone With a wider Without a
+cyber policy insurance policy cyber policy
+that includes cyber
+Did your organization get any data back? n=1,497 organizations that were hit by ransomware in the last year and had data
+encrypted
+There are likely several factors behind this variance. First, cyber insurance typically
+requires organizations to have backups and recovery plans as conditions of coverage.
+Insurers are also able to guide ransomware victims through the recovery process in
+order to optimize outcomes. Furthermore, organizations with cyber insurance are
+more likely to pay the ransom to recover data than those without a policy.
+Impact of insurance on propensity to pay ransom
+Wider insurance
+Standalone
+policy that No cyber policy
+cyber policy
+includes cyber
+58% 36% 15%
+paid the ransom paid the ransom paid the ransom
+Did your organization get any data back? Yes, we paid the ransom and got data back. n=1,497 organizations that were hit by
+ransomware in the last year and had data encrypted (771 standalone policy, 658 cyber as part of wider policy, 67 no cyber
+policy)
+A Sophos Whitepaper. May 2023
+The State of Ransomware 2023
+Ransom Payments
+While overall propensity to pay ransom remains level with last year’s study, the The study revealed a wide distribution of payments, however the proportion of
+payments themselves have increased considerably over the last year, with the organizations paying higher ransoms has increased from our 2022 study, with 40%
+average (mean) ransom payment almost doubling from $812,380 in 2022 to reporting payments of $1 million or more compared to 11% last year. Conversely, just
+$1,542,333 in 2023. The median ransom payment reported in this year's study 34% paid less than $100,000, down from 54% last year.
+was $400,000.
+Ransom Payments: 2023 vs 2022
+27%
+17%
+14%
+13%
+13%
+11% 12%
+10% 10%
+9%
+8% 7% 7%
+6% 6%
+6%
+5% 6%
+5%
+4% 4%
+2%
+Less than Between Between Between Between Between Between Between Between Between $5 million
+$1,000 $1,000 and $5,000 and $10,000 and $20,000 and $50,000 and $100,000 $250,000 $500,000 $1 million and or more
+$4,999.99 $9,999.99 $19,999.99 $49,999.99 $99,999.99 and and and $4,999,999.99
+$249,999.99 $499,999.99 $999,999.99
+2022 (n=965) 2023 (n=216)
+How much was the ransom payment that was paid to the attackers? Excluding “Don’t know” responses.
+A Sophos Whitepaper. May 2023
+The State of Ransomware 2023
+Ransom Payments by Revenue
+Perhaps unsurprisingly, the largest revenue organizations were most likely to pay
+the highest ransoms, reflecting that adversaries will adjust the amount they will
+accept based on ability to pay. The study did not distinguish between payments
+funded internally and those funded by insurance providers.
+Interestingly, there was very little difference in both the mean and median
+ransom payments for organizations with $250 million - $500 million revenue
+and those with $500 million - $1 billion revenue.
+$50-$250 $250-$500 $500 MILLION TO $1 BILLION - $5 $5 BILLION
+MILLION (N=37) MILLION (N=33) $1 BILLION (N=72) BILLION (N=45) PLUS (N=21)
+Mean ransom
+$690,996 $1,523,652 $1,466,240 $2,049,817 $2,464,339
+payment
+Median ransom
+$145,000 $428,000 $425,000 $1,000,000 $3,000,000
+payment
+How much was the ransom payment that was paid to the attackers? Excluding “Don’t know” responses. Excluding
+organizations with below $50 million annual revenue due to very low base numbers. Base numbers in chart. Data for
+segments with fewer than 30 responses should be considered indicative only.
+A Sophos Whitepaper. May 2023
+The State of Ransomware 2023
+Recovery Costs
+Ransom payments are just one element of recovery costs when dealing with
+ransomware events. Excluding any ransoms paid, organizations reported an estimated
+mean cost to recover from ransomware attacks of $1.82 million, an increase from the
+2022 figure of $1.4 million and in line with the $1.85 million reported in 2021.
+Note: the 2021 and 2022 study question wording included ransom payments in the
+estimated costs, but they were removed from the 2023 survey wording. As a result, the
+year-on-year comparison should be considered indicative only.
+Mean Recovery Cost
+2021 2022 2023
+$1.85M $1.4M $1.82M
+What was the approximate cost to your organization to rectify the impacts of the most significant ransomware attack (considering
+downtime, people time, device cost, network cost, lost opportunity etc.)? n=1,974 (2023)/ 3,702 (2022)/ 2,006 (2021). N.B. 2022
+and 2021 question wording also included “ransom payment”.
+Mean reported recovery costs started at $165,520 for organizations with annual revenue
+of less than $10 million, rising to $4,496,086 in the $5 billion plus cohort. While these
+numbers mask a range of recovery costs, there is a clear pattern of recovery costs
+increasing with revenue, as indicated in the chart on the following page.
+A Sophos Whitepaper. May 2023
+The State of Ransomware 2023
+Recovery Cost by Revenue
+35%
+30%
+25%
+20%
+15%
+10%
+5%
+0%
+< $10,000 $10,000 - $50,000 - $100,000 - $250,000 - $500,000 - $1M - $5M - $10M -
+$50,000 $100,000 $250,000 $500,000 $1 million $5M $10M $15M
+Less than $10 milliom (n=62) $10-$50 million (n=135) $50-$250 million (n=426) $250-$500 million (n=286)
+$500-$1 billion (n=422) $1 billion-$5 billion (n=307) $5 billion plus (n=336)
+What was the approximate cost to your organization to rectify the impacts of the most significant ransomware attack
+(considering downtime, people time, device cost, network cost, lost opportunity etc.)? Base numbers in chart
+A Sophos Whitepaper. May 2023
+The State of Ransomware 2023
+Recovery cost by data recovery method Business Impact
+Whichever way you look at the data, it is considerably cheaper to use backups to 84% of private sector organizations hit by ransomware reported that the attack
+recover from a ransomware attack than to pay the ransom. The median recovery caused them to lose business/revenue. Annual revenue had a relatively small impact
+cost for those that used backups ($375,000) is half the cost incurred by those on loss of business, with the lowest rate (79%) reported by the $250 million - $500
+that paid the ransom ($750,000). Similarly, the mean recovery cost is almost million cohort and the highest rate (88%) by those with less than $10 million and
+$1 million lower for those that used backups. If further evidence were needed of those with more than $5 billion revenue.
+the financial benefit of investing in a strong backup strategy, this is it.
+Industry type played a much greater role in propensity to lose business/revenue.
+Overall, lower education (94%) and construction and property (93%) were most likely
+Paid the ransom and Used backups
+to report some loss of business/revenue due to attacks and the manufacturing and
+got data back to restore data
+production sector was least likely (77%).
+Diving deeper, we see considerable variation in the sectors that reported losing “a
+$750,000 $375,000
+lot” of business/revenue, with business and professional services (64%) more than
+median median five times more likely than IT, technology, and telecoms (12%) to have experienced
+this level of impact.
+$2.6M $1.62M
+mean mean
+What was the approximate cost to your organization to rectify the impacts of the most significant ransomware attack
+(considering downtime, people time, device cost, network cost, lost opportunity etc.)? n=694 that paid the ransom and
+got data back and 1,053 that used backups to restore the data.
+A Sophos Whitepaper. May 2023
+The State of Ransomware 2023
+Loss of Business/Revenue by Industry
+68%
+64%
+60%
+59%
+47% 46% 47% 46% 46% 46%
+45% 44% 44%
+43%
+41% 42% 42% 42%42%
+39% 38%
+34% 34%
+32%
+31%
+28%
+27%
+12%
+Average Business and Construction Distribution Lower Higher Energy, oil/gas Financial Healthcare IT, technology Manufacturing Media, leisure, Retail Other
+(n=1523) professional and property and transport education education and utilities services (n=73) and telecoms and production entertainment (n=244) (n=59)
+services (n=84) (n=96) (n=92) (n=110) (n=74) (n=101) (n=216) (n=73) (n=205) (n=96)
+Lost a lot of business/revenue Lost a little business/revenue
+Did the ransomware attack cause your organization to lose business/revenue? Yes, we lost a lot of business/revenue;
+Yes, we lost a little business/revenue. Private sector organizations that were hit by ransomware, base numbers in chart
+A Sophos Whitepaper. May 2023
+The State of Ransomware 2023
+Recovery Time Recovery time by data recovery method
+While the time to recover from a ransomware attack is broadly in line with the The research revealed that organizations that use backups to recover their data
+2022 report, the percentage that were able to recover in less than a day has recover from the attack more quickly than those that pay the ransom. 45% of
+dropped from 14% to 8%. those that used backups recovered within a week, compared with 39% of those
+that paid the ransom. Almost one third (32%) of those that paid the ransom took
+more than a month to recover, while the figure for those that used backups is 23%
+39% 39%
+(with rounding). While these two response options were not mutually exclusive and
+some respondents will have both paid the ransom and used backups, the recovery
+advantages of backups are clear.
+29%
+27%
+40%
+18% 33%
+16% 32%
+29%
+14%
+8% 21%
+6% 19%
+4%
+10%
+Less than a Up to a week Up to 1 month 1-3 months 3-6 months 6% 5% 5%
+day
+0% 0%
+2022 (n=3,702) 2023 (n=1,974)
+Less than Up to a Up to 1-3 3-6 Over 6
+a day week 1 month months months months
+How long did it take your organization to fully recover from the ransomware attack? Base numbers in chart
+Paid the ransom and got data back (n=694)
+Used backups to restore the data (n=1,053)
+How long did it take your organization to fully recover from the ransomware attack?
+Organizations that paid the ransom and/or used backups to recover data. Base numbers in chart
+A Sophos Whitepaper. May 2023
+The State of Ransomware 2023
+Conclusion
+Independent of revenue, geography, or industry, ransomware continues to be
+major threat to organizations. As adversaries continue to hone their attack tactics,
+techniques, and procedures (TTPs), defenders are struggling to keep pace, resulting
+in increased encryption rates.
+The drop in the use of backups to recover encrypted data is considerable cause for
+concern. If further evidence was needed regarding the financial and operational
+benefits of investing in a strong backup strategy, this report provides it.
+With the growth of the ransomware-as-a-service business model, we do not
+anticipate a drop in attacks in the coming year. Organizations should focus on:
+Ì Further strengthening their defensive shields with:
+ Security tools that defend against the most common attack vectors,
+including endpoint protection with strong anti-exploit capabilities
+to prevent exploitation of vulnerabilities, and zero trust network
+access (ZTNA) to thwart the abuse of compromised credentials
+ Adaptive technologies that respond automatically to attacks,
+disrupting adversaries and buying defenders time to respond
+ 24/7 threat detection, investigation, and response, whether
+delivered in-house or in partnership with a specialist Managed
+Detection and Response (MDR) service provider
+Ì Optimizing attack preparation, including making regular
+backups, practicing recovering data from backups, and
+maintaining an up-to-date incident response plan
+Ì Maintaining good security hygiene, including timely patching
+and regularly reviewing security tool configurations
+A Sophos Whitepaper. May 2023
+The State of Ransomware 2023
+Additional Charts
+Rate of Ransomware Attacks by Country: 2022 vs. 2023
+Percentage of Organizations Hit by Ransomware
+84% 84%
+80%
+78% 78%
+75%
+75%
+73% 73%
+70% 71%
+68%
+66% 66% 68% 67% 65% 65%
+64%
+61% 61% 60%
+58% 58% 48%
+55% 57%
+50% 51%
+44%
+Average Australia Austria Brazil France Germany India Italy Japan Singapore South Africa Spain Switzerland UK US
+(n=5,600/ (n=250/200) (n=100) (n=200) (n=200/150) (n=400/300) (n=300) (n=200) (n=300) (n=150/100) (n=200) (n=150) (n=100) (n=300/200) (n=500)
+3,000)
+2022 2023
+In the last year, has your organization been hit by ransomware? Base numbers in chart
+A Sophos Whitepaper. May 2023
+The State of Ransomware 2023
+Rate of Ransomware Attacks by Industry
+Percentage of Organizations Hit by Ransomware
+80%
+79%
+71% 70% 70% 69% 69%
+67% 67%
+66%
+64%
+60% 60%
+58% 56%
+50%
+Average Lower Higher Construction Central/ Media, Local / Retail Energy, Distribution Financial Business Healthcare Other Manufacturing IT,
+(n=3,000) education education and property Federal leisure, enter- State (n=355) oil/gas and and services and (n=233) (n=102) and technology
+(n=200) (n=200) (n=136) government tainment government utilities transport (n=336) professional production and telecoms
+(n=140) (n=138) (n=255) (n=150) (n=137) services (n=363) (n=145)
+(n=140)
+In the last year, has your organization been hit by ransomware? Base numbers in chart
+A Sophos Whitepaper. May 2023
+The State of Ransomware 2023
+Root Cause of Attack by Industry
+Business and prof. services (n=84)
+49% 32% 14% 5%
+Central/Federal government (n=98) 38% 41% 10% 6% 4%
+Construction and property (n=96) 27% 33% 24% 15% 1%
+Distribution and transport (n=92) 38% 30% 21% 10% 1%
+Lower education (n=159) 29% 36% 19% 11% 4%
+Higher education (n=157) 40% 37% 12% 7% 2%
+Energy, oil/gas and utilities (n=101) 35% 31% 24% 7% 3%
+Financial services (n=2016) 40% 23% 19% 13% 3%
+Healthcare (n=139) 29% 32% 22% 14% 1%
+IT, technology and telecoms (n=73) 22% 22% 30% 21% 1%
+Local/state government (n=155) 38% 30% 11% 14% 5%
+Manufacturing & production (n=205) 24% 27% 21% 20% 5%
+Media, leisure, entertainment (n=96) 55% 25% 13% 2% 4%
+Retail (n=244) 41% 22% 15% 17% 2%
+Other (n=59) 46% 27% 10% 15% 2%
+Exploited vulnerability Compromised credentials Malicious email Phishing Brute force attack Download
+Do you know the root cause of the ransomware attack your organization experienced in the last year? Selection of answer options. Base numbers in chart
+A Sophos Whitepaper. May 2023
+The State of Ransomware 2023
+Data Encryption by Industry
+Business and prof. services (n=84) 92% 8%
+Central/Federal government (n=98) 84% 16%
+Construction and property (n=96) 85% 15%
+Distribution and transport (n=92) 77% 23%
+Lower education (n=159) 81% 19%
+Higher education (n=157) 73% 27%
+Energy, oil/gas and utilities (n=101) 79% 21%
+Financial services (n=2016) 81% 19%
+Healthcare (n=139) 73% 27%
+IT, technology and telecoms (n=73) 47% 53%
+Local/state government (n=155) 76% 23%
+Manufacturing & production (n=205) 68% 32%
+Media, leisure, entertainment (n=96) 81% 18%
+Retail (n=244) 71% 28%
+Other (n=59) 75% 25%
+Yes – Data was encrypted No – Data was not encrypted
+Did the cybercriminals succeed in encrypting your organization’s data in the ransomware attack? Consolidation of answer options. Base numbers in chart
+A Sophos Whitepaper. May 2023
+The State of Ransomware 2023
+Data Recovery by Country
+Did your organization get any data back?
+US BRAZIL GERMANY AUSTRIA SWITZER- UK ITALY SPAIN FRANCE SOUTH INDIA AUSTRALIA JAPAN SINGA-
+(N=274) (N=98) (N=122) (N=48) LAND (N=66) (N=82) (N=93) (N=68) AFRICA (N=167) (N=96) (N=125) PORE
+(N=68) (N=139) (N=51)
+Yes, we paid the ransom
+54% 55% 44% 42% 38% 44% 54% 29% 22% 45% 43% 53% 52% 53%
+and got data back
+Yes, we used backups
+66% 61% 78% 73% 84% 68% 55% 81% 87% 76% 73% 73% 60% 57%
+to restore the data
+Yes, we used other means
+1% 4% 1% 0% 3% 0% 0% 0% 3% 3% 3% 3% 6% 0%
+to get our data back
+No, even though we
+1% 0% 0% 0% 0% 5% 2% 0% 3% 0% 1% 0% 0% 0%
+paid the ransom
+No, we didn’t pay the ransom 0% 1% 2% 2% 1% 2% 5% 2% 0% 0% 1% 1% 5% 10%
+Don’t know 0% 0% 2% 0% 0% 0% 0% 0% 0% 0% 0% 0% 0% 0%
+Got data back via any method 99% 99% 95% 98% 99% 94% 93% 98% 97% 100% 98% 99% 95% 90%
+Use more than one method
+22% 21% 27% 17% 26% 18% 16% 12% 12% 24% 20% 29% 22% 20%
+to recover data
+Paid the ransom 55% 55% 44% 42% 38% 48% 56% 29% 25% 45% 44% 53% 52% 53%
+Percentage of those that paid the
+1% 0% 0% 0% 0% 9% 4% 0% 12% 0% 3% 0% 0% 0%
+ransom that didn’t get data back
+A Sophos Whitepaper. May 2023
+The State of Ransomware 2023
+Mean Recovery Cost by Revenue
+$5,000,000
+$4.496.086
+$4,500,000
+$4,000,000
+$3,500,000
+$3,000,000
+$2.390.607
+$2,500,000
+$2,000,000
+$1.450.824
+$1,500,000
+$1.104.811
+$885.018
+$1,000,000
+$704.284
+$500,000
+$165.520
+$0
+Less than $10 - $50 $50 - $250 $250 - $500 $500 million $1 billion $5 billion
+$10 million million million million to $1 billion to $5 billion plus
+(n=62) (n=135) (n=426) (n=286) (n=422) (n=307) (n=336)
+What was the approximate cost to your organization to rectify the impacts of the most significant ransomware attack
+(considering downtime, people time, device cost, network cost, lost opportunity etc.)? Base numbers in chart.
+A Sophos Whitepaper. May 2023
+The State of Ransomware 2023
+Research Methodology Respondents by Organization Size (number of employees)
+Sophos commissioned an independent, vendor-agnostic survey of 3,000
+cybersecurity/IT leaders that was conducted between January and March 2023. 457 279
+100-250
+Respondents were based in 14 countries across the Americas, EMEA, and Asia
+Pacific. 451 251-500
+All respondents were from organizations with between 100 and 5,000 employees 501-1,000
+(50% 100-1,000 employees, 50% 1,001-5,000 employees). Within the research
+1043
+770 1,001-3,000
+cohort, annual revenue ranged from less than $10 million to more than $5 billion.
+3,001-5,000
+Respondents by Country
+NUMBER OF NUMBER OF
+COUNTRY COUNTRY
+RESPONDENTS RESPONDENTS
+Respondents by Organization Size (annual revenue)
+United States 500 United Kingdom 200
+106
+Germany 300 South Africa 200 Less than $10 million
+India 300 France 150 469 241 $10 - $50 million
+$50 - $250 million
+Japan 300 Spain 150
+447
+674 $250 - $500 million
+Australia 200 Austria 100
+$500 million - $1 billion
+Brazil 200 Singapore 100 633
+$1 - $5 billion
+430
+Italy 200 Switzerland 100
+$5 billion +
+Sophos delivers industry leading cybersecurity solutions to businesses of all sizes, protecting them in real time from advanced threats
+such as malware, ransomware, and phishing. With proven next-gen capabilities your business data is secured effectively by products
+that are powered by artificial intelligence and machine learning.
+© Copyright 2023. Sophos Ltd. All rights reserved.
+Registered in England and Wales No. 2096520, The Pentagon, Abingdon Science Park, Abingdon, OX14 3YP, UK
+Sophos is the registered trademark of Sophos Ltd. All other product and company names mentioned are
+trademarks or registered trademarks of their respective owners.
+2023-05-05 (WP-DD)

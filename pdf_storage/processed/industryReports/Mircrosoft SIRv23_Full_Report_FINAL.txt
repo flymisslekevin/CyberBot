@@ -1,0 +1,942 @@
+Microsoft Security
+Intelligence Report
+VOLUME 23
+Table of Contents
+Foreword...............................................................................................III Section 3: Wrestling ransomware............................................29
+Analysis and explanation................................................................................30
+Executive Summary........................................................................IV
+Solutions and recommendations.................................................................34
+Section 1: Breaking botnets........................................................5
+Additional noteworthy threat intelligence.........................36
+Analysis and explanation.................................................................................6 Cloud threat intelligence................................................................................37
+Solutions and recommendations...............................................................14 Endpoint threat intelligence..........................................................................41
+Section 2: Hackers turning to easy marks..........................15 Conclusion............................................................................................52
+Social engineering...........................................................................................16
+Authors and Contributors...........................................................53
+Analysis and explanation...............................................................17
+Data sources.......................................................................................54
+Solutions and recommendations................................................20
+Poorly secured cloud apps...........................................................................21
+Glossary of threat definitions.....................................................57
+Analysis and explanation...............................................................22
+Solutions and recommendations................................................25
+Taking advantage of legitimate platform features.............................26
+Analysis and explanation...............................................................27
+Solutions and recommendations...............................................28
+III
+Foreword
+Welcome to the 23rd edition of the Microsoft Security Microsoft continues to develop new capabilities in its platforms
+Intelligence Report, a bi-annual publication that Microsoft that use machine learning, automation, and advanced real-time
+creates for customers, partners, and the industry. The purpose detection techniques. Our aim is to strengthen our customers’
+of this report is to educate organizations about the current ability to not only protect against evolving, sophisticated
+state of threats, recommended best practices, and solutions. threats, but also to quickly detect and respond when a
+breach occurs.
+What sets the Microsoft Security Intelligence Report apart from
+others is the volume and variety of Microsoft analysis. This We hope that readers find the data, insights, and guidance
+analysis spans cloud services for businesses and individual provided in this report useful in helping them protect their
+consumers, from websites to identity, from email to endpoint. organizations, software, and users.
+For example, there are 400 billion email messages scanned,
+450 billion authentications, and 18+ billion webpage Microsoft Security
+scans per month.
+This edition focuses on three topics that emerge from
+data collected since February 2017: botnets, hacker
+methods, and ransomware.
+IV
+Executive Summary
+Notable trends this year:
+Looking beyond the headline-grabbing incidents of 2017, It was a busy year in security, of course, and this report is
+Microsoft has analyzed the threat intelligence gathered from not meant to summarize all the news of the year. Instead,
+its global customer base across 100+ countries and millions of it discusses these three trends and provides context based
+computers. This analysis has exposed three interesting topics: on the threat intelligence Microsoft research teams glean from
+multiple sources, including on-premises and cloud solutions
+and services. We also share recommendations on how to defend
+1 Botnets continue to impact millions of computers globally, against and respond to threats, and highlight other resources
+infecting them with old and new forms of malware. This for additional information.
+report provides information about the highly publicized
+disruption of the Gamarue botnet, which Microsoft helped
+with in 2017.
+2 Hackers went for the easy marks. If cybercrime is a
+business, then low-cost attack methods with potentially
+high returns is what hackers focused on in 2017.
+3 Ransomware is still a force to be reckoned with and
+doesn’t look to be slowing down any time soon.
+Cyber criminals are continuing to relentlessly infect computers
+and engage in botnet activity with the intention to have a
+large infrastructure that they can then mine for sensitive data
+and possibly monetize, as is the case with ransomware threats.
+Defending against botnet activity is not a simple task and, as
+in years past, takes a massive effort by both private and public
+organizations working together.
+A bot is a program that allows an attacker to take control of an
+infected computer. A botnet is a network of infected computers
+SECTION 1
+that communicate with command-and-control servers.
+Breaking botnets
+Cybercriminals use botnets to conduct a variety of online attacks,
+such as send spam, conduct denial-of-service attacks on websites,
+spread malware, facilitate click fraud in online advertising, and
+much more.
+There have been several botnet disruptions coordinated by the
+Microsoft Digital Crimes Unit (DCU) going back to the November
+2008 Conficker botnet disruption. On November 29, 2017, the
+Microsoft Digital Crimes Unit (DCU) coordinated the disruption
+of the Gamarue botnet (also known as Andromeda).
+BREAKING BOTNETS 6
+Analysis and explanation
+The Gamarue botnet disruption was the culmination of a journey
+1,214
+that started in December 2015, when the Microsoft Windows
+domains and IP addresses of the botnet’s
+Defender research team and Microsoft Digital Crimes Unit
+command and control servers
+activated a Coordinated Malware Eradication (CME) campaign
+for Gamarue. In partnership with the internet security firm ESET,
+Microsoft Digital Crimes Unit security researchers and Windows 464
+Defender Security Intelligence teams performed in-depth research
+distinct botnets
+into the Gamarue malware and its infrastructure. Microsoft
+analyzed more than 44,000 malware samples, which uncovered
+the botnet’s sprawling infrastructure. Detailed information about
+80+
+that infrastructure was provided to law enforcement agencies
+around the world, including: associated malware families
+BREAKING BOTNETS 7
+The coordinated global operation resulted in the disconnection of Up until its disruption, Gamarue was a very active malware family
+the botnet’s servers on November 29, 2017, disrupting one of the that showed no signs of slowing down. Since the disruption,
+largest malware operations in the world. Gamarue-infected devices have connected to the DCU sinkhole
+from 23 million IP addresses, highlighting the global pervasiveness
+The Gamarue botnet disruption was achieved through partnership of the Gamarue botnet (Figure 1).
+of Microsoft with law enforcement agencies around the globe,
+including the United States Federal Bureau of Investigation,
+Germany’s Luneburg Central Criminal Investigation Inspectorate,
+and Europol’s European Cybercrime Centre.
+Since 2011, Gamarue has evolved through five versions of
+malware and has distributed a plethora of other threats, including:
+■ Petya and Cerber ransomware
+■ Kasidet malware (also known as the Neutrino bot),
+which is used for DDoS attacks
+■ Lethic, a spam bot
+■ Info-stealing malware Ursnif, Carberp,
+and Fareit, among others
+BREAKING BOTNETS 8
+Figure 1. DCU telemetry demonstrates Gamarue’s global prevalence of infected devices from December 2017 to January 2018
+BREAKING BOTNETS 9
+The Gamarue botnet
+Gamarue is known in the underground cybercrime market as the The evolution of the Gamarue bot has been the subject of
+Andromeda bot. Like many other bots, Gamarue was advertised many thorough analyses by security researchers. At the time
+as a crime kit that hackers can purchase. of disruption, there were five known active Gamarue versions:
+2.06, 2.07, 2.08, 2.09, and 2.10. The latest and the most active
+The Gamarue crime kit includes the following components: is version 2.10.
+■ A bot-builder, which builds the malware binary
+that infects computers
+■ A command-and-control application, which is
+a PHP-based dashboard application that allows
+hackers to manage and control the bots
+■ Documentation on how to create a Gamarue botnet
+Figure 2. Gamarue bot-builder Interface
+BREAKING BOTNETS 10
+Modular malware
+Gamarue is modular, which means that its functionality can be
+extended by plug-ins that are either included in the crime kit or
+available for separate purchase. The Gamarue plug-ins include:
+■ Keylogger ($150) ■ Teamviewer ($250)
+Used for logging keystrokes and mouse activity in order to steal Enables attacker to remotely control the victim’s computer, spy on
+user names and passwords, financial information, and so on. the desktop, and perform file transfers, among other functions.
+■ Rootkit (included in crime kit) ■ Spreader
+Injects rootkit codes into all processes running on a victim’s Adds capability to spread Gamarue malware itself via removable
+computer to give Gamarue persistence. drives (for example, portable hard drives or flash drives connected
+via a USB port); it also uses Domain Generation Algorithms (DGA)
+■ Socks4/5 (included in crime kit)
+for the servers onto which it downloads updates.
+Turns victim’s computer into a proxy server for serving malware
+or malicious instructions to other computers on the internet.
+■ Formgrabber ($250)
+Captures any data submitted through web browsers (such as
+Chrome, Firefox, and Internet Explorer).
+BREAKING BOTNETS 11
+Monetization: Pay for malware install Anti-sandbox techniques
+Gamarue’s main goal is to distribute other prevalent malware Gamarue employs anti-AV techniques to make analysis and detection
+families. The installation of other malware broadens the scale difficult. Prior to infecting a computer, Gamarue checks a list of
+of what hackers can do with the network of infected computers. hashes of the processes running on a potential victim’s computer.
+There are several ways hackers earn money using Gamarue. If it finds a process that may be associated with malware analysis
+Because Gamarue’s purpose is to distribute other malware, tools, such as virtual machines or sandbox tools, Gamarue does not
+hackers can earn money by using a pay-per-install scheme. infect the computer. In older versions, a fake payload is manifested
+By using its plug-ins, Gamarue can also steal user information, when running in a virtual machine.
+and stolen information can be sold to other hackers in
+cybercriminal underground markets. Access to Gamarue-infected
+computers can also be sold, rented, leased, or swapped by one
+criminal group to another. Microsoft DCU noted at least 80
+different malware families being distributed by Gamarue.
+The top three malware classes distributed by the Gamarue
+botnet were ransomware, trojan, and backdoor.
+Backdoor Potential Unwanted Tool
+Spammer
+Worm
+Figure 4. Gamarue anti-sandbox assembly code
+VirTool
+HackTool
+Ransom
+TrojanSpy
+TrojanUnknown
+TrojanDownloader
+DDoS
+Password Stealer
+Figure 3. Classes of malware distributed by Gamarue
+BREAKING BOTNETS 12
+Operating system tampering The Avalanche botnet
+Gamarue attempts to tamper with the operating systems of infected The Gamarue botnet shared some common infrastructure with
+computers by disabling the Windows Firewall, Windows Update, the Avalanche botnet for command and control of the two families
+and User Account Control functions. These functionalities cannot of malware. Microsoft DCU assisted global law enforcement in
+be re-enabled until the Gamarue infection has been removed from the disruption of Avalanche by providing technical research and
+the infected computer. However, the operating system tampering analysis. DCU collaborated with the Microsoft Windows Defender
+behaviors used by Gamarue do not work on Windows 10. Security Intelligence team to develop the tools to detect and
+remove Avalanche and other malware propagating through
+the Avalanche botnet.
+Figure 5. Disabled Windows Firewall and Windows Update
+BREAKING BOTNETS 13
+Impact of the disruption operation
+Worldwide coordination of research and investigation efforts is key Infected Devices / Month
+to disrupting a malware operation with the magnitude of Gamarue.
+As a result of such complexities, public/private partnerships between
+18,000,000
+global law enforcement agencies and private industry partners are
+essential to a successful outcome. 16,000,000
+14,000,000
+A significant aspect of the Gamarue disruption was the kill chain
+effect that the operation had on the distribution of 80 additional
+12,000,000
+malware families. By disrupting a major malware family like Gamarue,
+we are able to stop potential harm being caused to millions of users 10,000,000
+worldwide and begin the restoration of victims’ devices.
+8,000,000
+Since the botnet disruption operation in November 2017, the
+6,000,000
+sinkhole Microsoft created has experienced a 30% decrease in
+Gamarue victims worldwide, as shown in Figure 6. 4,000,000
+2,000,000
+Microsoft continues to collaborate with public and private industry
+partners to identify affected devices through the Microsoft Digital 0
+Crimes Unit Cyber Threat Intelligence Program to accelerate the
+December 2017 January 2018 February 2018
+remediation process.
+Figure 6. Gamarue malware infected devices have decreased after the botnet disruption
+BREAKING BOTNETS 14
+Solutions and recommendations
+To detect and protect computers from Gamarue and other
+malware, use security solutions that apply advanced machine
+learning models as well as generic and heuristic techniques.
+Microsoft is continuing the collaborative effort to help clean
+Gamarue-infected computers by providing a one-time package
+with samples (through the Virus Information Alliance) to help
+organizations protect their employees and customers.
+SECTION 2 As the cost of circumventing security measures increases,
+Hackers turning hackers are taking advantage of “low-hanging fruit”, such as
+infrastructure and apps used by organizations and consumers,
+with the intention of infecting computers and gaining access
+to sensitive data such as credentials. In this section, we share
+to easy marks
+three of the low hanging fruit routes employed by cyber
+attackers: social engineering, poorly secured cloud apps,
+and legitimate software platform features.
+HACKERS TURNING TO EASY MARKS 16
+Social engineering
+As software vendors incorporate stronger security measures into Top Threats (June - December 2017)
+their products, it is becoming more expensive for hackers to
+successfully penetrate software. By contrast, it is easier 3%
+4%
+and less costly to trick a user into clicking a malicious link
+11%
+or opening a phishing email.
+Phishing
+Microsoft Office 365 Advanced Threat Protection (ATP) detected Malicious Downloader
+a significant volume of phishing-based email messages at the
+53% Infosteal_Java_Adwind or Java Backdoor
+very end of the year 2017. Phishing was the #1 threat vector
+29%
+(> 50%) for Office 365-based threats in the second half of Microsoft Office Exploits
+calendar year 2017.
+Trojans
+Figure 7: Top threats detected by Microsoft Office 365 ATP
+HACKERS TURNING TO EASY MARKS 17
+Analysis and explanation
+By way of example, an attacker sending a phishing email in bulk
+to 1,000 individuals just needs to successfully trick one person
+to obtain access to that person’s credentials. Consider a phishing
+campaign targeting online banking customers, as depicted in
+Figure 8. If users are distracted and quickly scan the seemingly
+legitimate but fake phishing email, they may accidentally click a
+link and share details such as entering their credentials, which are
+then logged/stored by the hacker for misuse. The point is that
+phishing and other social engineering tactics can be more simple
+and effective than other methods, and they work most of the time
+for more human beings. If successful, phishing is an easier way to
+obtain credentials as compared to exploiting a vulnerability, which
+is increasingly costly and difficult.
+Figure 8: Phishing email example
+HACKERS TURNING TO EASY MARKS 18
+Phishing comes in many forms
+Phishing as an attack vector spans a spectrum of attacks, from such as text lures and domain spoofing. As hackers start building
+broad-based to targeted, as illustrated in Figure 9. The broad- more targeted campaigns that use spear phishing to target high-
+based phishing scams aim to gain hold of personal information (for value accounts (for example, enterprise C-level accounts), we find
+example, identity and financial information) at scale using techniques that they often employ user or domain impersonation to lure users.
+Phishing attack landscape
+Broad ($) Targeted ($$$)
+Attack spectrum
+for example, personal for example, access for example, access for example, wire/W-2, business
+identity/financial consumer credentials to org credentials and data email compromise (BEC),
+high profile accounts
+Domain spoof Phishing attachments User impersonation
+Attack lures/payloads
+Text lures Credential phishing links Domain impersonation
+Link to fake SaaS apps
+Figure 9: Phishing attack landscape varies from broad-based to targeted attacks
+HACKERS TURNING TO EASY MARKS 19
+Key phishing related findings Lowest hanging fruit keeps changing
+Based on threat intelligence from Office 365 Advanced Threat As an example of the downward trend of exploitation, the
+Protection and Exchange Online Protection across three months exploitation of macros was very prevalent until 2016. However,
+(November 2017 – January 2018), the Microsoft Office 365 security over time, the cost of such exploitation increased significantly. Not
+research team has been detecting approximately only did attackers need to have very fine-tuned skills to circumvent
+180-200M phishing emails every month. security measures, most vendors have since been offering more
+enhanced and effective email sandboxing technology to detect and
+defend against macro-based malware threats. As a result, when
+■ The research team has seen about 30% of domain spoof
+macro-based attacks became unsuccessful, adversaries turned to
+attacks (based on Office 365 deployments).
+exploitation of PDFs. This trend was quite prevalent for a while,
+■ More than 75% of phishing mails include malicious URLs to
+but as with detection of macros, vendors improved detection of
+phishing sites. Other variations include malicious phishing
+PDF based exploits over time, and attackers moved toward
+attachments and links in attachments.
+phishing-based attacks.
+■ Phishing mails impersonate popular brands
+• Microsoft associated brands (for example, Office 365)
+• Other commonly abused brands include, but are not
+limited to, DocuSign, Dropbox, Apple, and Amazon.
+• Recent investigations show attacks that impersonate
+popular courier services such as FedEx, DHL, and UPS.
+• The research team also detected impersonation related to
+banks and government services.
+■ Although user impersonation and domain impersonation
+techniques were low in volume (# of instances in which
+techniques were used), they were high-severity attacks.
+HACKERS TURNING TO EASY MARKS 20
+Solutions and recommendations
+Humans are often called the weakest link in cybersecurity, but
+Tips on recognizing phishing email messages,
+with the right training and education they can also be the first line
+links or phone calls
+of defense. An employee that spots and reports a suspicious email
+could head off an extensive phishing campaign. And employees
+that note unexpected latency in systems can set off investigations
+that uncover lurking threat actors. Organizations can perform Overview of phishing and security tips from
+US Federal Trade Commission
+mock phishing exercises and can consider hiring third-party
+experts to obtain security awareness training, including education
+on phishing. Other resources to help train users:
+Phishing overview and resources to report and
+learn more from US CERT
+HACKERS TURNING TO EASY MARKS 21
+Poorly secured cloud apps
+As cloud (SaaS) apps (also known as cloud services) are
+increasingly adopted to support business productivity, efficiency,
+and even cost savings, it is imperative that the cloud apps be
+built securely so that they are not inadvertently opening the
+door to data compromise. Microsoft Cloud App Security R&D
+team has observed a lack of web session security and sound data
+encryption in SaaS storage and SaaS collaboration apps, based on
+our visibility and assessment of 30+ cloud apps.
+HACKERS TURNING TO EASY MARKS 22
+Analysis and explanation
+Poorly secured cloud apps can be low-hanging fruit for attackers. The following HTTP headers description is taken from the
+One reason is that a given app’s lack of web session (HTTP OWASP website:
+headers session) security could enable attackers to execute
+application layer attacks (for example, cross-site scripting and
+HTTP Strict Transport Security (HSTS) is a web security policy
+cookie hijacking). Also, poor encryption could result in a scenario mechanism which helps to protect websites against protocol
+in which an attacker, after successfully compromising the cloud downgrade attacks and cookie hijacking. It allows web servers to
+service or intercepting traffic, compromises the data within declare that web browsers (or other complying user agents) should
+only interact with it using secure HTTPS connections, and never via
+the service.
+the insecure HTTP protocol.
+Building various security mechanisms into HTTP headers provides
+protection from various web session attack vectors, such as The Microsoft Cloud App Security R&D team assessed web
+protocol downgrading, cookie hijacking, clickjacking, and security and data encryption for multiple SaaS storage and SaaS
+cross-site-scripting. collaboration apps. In the following graphs, you can see where
+the most common SaaS app weaknesses were observed.
+HACKERS TURNING TO EASY MARKS 23
+Microsoft Cloud App Security assessed HTTP headers session
+protection of SaaS storage and SaaS collaboration apps.
+Figures 10 and 11 show results of this assessment.
+Support for HTTP headers session protection Support for all HTTP headers session protection methods
+Support for HTTP headers session protection
+Support for all HTTP headers session protection methods
+SaaS Storage Apps SaaS Storage Apps
+SaaS Collaboration Apps SaaS Collaboration Apps
+0% 20% 40% 60% 80% 100% 0% 20% 40% 60% 80% 100%
+Yes No Yes No
+Yes No
+Yes No
+Figure 10: 50% of SaaS storage apps and 40% of SaaS collaboration apps do not support HTTP Figure 11: Only 4% of SaaS storage apps and 3% of SaaS collaboration apps support all HTTP
+headers session protection headers session protection methods
+HACKERS TURNING TO EASY MARKS 24
+Microsoft Cloud App Security also assessed data encryption of
+SaaS storage and SaaS collaboration apps. Figures 12 and 13
+show results of this assessment.
+Support for some type of data encryption Encrypt data at rest and in transit
+Support for some type of data encryption Encrypt data at rest and in transit
+SaaS Storage Apps SaaS Storage Apps
+SaaS Collaboration Apps SaaS Collaboration Apps
+0% 20% 40% 60% 80% 100% 0% 20% 40% 60% 80% 100%
+Yes No Yes No
+Yes No Yes No
+Figure 12: 28% of SaaS storage apps and 19% of SaaS collaboration apps do not support Figure 13: 79% of SaaS storage apps and 86% of SaaS collaboration apps do not encrypt data
+any type of data encryption method both at rest and in transit
+HACKERS TURNING TO EASY MARKS 25
+Solutions and recommendations
+When adopting cloud apps, you should make sure that only apps with
+web session protection and encryption are allowed in your environment.
+Organizations should have a solution in place to have visibility into and
+control over all cloud apps usage. For example, some employees could
+be using unsanctioned SaaS apps for storing corporate or other forms
+of sensitive data. Using an enterprise cloud access security broker (CASB)
+security solution is the only way an organization can ensure that no such
+apps are used by employees.
+HACKERS TURNING TO EASY MARKS 26
+Taking advantage of
+legitimate platform features
+Business software usage is critical for productivity. Cyber Microsoft Windows Dynamic Data Exchange (DDE) is a feature
+criminals know this and take advantage of legitimate software that facilitates the electronic transfer of Office files using shared
+platform features to infect computers. For example, during the memory and data. In early October 2017, it was publicly shared
+last quarter of 2017, the Windows Defender Security Intelligence that a new variant of Locky ransomware is delivered through
+team detected some incidents in which hackers used legitimate abusive use of DDE (Microsoft published a security update in
+business software to stay “under the radar” as they phished December 2017 that disables DDE in all supported editions of
+users and infected computers. The following is an example Word and Excel by default.) The Microsoft Windows Defender
+of this threat. Security Intelligence team also saw additional examples of this
+attack, and we share one such example in this report.
+HACKERS TURNING TO EASY MARKS 27
+Analysis and explanation
+From early October through November 2017, there was an
+emergence of hackers exploiting DDE by using techniques to
+execute malware on an unsuspecting end user’s computer. In one
+particular case, a Word document was attached to a malicious
+spam email. After the user clicked to open the attachment and
+responded affirmatively to a series of pop-up dialog boxes
+prompting for an action to be taken by the software application,
+a DDE attack pulled in a malicious payload (such as Locky
+ransomware) and ran it on the computer. The problem lies in
+users interacting with content delivered via a legitimate software
+platform without realizing that there is malicious intent.
+Figure 14: Example of a malicious spam email with attachment that delivers Locky
+ransomware by leveraging DDE functionality.
+HACKERS TURNING TO EASY MARKS 28
+Solutions and recommendations
+Microsoft provides malware protection by default in newer versions of
+Windows, such as Windows 10, for the malicious payloads associated
+with DDE attacks. We also recommend the following best practices:
+Protect your computer Keep operating system software updated
+We continue to encourage customers to follow the basic guidance You should apply the latest operating system software security
+to protect their computers by enabling a firewall, installing antivirus updates to help make sure your computer is as protected as possible.
+software and getting software updates (on-premise and cloud-based If you are not sure whether the software is up to date, visit the
+security updates). vendor web site for viewing the latest software updates, scan the
+computer for available updates, and install any high-priority updates
+that are offered to you. Even if you have automatic software updates
+enabled and configured for your computer, and the updates are
+delivered to you when they are released, you should verify that they
+are installed.
+Cyber criminals run a business and for any business, money is
+a critical resource. Hence, ransomware continues to be a popular
+SECTION 3
+method used by cybercriminals to solicit and in several cases,
+Wrestling
+successfully obtain money (bitcoin or other form) from victims.
+In exchange for the ransom, attackers typically offer to give the
+victim the private key necessary to decrypt the data, or otherwise
+ransomware
+restore the victim’s access to the computer—a promise they
+frequently do not fulfill, even when paid. Ransomware was one
+of the most prominent types of malware being distributed by the
+Gamarue botnet described earlier in the report. Ransomware is
+also being used as an infection vector in some of the low-hanging
+fruit channels mentioned in the report, such as phishing emails
+and legitimate software platforms.
+WRESTLING RANSOMWARE 30
+Analysis and explanation
+The following ransomware trends were identified for the period
+February – December 2017:
+■ The geographical region with the greatest number of ransomware ■ Locations with the highest ransomware encounter rates include
+encounters was Asia. Myanmar (0.48 percent), Bangladesh (0.36 percent), and Venezuela
+(0.33 percent).
+■ Three global outbreaks (WannaCrypt, Petya/NotPetya, and
+BadRabbit) showed the force of ransomware in making real-world ■ Locations with the lowest ransomware encounter rates include
+impact. They affected corporate networks and brought down critical Japan, Finland, and the United States, all of which had an average
+services such as hospitals, transportation, and traffic systems. monthly ransomware encounter rate of 0.03 percent.
+■ The three most encountered ransomware families were Win32/
+WannaCrypt,Win32/LockScreen, and Win32/Cerber.
+WRESTLING RANSOMWARE 31
+Avg. Ransomware
+Encounter Rate
+Feb-Dec 2017
+(0.1 = 10%)
+.002 - 1
+.0015 - .002
+.001 - .0015
+.0005 - .001
+.00001 - .0005
+Figure 17: Encounter rates for ransomware families by country/region, February–December 2017
+WRESTLING RANSOMWARE 32
+■ Win32/LockScreen, the most widely encountered ransomware family 0.05%
+in 2017, displays a full-screen message that prevents the user from
+accessing the desktop, and demands that the user pay a fine in 0.04%
+the form of an SMS message sent to a premium number in order
+to regain control of the computer. LockScreen primarily affects 0.03%
+Android. We are finding Android malware on Windows machines.
+0.02%
+This can happen if, for example, Android users sync their phones or
+download Android applications in Windows and do side loading of
+0.01%
+the applications that are not sanctioned (for example, not sourced
+from the official Google Play store). The Southeast Asia region tends
+0.00%
+to have a higher adoption rate of Android, which would explain the
+Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec
+greater number of encounters in that region.
+■ Win32/WannaCrypt (also known as WannaCry) emerged in early
+Lockscreen Wannacrypt Cerber Enestedel Spora
+2017 to target a vulnerability in Windows that Microsoft had
+previously addressed with Security Bulletin MS17-010.
+Figure 18: Trends for several commonly encountered ransomware families,
+February–December 2017
+■ Win32/Cerber is often spread via the RIG (Meadgive) and Magnitude
+(Pangimop) exploit kits. Cerber is a ransomware-as-a-service family,
+sold to prospective attackers by its creators and designed to be easy
+to use by novices.
+WRESTLING RANSOMWARE 33
+The impact from rapid, destructive attacks such as WannaCrypt
+and Petya/NotPetya was unprecedented. Victims of either of these
+and of Bad Rabbit ransomware attacks will lose access to files,
+often indefinitely.
+WannaCrypt used EternalBlue, an exploit for a previously Bad Rabbit ransomware (Ransom:Win32/Tibbar.A)
+fixed SMBv1 vulnerability, to propagate itself across infected devices by posing as an Adobe Flash installer
+networks rapidly, affecting a large number of computers available for download on compromised websites.
+in a short time. (Microsoft released Security Bulletin Like WannaCry and Petya, Bad Rabbit had spreading
+MS17-010 in March of 2017 to address the vulnerability.) capabilities, albeit more traditional: it used a hardcoded
+list of user names and passwords. Like Petya, it can also
+render infected devices unbootable because it encrypts
+Petya (Ransom:Win32/Petya.B) used the same exploit entire disks in addition to encrypting files.
+that gave WannaCrypt its spreading capabilities, and
+added more propagation and infection methods to
+create arguably the most complex ransomware in 2017.
+Petya’s initial infection vector was a compromised
+software supply chain, but the ransomware quickly
+spread using the EternalBlue and EternalRomance
+exploits, as well as a module for lateral movement
+using stolen credentials.
+WRESTLING RANSOMWARE 34
+Solutions and recommendations
+Backup your data Apply multi-layered security defenses
+The importance of backing up files to be able to recover in case Use an email security solution/service that scans suspicious email
+of a ransomware attack cannot be overstated. Be sure to create attachments and ideally protects at the time a user clicks on an
+destruction-resistant backups of your critical systems and data. There attachment, such as by quarantining a suspicious attachment for
+are many tools and services available for file backup, restoration (of further investigation. At minimum, antivirus software can help detect
+previous file versions), and recovery. Also, be sure to regularly test and block the download and installation of some ransomware.
+that the backups are working. To detect and mitigate the impact of sophisticated ransomware,
+additional protection is required. Advanced threat protection that
+applies machine learning and artificial intelligence technologies to
+evaluate files to be able to detect suspected malware can help.
+WRESTLING RANSOMWARE 35
+Keep all software up-to-date Manage and control privileged access to data
+To minimize the entry points for ransomware, be sure to keep all To minimize risk of credential compromise and abuse, implement
+software updated, including operating system, web browser, web unique local administrator passwords on all systems, separate and
+browser plug-ins (only use those that are required for business protect privileged accounts, and reduce broad permissions on
+purposes), and security software. Also prioritize patching new file repositories.
+releases to enable stronger protection from vulnerabilities.
+Isolate or retire certain computers
+If some computers cannot be patched or updated with the latest
+software, to minimize the footprint of exposure to a ransomware
+attack and infection, isolate or retire those computers.
+Additional
+The data that informs the proceeding topics comes in part from
+noteworthy threat
+continued tracking of threats observed from Microsoft Azure cloud
+services and Windows endpoints worldwide. A broader look at that
+threat tracking information follows.
+intelligence
+ADDITIONAL NOTEWORTHY THREAT INTELLIGENCE 37
+Cloud threat intelligence
+Cloud services such as Microsoft Azure are perennial targets for
+attackers seeking to compromise and weaponize virtual machines
+and other services. In a cloud weaponization threat scenario, an
+attacker establishes a foothold within a cloud infrastructure by
+compromising and taking control of one or more virtual machines.
+The attacker can then use these virtual machines to launch attacks,
+including brute force attacks against other virtual machines,
+spam campaigns that can be used for email phishing attacks,
+reconnaissance such as port scanning to identify new attack
+targets, and other malicious activities. The following two figures
+show where incoming and outgoing attacks originate from.
+ADDITIONAL NOTEWORTHY THREAT INTELLIGENCE 38
+Nearly two-thirds of incoming attacks on Azure services in 2H17 came from IP addresses in China, the
+United States, and Russia, at 31.7 percent, 18.0 percent, and 15.9 percent, respectively. France was fourth
+at 6.7 percent, with no other country or region accounting for more than 5 percent of the total.
+ASC Incoming
+Attacks 2H17
+(0.1 = 10%)
+.1 - 1
+.01 - .1
+.001 - .01
+.0001 - .001
+.00001 - .0001
+Figure 19: Incoming attacks detected by Azure Security Center in 2H17, by country/region of origin
+ADDITIONAL NOTEWORTHY THREAT INTELLIGENCE 39
+Compromised virtual machines often communicate with command-and-control (C&C) servers
+at known malicious IP addresses to receive instructions. 54 percent of the malicious IP addresses
+contacted by compromised Azure virtual machines in 2H17 were located in China, followed by the
+United States at 22 percent.
+ASC Outgoing
+Attacks 2H17
+(0.1 = 10%)
+.1 - 1
+.01 - .1
+.001 - .01
+.0001 - .001
+.00001 - .0001
+Figure 20: Outgoing communication to malicious IP addresses detected by Azure Security Center in 2H17, by address location
+ADDITIONAL NOTEWORTHY THREAT INTELLIGENCE 40
+Drive-by-download sites
+Significant locations with high concentrations of drive-by download URLs included Taiwan, with an average of 6.4
+drive-by URLs for every 1,000 URLs tracked by Bing; Iran, with 1.4; and the United Arab Emirates, with 1.3.
+DBD Per 1000 Sites
+Jan 17 - Jan 18
+.5 - 1000
+.1 - .5
+.05 - .01
+.01 - .05
+.00001 - .01
+Figure 21: Monthly average number of drive-by download pages indexed by Bing from January 2017 through January 2018, per 1,000 URLs in each country/region
+ADDITIONAL NOTEWORTHY THREAT INTELLIGENCE 41
+Endpoint threat intelligence
+Malicious and unwanted software
+Encounter rate, in the following figures, is the percentage of
+computers running Microsoft real-time security products that report
+a malware encounter.¹ For example, the average monthly encounter
+rate in Canada between February 2017 and January 2018 was 14.2
+percent. This data means that, of the computers in Canada that were
+running Microsoft real-time security software during the period,
+14.2 percent reported encountering malware, and 85.8 percent did
+not. Encountering a threat does not mean the computer has been
+infected. Only computers whose users have opted in to provide data
+to Microsoft are considered when calculating encounter rates.
+¹Encounter rate does not include threats that are blocked by a web browser before being
+detected by antimalware software. In particular, IExtensionValidation in Internet Explorer 11
+enables security software to block pages that contain exploits from loading. For this reason,
+encounter rate figures may not fully reflect all of the threats encountered by computer users.
+ADDITIONAL NOTEWORTHY THREAT INTELLIGENCE 42
+■ Locations with high encounter rates included Pakistan, Nepal, ■ Locations with low encounter rates included Finland, Denmark,
+Bangladesh, and Ukraine, all of which had an average monthly Ireland, and the United States, all of which had an average monthly
+encounter rate of 33.2 percent or higher in 2017. encounter rate of 11.4 percent or lower in 2017.
+Avg. Encounter Rate
+Feb 17 - Jan 18
+(0.1 = 10%)
+.3 - 1
+.25 - .3
+.2 - .25
+.15 - .2
+.00001 - .15
+Figure 21: Encounter rates by country/region, February 2017–January 2018
+ADDITIONAL NOTEWORTHY THREAT INTELLIGENCE 43
+Windows Defender Security Intelligence (WDSI) classifies 12%
+individual threats into types based on a number of factors,
+10%
+including how the threat spreads and what it is designed to do.
+To simplify the presentation of this information and make it easier
+8%
+to understand, the Microsoft Security Intelligence Report groups
+these types into categories based on similarities in function 6%
+and purpose.
+4%
+■ Trojans were the most commonly encountered category of malicious 2%
+software each month in 2017 by a large margin, led by several
+generic and cloud-based detections for a variety of threats. 0%
+Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec Jan
+■ Encounter rates for other categories were much lower and more ‘17 ‘17 ‘17 ‘17 ‘17 ‘17 ‘17 ‘17 ‘17 ‘17 ‘17 ‘18
+consistent from month to month.
+Trojans Obfuscators & Injectors
+Ransomware Exploits
+Password Stealers & Monitoring Tools Downloaders & Droppers
+Other Malware Backdoors
+Figure 22: Encounter rates for malicious software categories, February 2017–January 2018
+ADDITIONAL NOTEWORTHY THREAT INTELLIGENCE 44
+■ Browser modifiers were the most commonly encountered category 4.0%
+of unwanted software for the period February 2017 – January 2018,
+3.5%
+led by Win32/Foxiebro and Win32/Obrypser.
+3.0%
+■ Software bundlers were the second most commonly encountered
+category of unwanted software for the period February 2017 – 2.5%
+January 2018, led by Win32/Prepscram.
+2.0%
+■ Adware encounters were significantly less common than the other
+unwanted software categories, led by Win32/Adposhel. 1.5%
+1.0%
+0.5%
+0.0%
+Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec Jan
+‘17 ‘17 ‘17 ‘17 ‘17 ‘17 ‘17 ‘17 ‘17 ‘17 ‘17 ‘18
+Browser Modifiers
+Software Bundlers
+Adware
+Figure 23: Encounter rates for unwanted software categories, February 2017–January 2018
+ADDITIONAL NOTEWORTHY THREAT INTELLIGENCE 45
+The next two figures show trends for the top malicious software 1.4%
+families that were detected on computers by Microsoft real-time
+1.2%
+antimalware products worldwide.
+1.0%
+■ Win32/Fuery is a cloud-based detection for files that have been
+0.8%
+automatically identified as malicious by the cloud-based protection
+feature of Windows Defender. For more information about the
+0.6%
+feature and guidance for administering it in network environments,
+see the article “Block at First Sight” at technet.microsoft.com, and 0.4%
+the entry “Windows Defender Antivirus cloud protection service:
+Advanced real-time defense against never-before-seen malware” 0.2%
+(July 18, 2017) on the Windows Security blog at blogs.technet.
+0.0%
+microsoft.com/mmpc.
+Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec Jan
+■ Win32/Skeeyah and Win32/Dynamer are generic detections for ‘17 ‘17 ‘17 ‘17 ‘17 ‘17 ‘17 ‘17 ‘17 ‘17 ‘17 ‘18
+a variety of trojans that share certain characteristics.
+■ VBS/Mutuodo, the most common malicious software family Fuery Brocoiner
+worldwide in November, is a trojan that launches executable files
+related to the Win32/Prifou family of browser modifiers. Skeeyah Tiggre
+■ HTML/Brocoiner is a JavaScript cryptocurrency miner that has been
+Dynamer Bitrep
+found on both malicious and compromised websites, including
+sites that offer streaming videos, adult content, and online
+Mutuodo
+shopping. When a webpage containing the JavaScript is loaded,
+it automatically starts to mine for Monero or other cryptocurrency. Figure 24: Encounter rate trends for the top malicious software families,
+This mining activity, often initiated without user consent, consumes February 2017–January 2018
+resources and can slow down affected computers.
+ADDITIONAL NOTEWORTHY THREAT INTELLIGENCE 46
+■ The most commonly encountered unwanted software families were 1.2%
+all browser modifiers.
+1.0%
+■ Win32/Prifou is a browser modifier that is installed when the user
+downloads other software from certain third-party websites. It
+0.8%
+displays ads while the user browses, attributed to “Price Fountain.”
+■ Win32/Foxiebro is a browser modifier that can inject ads to search
+0.6%
+results pages, modify web pages to insert ads, and open ads in
+new tabs.
+0.4%
+0.2%
+0.0%
+Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec Jan
+‘17 ‘17 ‘17 ‘17 ‘17 ‘17 ‘17 ‘17 ‘17 ‘17 ‘17 ‘18
+Sasquor Qiwmonk
+Prifou Obrypser
+Xeelyak Foxiebro
+Figure 25: Encounter rate trends for the top unwanted software families,
+February 2017–January 2018
+ADDITIONAL NOTEWORTHY THREAT INTELLIGENCE 47
+Malicious websites
+Microsoft Edge and recent versions of Microsoft Internet Explorer
+include SmartScreen Filter, a feature that checks web requests against
+a blacklist of known malicious websites and blocks access to them
+by default. Malicious websites include both phishing sites, which
+masquerade as legitimate sites to trick users into entering sensitive
+information, and sites that host and distribute malware.
+An impression is a single instance of a user attempting to visit a
+known phishing site with SmartScreen Filter enabled and being
+warned, as shown in the Figure 26.
+Figure 26: SmartScreen Filter in Microsoft Edge and Internet Explorer blocks reported
+phishing and malware distribution sites to protect users
+ADDITIONAL NOTEWORTHY THREAT INTELLIGENCE 48
+■ SmartScreen detected 5.8 phishing sites per 1,000 Internet hosts ■ Locations hosting higher than average concentrations of phishing
+worldwide in 2H17. sites include Ukraine (19.1 per 1,000 Internet hosts in 2H17), Belarus
+(12.3), Bulgaria (12.2), and Indonesia (10.8). Locations with low
+concentrations of phishing sites included Taiwan (0.7), China (0.8),
+Mexico (0.8), and Korea (1.0).
+Phish Hosts 2H17
+Data Column:
+Per 1000
+10+
+7.5 - 10
+5 - 7.5
+2.5 - 5
+.00001 - 2.5
+Figure 27: Phishing sites per 1,000 Internet hosts for locations around the world in 2H17
+ADDITIONAL NOTEWORTHY THREAT INTELLIGENCE 49
+■ SmartScreen reported 11.7 phishing impressions per 1,000,000 ■ Locations with unusually low rates of phishing impressions
+pageviews in 2H17. included Korea (1.0 impressions per 1,000,000 pageviews in
+2H17), Japan (1.7), and China (1.9).
+■ Locations with unusually high rates of phishing impressions included
+Albania (188.5 phishing impressions per 1,000,000 pageviews in
+2H17), Armenia (186.5), and Iceland (77.9).
+Phish Impressions
+Per 1M Pageviews
+60+
+45 - 60
+30 - 45
+15 - 30
+.00001 - 15
+Figure 28: Phishing impressions by client location per 1,000,000 pageviews in 2H17
+ADDITIONAL NOTEWORTHY THREAT INTELLIGENCE 50
+■ SmartScreen detected 12.1 malware hosting sites per 1,000 Internet (32.5 malware hosting sites per 1,000 hosts in 2H17). Other locations
+hosts worldwide in 2H17. with high concentrations of malware hosting sites included Singapore
+(21.6), Russia (14.0), and Hong Kong SAR (14.0). Locations with low
+■ China, which had one of the lowest concentrations of phishing sites
+concentrations of malware hosting sites included Taiwan (3.4), Austria
+in the world (0.8 phishing sites per 1,000 Internet hosts in 2H17),
+(3.4), and Mexico (3.5).
+had one of the highest concentrations of malware hosting sites
+MW Hosts 2H17
+Data column:
+Per 1000
+20+
+15 - 20
+10 - 15
+5 - 10
+.00001 - 5
+Figure 29: Malware distribution sites per 1,000 Internet hosts for locations around the world in 2H17
+ADDITIONAL NOTEWORTHY THREAT INTELLIGENCE 51
+■ Malware impressions were much more common than phishing ■ Locations that were heavily affected by malware impressions included
+impressions in 2H17. SmartScreen reported 190.0 malware Egypt (754.4 malware impressions per 1,000,000 pageviews in 2H17),
+impressions per 1,000,000 pageviews in 2H17, compared to 11.7 Peru (680.2), and Hungary (623.5).
+phishing attempts per 1,000,000 pageviews.
+■ Locations with unusually low malware impression rates included Korea
+(20.0), Japan (64.1), and Iceland (96.3).
+MW Impressions
+Per 1M Pageviews
+600+
+450 - 600
+300 - 450
+150 - 300
+.00001 - 150
+Figure 30: Malware impressions by client location per 1,000,000 pageviews in 2H17
+The past year has shown us the significant impact of the Gamarue
+botnet on computers worldwide; cyber criminals leveraging less
+sophisticated methods to infect machines and in some cases, extort
+ransoms from victims; and ransomware being used in a wide range
+Conclusion of cybercrime activity, including email phishing campaigns and
+destructive attacks like WannaCrypt. Organizations that adopt security
+hygiene methods, security solutions, and best practices, have cyber
+resilience and incident response plans and employ the right mix of
+people and processes for dealing with the various threat scenarios
+and attacks described could at least minimize damage and impact
+from them.
+Microsoft is a trusted security advisor and partner to large global
+organizations. To learn more about our security offerings, visit www.
+microsoft.com/security and check out the Microsoft Security Blog
+for our perspectives on additional trending threats and topics.
+53
+Authors and Contributors
+Abhijeet Hatekar John Dellinger Prachi Rathee Volv Grebennikov
+Information and Threat Protection Microsoft Threat Intelligence Windows Active Defense Data Bing
+Engineering and Analytics
+Abhishek Agrawal Jonathan San Jose Yiftach Keshet
+Information Protection Windows Defender Research Team Rodel Finones Microsoft Cloud App Security
+Digital Crimes Unit Research Team
+Christopher Coy Karthik Selvaraj
+Digital Crimes Unit Windows Defender Research Team Ryan McGee Yinon Costica
+Microsoft Security Marketing Microsoft Cloud App Security
+Daniel Kondratyuk Kasia Kaplinska Research Team
+Identity Security and Protection Team Microsoft Security Marketing Seema Kathuria
+Enterprise Cybersecurity Group Zheng Dong
+Diana Kelley Mark Simos Windows Defender ATP Research
+Enterprise Cybersecurity Group Enterprise Cybersecurity Group Tanmay Ganacharya
+Windows Defender Research Team
+Elia Florio Matt Duncan
+Windows Active Defense Windows Active Defense Data Tim Kerk
+Engineering and Analytics Windows Defender Research Team
+Eric Avena
+Windows Defender Research Team Meths Ferrer Tomer Teller
+Windows Active Defense Azure Security
+Eric Douglas
+Windows Defender Research Team Paul Henry Vishant Patel
+Wadeware LLC Digital Crimes Unit
+Francis Tan Seng
+Windows Defender Research Team
+54
+Data sources
+Data included in the Microsoft Security Intelligence Report is
+gathered from a wide range of Microsoft products and services
+whose users have opted in to provide usage data. The scale and
+scope of this telemetry data allows the report to deliver the most
+comprehensive and detailed perspective on the threat landscape that
+is available in the software industry:
+■ Azure Security Center is a service that helps organizations ■ The Malicious Software Removal Tool (MSRT) is a free tool
+prevent, detect, and respond to threats by providing increased that Microsoft designed to help identify and remove specific
+visibility into the security of cloud workloads and using prevalent malware families from customer computers. The
+advanced analytics and threat intelligence to detect attacks. MSRT is primarily released as an important update through
+Windows Update, Microsoft Update, and Automatic Updates.
+■ Bing, the search and decision engine from Microsoft, contains
+A version of the tool is also available from the Microsoft
+technology that performs billions of webpage scans per
+Download Center. The MSRT was downloaded and executed
+year to seek out malicious content. After such content is
+more than 600 million times each month on average in 2017.
+detected, Bing displays warnings to users about it to help
+The MSRT is not a replacement for an up-to-date real-time
+prevent infection.
+antivirus solution.
+■ Exchange Online is the Microsoft-hosted email service for
+business. Exchange Online antimalware and antispam services
+scan billions of messages every year to identify and block
+spam and malware.
+DATA SOURCES 55
+■ The Microsoft Safety Scanner is a free downloadable security ■ Windows Defender Advanced Threat Protection is a new
+tool that provides on-demand scanning and helps remove service built into Windows 10 Anniversary Update that
+malware and other malicious software. The Microsoft Safety enables enterprise customers to detect, investigate, and
+Scanner is not a replacement for an up-to-date antivirus remediate advanced persistent threats and data breaches
+solution, because it does not offer real-time protection and on their networks.
+cannot prevent a computer from becoming infected.
+■ Windows Defender Offline is a downloadable tool that can be
+■ Microsoft Security Essentials is a free, easy-to-download real- used to create a bootable CD, DVD, or USB flash drive to scan
+time protection product that provides basic, effective antivirus a computer for malware and other threats. It does not offer
+and antispyware protection for Windows Vista and Windows 7. real-time protection and is not a substitute for an up-to-date
+antimalware solution.
+■ Microsoft System Center Endpoint Protection (formerly
+Forefront Client Security and Forefront Endpoint Protection) is ■ Windows Defender SmartScreen, a feature in Microsoft Edge
+a unified product that provides protection from malware and and Internet Explorer, offers users protection against phishing
+unwanted software for enterprise desktops, laptops, and server sites and sites that host malware. Microsoft maintains a
+operating systems. It uses the Microsoft Malware Protection database of phishing and malware sites reported by users
+Engine and the Microsoft antivirus signature database to of Microsoft Edge, Internet Explorer, and other Microsoft
+provide real-time, scheduled, and on-demand protection. products and services. When a user attempts to visit a site
+in the database with the filter enabled, the browser displays
+■ Office 365 is the Microsoft Office subscription service for
+a warning and blocks navigation to the page.
+business and home users. Select business plans include access
+to Office 365 Advanced Threat Protection.
+■ Windows Defender in Windows 8, Windows 8.1, and Windows
+10 provides real-time scanning and removal of malware and
+unwanted software.
+DATA SOURCES 56
+Product or service Privacy statement URL
+Azure/Azure Security Center privacy.microsoft.com/en-us/privacystatement/
+Bing privacy.microsoft.com/en-us/privacystatement/
+Exchange Online, Office 365 privacy.microsoft.com/en-us/privacystatement
+Internet Explorer 11 privacy.microsoft.com/en-us/internet-explorer-ie11-preview-privacy-statement
+Malicious Software Removal Tool www.microsoft.com/en-us/safety/pc-security/msrt-privacy.aspx
+Microsoft Edge privacy.microsoft.com/en-us/privacystatement/
+Microsoft Safety Scanner www.microsoft.com/security/scanner/en-us/privacy.aspx
+Microsoft Security Essentials windows.microsoft.com/en-us/windows/security-essentials-privacy
+www.microsoft.com/privacystatement/en-us/SystemCenter2012R2/Default.
+System Center Endpoint Protection
+aspx#tilepspSystemCenter2012R2EndpointProtectionModule
+Windows Defender in Windows 10 privacy.microsoft.com/en-us/privacystatement/
+Windows Defender Offline privacy.microsoft.com/en-us/windows-defender-offline-privacy
+Figure 31: US privacy statements for the Microsoft products and services used in this report
+57
+Glossary of Threat Definitions
+To learn about some of the threat families described in this
+report and others, please visit:
+https://www.microsoft.com/en-us/wdsi/threats
+© 2018 Microsoft Corporation. All rights reserved. This document is
+for informational purposes only.
+Microsoft makes no warranties, express or implied, with respect to
+the information presented here.
