@@ -22,6 +22,11 @@ $curl -fsSL https://ollama.ai/install.sh | sh
 $ollama pull nomic-embed-text   
 $ollama pull phi  
 
+Note:   
+Keep ollama running with  
+$ollama serve  
+on terminal while running rag_local copy.py
+
 ###
 Project Folder Directory:  
 ```
